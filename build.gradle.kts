@@ -19,6 +19,7 @@ plugins {
   checkstyle
   id("com.github.ben-manes.versions") version "0.53.0"
   java
+  jacoco
   application
   id("com.gradleup.shadow") version "9.3.0"
   id("org.sonarqube") version "7.2.1.6560"
@@ -898,4 +899,14 @@ tasks {
   checkstyleTest {
     source = fileTree("src/test/java")
   }
+}
+
+tasks.jacocoTestReport {
+    dependsOn(tasks.test)
+
+    reports {
+        html.required.set(true)
+        xml.required.set(false)
+        csv.required.set(false)
+    }
 }
