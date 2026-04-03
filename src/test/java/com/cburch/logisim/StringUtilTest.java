@@ -59,4 +59,15 @@ public class StringUtilTest extends TestBase {
     assertTrue(StringUtil.startsWith(haystick, needle));
     assertFalse(StringUtil.startsWith(haystick, needle.substring(1)));
   }
+
+  @Test
+  void testContainsIgnoreCase() {
+    assertTrue(StringUtil.containsIgnoreCase("AND Gate", "and"));
+  }
+
+  @Test
+  void testContainsIgnoreCaseNoMatch() {
+    assertFalse(StringUtil.containsIgnoreCase("AND Gate", "or"));
+  }
+
 }
