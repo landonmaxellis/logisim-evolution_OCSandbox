@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.wiring.Tunnel" name="com.cburch.logisim.std.wiring.Tunnel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,713,269,1244"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="74,5,190,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,85,138,713,133,713,130,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1Tunnel.html" title=" " alt="" coords="153,120,417,651"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="154,82,170,119,165,121,149,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,652,210,698,205,697,217,650"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="419,338,437,356,444,385,441,406,432,421,428,419,436,404,439,385,432,359,415,342"/>
+</map>

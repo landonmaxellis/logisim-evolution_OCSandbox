@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.file.LoadedLibrary" name="com.cburch.logisim.file.LoadedLibrary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,263,620"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,37,85,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,116,85,182,79,183,63,117"/>
+<area shape="rect" id="Node000003" href="$interfacecom_1_1cburch_1_1logisim_1_1file_1_1LibraryEventSource.html" title=" " alt="" coords="109,5,317,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,148,189,183,183,182,192,147"/>
+</map>

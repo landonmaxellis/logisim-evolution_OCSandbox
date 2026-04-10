@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.std.ttl.Ttl7410" name="com.cburch.logisim.std.ttl.Ttl7410">
+<area shape="rect" id="Node000001" title=" " alt="" coords="83,1499,325,1747"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1ttl_1_1Ttl7411.html" title=" " alt="" coords="5,1795,192,1875"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,1760,121,1796,116,1793,134,1758"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1ttl_1_1Ttl7427.html" title=" " alt="" coords="216,1795,403,1875"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="274,1758,292,1793,287,1796,270,1760"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1ttl_1_1AbstractTtlGate.html" title=" " alt="" coords="47,119,361,1451"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,1464,207,1498,201,1498,201,1464"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="146,5,262,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,84,207,119,201,119,201,84"/>
+</map>

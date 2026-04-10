@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.tools.MatrixPlacerDialog" name="com.cburch.logisim.tools.MatrixPlacerDialog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,271,297"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="59,5,113,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,83,113,118,108,119,97,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="137,5,243,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,85,168,119,163,118,174,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.memory.JKFlipFlop" name="com.cburch.logisim.std.memory.JKFlipFlop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="40,745,267,909"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,301,697"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,711,156,745,151,745,151,711"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="95,5,211,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,85,156,119,151,119,151,85"/>
+</map>

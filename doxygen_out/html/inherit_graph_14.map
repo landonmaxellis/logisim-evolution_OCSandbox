@@ -1,0 +1,29 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,397,217,422"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2ArithmeticAndLogicalInstructions.html" title=" " alt="" coords="288,5,563,45"/>
+<area shape="poly" id="edge465_Node000000_Node000001" title=" " alt="" coords="113,383,126,316,152,227,171,180,196,134,227,92,264,55,286,41,289,45,267,59,231,95,201,137,176,182,157,229,131,317,118,384"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2ComparisonInstructions.html" title=" " alt="" coords="316,69,535,109"/>
+<area shape="poly" id="edge466_Node000000_Node000002" title=" " alt="" coords="116,383,132,327,161,255,181,218,204,181,232,148,264,119,288,105,315,95,317,100,290,110,267,123,236,151,208,184,185,220,166,257,137,329,121,384"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2CustomInstructions.html" title=" " alt="" coords="316,133,535,173"/>
+<area shape="poly" id="edge467_Node000000_Node000003" title=" " alt="" coords="120,383,140,339,171,284,212,229,237,204,264,183,288,170,315,161,317,166,291,175,267,188,240,208,216,233,175,287,145,341,125,385"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2DataTransferInstructions.html" title=" " alt="" coords="316,197,535,237"/>
+<area shape="poly" id="edge468_Node000000_Node000004" title=" " alt="" coords="126,384,181,315,220,278,264,247,315,227,317,232,267,252,223,282,185,318,130,387"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2OtherControlInstructions.html" title=" " alt="" coords="316,261,535,301"/>
+<area shape="poly" id="edge469_Node000000_Node000005" title=" " alt="" coords="138,386,194,347,264,311,315,295,317,300,266,316,197,352,141,390"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2ShiftAndRotateInstructions.html" title=" " alt="" coords="309,325,541,365"/>
+<area shape="poly" id="edge470_Node000000_Node000006" title=" " alt="" coords="185,391,265,375,324,363,325,368,266,380,187,396"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imEnvironmentCallAndBreakpoints.html" title=" " alt="" coords="283,389,567,429"/>
+<area shape="poly" id="edge471_Node000000_Node000007" title=" " alt="" coords="231,407,283,407,283,412,231,412"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imIntegerRegisterImmediateInstructions.html" title=" " alt="" coords="265,453,585,493"/>
+<area shape="poly" id="edge472_Node000000_Node000008" title=" " alt="" coords="187,422,266,439,325,451,324,456,265,444,185,427"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imIntegerRegisterRegisterOperations.html" title=" " alt="" coords="276,517,575,557"/>
+<area shape="poly" id="edge473_Node000000_Node000009" title=" " alt="" coords="141,428,197,467,266,503,302,515,301,520,264,508,194,471,138,433"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imLoadAndStoreInstructions.html" title=" " alt="" coords="306,581,545,621"/>
+<area shape="poly" id="edge474_Node000000_Node000010" title=" " alt="" coords="130,432,185,500,223,537,267,567,307,583,305,588,264,572,220,541,181,504,126,435"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32im__M__ExtensionInstructions.html" title=" " alt="" coords="306,645,545,685"/>
+<area shape="poly" id="edge475_Node000000_Node000011" title=" " alt="" coords="125,434,145,478,175,532,216,586,240,610,267,631,307,650,305,655,264,636,237,614,212,590,171,535,140,480,120,436"/>
+<area shape="rect" id="Node000012" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32im__Zicsr__ExtensionInstructions.html" title=" " alt="" coords="296,709,555,749"/>
+<area shape="poly" id="edge476_Node000000_Node000012" title=" " alt="" coords="121,435,137,490,166,561,185,598,208,634,236,667,267,695,297,712,294,716,264,700,232,671,204,637,181,601,161,564,132,492,116,436"/>
+<area shape="rect" id="Node000013" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1Rv32imMemoryOrderingInstructions.html" title=" " alt="" coords="296,773,555,813"/>
+<area shape="poly" id="edge477_Node000000_Node000013" title=" " alt="" coords="118,435,131,501,157,590,176,637,201,682,231,724,267,759,297,777,295,782,264,763,227,727,196,685,171,639,152,592,126,503,113,436"/>
+</map>

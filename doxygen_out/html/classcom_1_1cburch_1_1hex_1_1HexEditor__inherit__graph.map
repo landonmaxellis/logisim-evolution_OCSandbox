@@ -1,0 +1,7 @@
+<map id="com.cburch.hex.HexEditor" name="com.cburch.hex.HexEditor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,253,591"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="28,5,121,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,84,91,118,86,119,80,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="146,5,225,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,85,174,119,169,118,175,84"/>
+</map>

@@ -1,0 +1,137 @@
+\doxysection{com.\+cburch.\+logisim.\+util.\+Gif\+Encoder Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder}{}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder}\index{com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+util.\+Gif\+Encoder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a48fb75e0f7bd1a7320a57e96e772a6ec}{Gif\+Encoder}} (byte\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} r, byte\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} g, byte\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} b)  throws AWTException 
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a3bac98b920700ecfd97233a42c2974b8}{Gif\+Encoder}} (Image image, Progress\+Monitor monitor)  throws AWTException 
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a17c6d1e66b7077395bf6ce8836065380}{write}} (Output\+Stream output)  throws IOException 
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a821db4f1c6a5587935f3cfda595622cc}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a821db4f1c6a5587935f3cfda595622cc} 
+static void {\bfseries to\+File} (Image img, File file)  throws IOException, AWTException 
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a300ec438ffe09216682e4ab6a3c56e6e}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a300ec438ffe09216682e4ab6a3c56e6e} 
+static void {\bfseries to\+File} (Image img, File file, Progress\+Monitor monitor)  throws IOException, AWTException 
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_ad6e24c503de7d0f7924ea84d1e5bf44b}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_ad6e24c503de7d0f7924ea84d1e5bf44b} 
+static void {\bfseries to\+File} (Image img, String filename)  throws IOException, AWTException 
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_ab75ff5877e60eaba7f48553bbc3edce1}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_ab75ff5877e60eaba7f48553bbc3edce1} 
+static void {\bfseries to\+File} (Image img, String filename, Progress\+Monitor monitor)  throws IOException, AWTException 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+GIFEncoder is a class which takes an image and saves it to a stream using the GIF file format (\href{http://www.dcs.ed.ac.uk/\%7Emxr/gfx/}{\texttt{ Graphics Interchange Format}}). A GIFEncoder is constructed with either an AWT Image (which must be fully loaded) or a set of RGB arrays. The image can be written out with a call to {\ttfamily Write}.
+
+Three caveats\+:
+
+
+\begin{DoxyItemize}
+\item GIFEncoder will convert the image to indexed color upon construction. This will take some time, depending on the size of the image. Also, actually writing the image out (Write) will take time. 
+\item The image cannot have more than 256 colors, since GIF is an 8 bit format. For a 24 bit to 8 bit quantization algorithm, see Graphics Gems II III.\+2 by Xialoin Wu. Or check out his \href{http://www.csd.uwo.ca/faculty/wu/cq.c}{\texttt{ C source}}. 
+\item Since the image must be completely loaded into memory, GIFEncoder may have problems with large images. Attempting to encode an image which will not fit into memory will probably result in the following exception\+: {\ttfamily java.\+awt.\+AWTException\+: Grabber returned false\+: 192 } 
+\end{DoxyItemize}
+
+GIFEncoder is based upon gifsave.\+c, which was written and released by\+:
+
+Sverre H. Huseby~\newline
+ Bjoelsengt. 17~\newline
+ N-\/0468 Oslo~\newline
+ Norway
+
+Phone\+: +47 2 230539~\newline
+ \href{mailto:sverrehu@ifi.uio.no}{\texttt{ sverrehu@ifi.\+uio.\+no}}
+
+\begin{DoxyVersion}{Version}
+0.\+90 21 Apr 1996 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+\href{http://www.cs.brown.edu/people/amd/}{\texttt{ Adam Doppelt}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a48fb75e0f7bd1a7320a57e96e772a6ec}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a48fb75e0f7bd1a7320a57e96e772a6ec} 
+\index{com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}!GifEncoder@{GifEncoder}}
+\index{GifEncoder@{GifEncoder}!com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}}
+\doxysubsubsection{\texorpdfstring{GifEncoder()}{GifEncoder()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+util.\+Gif\+Encoder.\+Gif\+Encoder (\begin{DoxyParamCaption}\item[{byte}]{r\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{byte}]{g\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{byte}]{b\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption}) throws AWTException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construct a Gif\+Encoder. The constructor will convert the image to an indexed color array. {\bfseries{This may take some time.}}
+
+Each array stores intensity values for the image. In other words, r\mbox{[}x\mbox{]}\mbox{[}y\mbox{]} refers to the red intensity of the pixel at column x, row y.
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & An array containing the red intensity values. \\
+\hline
+{\em g} & An array containing the green intensity values. \\
+\hline
+{\em b} & An array containing the blue intensity values. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em AWTException} & Will be thrown if the image contains more than 256 colors. \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a3bac98b920700ecfd97233a42c2974b8}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a3bac98b920700ecfd97233a42c2974b8} 
+\index{com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}!GifEncoder@{GifEncoder}}
+\index{GifEncoder@{GifEncoder}!com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}}
+\doxysubsubsection{\texorpdfstring{GifEncoder()}{GifEncoder()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+util.\+Gif\+Encoder.\+Gif\+Encoder (\begin{DoxyParamCaption}\item[{Image}]{image,  }\item[{Progress\+Monitor}]{monitor }\end{DoxyParamCaption}) throws AWTException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construct a GIFEncoder. The constructor will convert the image to an indexed color array. {\bfseries{This may take some time.}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & The image to encode. The image {\bfseries{must}} be completely loaded. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em AWTException} & Will be thrown if the pixel grab fails. This can happen if Java runs out of memory. It may also indicate that the image contains more than 256 colors. \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a17c6d1e66b7077395bf6ce8836065380}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1GifEncoder_a17c6d1e66b7077395bf6ce8836065380} 
+\index{com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}!write@{write}}
+\index{write@{write}!com.cburch.logisim.util.GifEncoder@{com.cburch.logisim.util.GifEncoder}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+util.\+Gif\+Encoder.\+write (\begin{DoxyParamCaption}\item[{Output\+Stream}]{output }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Writes the image out to a stream in the GIF file format. This will be a single GIF87a image, non-\/interlaced, with no background color. {\bfseries{This may take some time.}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & The stream to output to. This should probably be a buffered stream. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & Will be thrown if a write operation fails. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/util/Gif\+Encoder.\+java\end{DoxyCompactItemize}

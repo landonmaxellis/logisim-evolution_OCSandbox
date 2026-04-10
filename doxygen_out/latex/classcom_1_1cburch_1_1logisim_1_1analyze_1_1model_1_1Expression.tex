@@ -1,0 +1,101 @@
+\doxysection{com.\+cburch.\+logisim.\+analyze.\+model.\+Expression Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}{}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}\index{com.cburch.logisim.analyze.model.Expression@{com.cburch.logisim.analyze.model.Expression}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+analyze.\+model.\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+analyze.\+model.\+Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1IntVisitor}{Int\+Visitor}}
+\item 
+enum \mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Notation}{Notation}}
+\item 
+enum \mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Op}{Op}}
+\item 
+interface \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Visitor}{Visitor}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a90ed64a943bdd7788eb9c1c3141dda6f}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a90ed64a943bdd7788eb9c1c3141dda6f} 
+boolean {\bfseries contains} (\mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Op}{Op}} o)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a93c0116b8d0c0d7ed8d89914e6a67c71}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a93c0116b8d0c0d7ed8d89914e6a67c71} 
+boolean {\bfseries evaluate} (final Assignments assignments)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a07f1ee90940bacb11cc51eb7de3e41f1}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a07f1ee90940bacb11cc51eb7de3e41f1} 
+abstract int {\bfseries get\+Precedence} (\mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Notation}{Notation}} notation)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a39fe4acfc73dfab2789eca0590ad43d0}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a39fe4acfc73dfab2789eca0590ad43d0} 
+abstract \mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Op}{Op}} {\bfseries get\+Op} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a37ab7a8272be72bf5796c5d90ff7ebae}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a37ab7a8272be72bf5796c5d90ff7ebae} 
+boolean {\bfseries is\+Circular} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_abec12c312aff87e59af02dac64f91c3b}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_abec12c312aff87e59af02dac64f91c3b} 
+boolean {\bfseries is\+Cnf} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a70abce5afbd1a169b9c8df46d2ac474b}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a70abce5afbd1a169b9c8df46d2ac474b} 
+String {\bfseries to\+String} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_aa577a0943a1ae7b5a7badd7b2019df43}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_aa577a0943a1ae7b5a7badd7b2019df43} 
+String {\bfseries to\+String} (\mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Notation}{Notation}} notation)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a22b11266f4ca5f93bf21d131942d4cc5}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a22b11266f4ca5f93bf21d131942d4cc5} 
+String {\bfseries to\+String} (\mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Notation}{Notation}} notation, boolean reduce)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a811b042299112884ddeb95acb17106bb}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a811b042299112884ddeb95acb17106bb} 
+String {\bfseries to\+String} (\mbox{\hyperlink{enumcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Notation}{Notation}} notation, boolean reduce, \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}{Expression}} other)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a98143b4e53a9c828b06ef8c1e75cec82}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a98143b4e53a9c828b06ef8c1e75cec82} 
+Integer\mbox{[}$\,$\mbox{]} {\bfseries get\+Badness} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a143061f9f002a2cffb303f551d63ca69}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a143061f9f002a2cffb303f551d63ca69} 
+abstract$<$ T $>$ T {\bfseries visit} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_1_1Visitor}{Visitor}}$<$ T $>$ visitor)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a571fb0df4495175a34075a86d90ba7bb}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a571fb0df4495175a34075a86d90ba7bb} 
+static boolean {\bfseries is\+Assignment} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}{Expression}} expr)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a643d5ef3730b00b60ccde2540e3d8ff5}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a643d5ef3730b00b60ccde2540e3d8ff5} 
+static String {\bfseries get\+Assignment\+Variable} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}{Expression}} expr)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a2ce193cae8c7106509c8c57c388cc99c}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a2ce193cae8c7106509c8c57c388cc99c} 
+static \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}{Expression}} {\bfseries get\+Assignment\+Expression} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression}{Expression}} expr)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a24c187d3556da9657b91a139d00344f1}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a24c187d3556da9657b91a139d00344f1} 
+final List$<$ Range $>$ {\bfseries nots} = new Array\+List$<$$>$()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a8f014bcfccfb759a71e269d2ac934a87}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_a8f014bcfccfb759a71e269d2ac934a87} 
+final List$<$ Range $>$ {\bfseries subscripts} = new Array\+List$<$$>$()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_adab9c9adda821d7060c2dccbc3dd30be}\label{classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Expression_adab9c9adda821d7060c2dccbc3dd30be} 
+final List$<$ Range $>$ {\bfseries marks} = new Array\+List$<$$>$()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/analyze/model/Expression.\+java\end{DoxyCompactItemize}

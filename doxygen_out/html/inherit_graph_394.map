@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,63,107,88"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1draw_1_1canvas_1_1Canvas.html" title=" " alt="" coords="155,5,389,31"/>
+<area shape="poly" id="edge793_Node000000_Node000001" title=" " alt="" coords="105,56,154,41,206,28,207,33,155,46,107,61"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1hex_1_1HexEditor.html" title=" " alt="" coords="175,120,369,145"/>
+<area shape="poly" id="edge794_Node000000_Node000002" title=" " alt="" coords="107,90,155,105,207,117,206,122,154,110,105,95"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1appear_1_1LayoutThumbnail.html" title=" " alt="" coords="159,55,385,95"/>
+<area shape="poly" id="edge795_Node000000_Node000005" title=" " alt="" coords="120,73,159,73,159,78,120,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="13,148,99,173"/>
+<area shape="poly" id="edge796_Node000003_Node000002" title=" " alt="" coords="112,151,175,143,176,148,113,156"/>
+<area shape="rect" id="Node000004" href="$interfacecom_1_1cburch_1_1logisim_1_1gui_1_1generic_1_1CanvasPaneContents.html" title=" " alt="" coords="157,170,387,210"/>
+<area shape="poly" id="edge797_Node000003_Node000004" title=" " alt="" coords="113,166,157,172,157,177,113,171"/>
+</map>

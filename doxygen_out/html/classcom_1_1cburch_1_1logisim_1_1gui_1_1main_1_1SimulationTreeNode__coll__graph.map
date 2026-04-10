@@ -1,0 +1,14 @@
+<map id="com.cburch.logisim.gui.main.SimulationTreeNode" name="com.cburch.logisim.gui.main.SimulationTreeNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="51,1296,301,1703"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,409,92,475"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,489,29,618,11,803,8,908,11,1017,21,1127,41,1233,62,1295,57,1297,36,1234,16,1127,6,1018,3,908,6,803,23,617,43,488"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1main_1_1SimulationTreeNode.html" title=" " alt="" coords="51,827,301,1233"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="67,488,137,826,132,827,61,489"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1main_1_1SimulationTreeModel.html" title=" " alt="" coords="220,120,479,764"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="427,764,438,879,440,998,435,1059,427,1119,415,1177,397,1234,381,1271,362,1306,314,1371,310,1368,357,1303,377,1269,392,1232,410,1176,422,1118,430,1058,434,998,433,879,422,765"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="257,765,243,811,238,810,252,763"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="309,5,390,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="352,84,352,120,347,120,347,84"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="179,1234,179,1279,173,1279,173,1234"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="304,991,321,1006,328,1030,325,1046,317,1059,313,1056,320,1045,323,1030,317,1009,300,995"/>
+</map>

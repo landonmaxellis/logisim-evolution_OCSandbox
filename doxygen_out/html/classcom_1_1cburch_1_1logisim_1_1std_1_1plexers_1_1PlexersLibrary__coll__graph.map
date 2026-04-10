@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.plexers.PlexersLibrary" name="com.cburch.logisim.std.plexers.PlexersLibrary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,575,247,1189"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,226,75,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,305,89,574,84,575,49,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="99,5,313,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,512,170,559,165,558,171,512"/>
+</map>

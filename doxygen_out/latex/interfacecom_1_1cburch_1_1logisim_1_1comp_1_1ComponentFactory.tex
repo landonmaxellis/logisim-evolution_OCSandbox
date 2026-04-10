@@ -1,0 +1,138 @@
+\doxysection{com.\+cburch.\+logisim.\+comp.\+Component\+Factory Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory}{}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory}\index{com.cburch.logisim.comp.ComponentFactory@{com.cburch.logisim.comp.ComponentFactory}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+comp.\+Component\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+comp.\+Component\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a1b567d7911d327cef4d0fa04bec7407a}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a1b567d7911d327cef4d0fa04bec7407a} 
+boolean {\bfseries active\+On\+High} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a68c3160033dce261f005455b06def37c}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a68c3160033dce261f005455b06def37c} 
+Attribute\+Set {\bfseries create\+Attribute\+Set} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a5656df0e4a687719eaf1e16495a866a5}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a5656df0e4a687719eaf1e16495a866a5} 
+\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1Component}{Component}} {\bfseries create\+Component} (Location loc, Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a14b4252beff076f172f25cb05ebe77aa}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a14b4252beff076f172f25cb05ebe77aa} 
+void {\bfseries remove\+Component} (Circuit circ, \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1Component}{Component}} c, Circuit\+State state)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ab76bee963faabc46c5b4fea1747a2200}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ab76bee963faabc46c5b4fea1747a2200} 
+void {\bfseries draw\+Ghost} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1comp_1_1ComponentDrawContext}{Component\+Draw\+Context}} context, Color color, int x, int y, Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ab90360a697fbd3712b08a08c7ed14cdc}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ab90360a697fbd3712b08a08c7ed14cdc} 
+Object {\bfseries get\+Default\+Attribute\+Value} (Attribute$<$?$>$ attr, \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{Logisim\+Version}} ver)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_aacba8b3f4e495edd4c8b8aa57ce30def}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_aacba8b3f4e495edd4c8b8aa57ce30def} 
+String\+Getter {\bfseries get\+Display\+Getter} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a6d9b6593e6475a13078d5292725c8fa0}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a6d9b6593e6475a13078d5292725c8fa0} 
+String {\bfseries get\+Display\+Name} ()
+\item 
+Object \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ac7e9e0b4d48b0848590b6b10c49a2cac}{get\+Feature}} (Object key, Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a9646b815f0e2baf5c4aa7372e80bacf9}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a9646b815f0e2baf5c4aa7372e80bacf9} 
+Hdl\+Generator\+Factory {\bfseries get\+HDLGenerator} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ae201c22d4dd3a0445f73aa047e17a8c1}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ae201c22d4dd3a0445f73aa047e17a8c1} 
+String {\bfseries get\+HDLName} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ae6581f4b4551fa47412a08d75da2d80c}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ae6581f4b4551fa47412a08d75da2d80c} 
+String {\bfseries get\+HDLTop\+Name} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a74a14c66f64b0528d608af5130634616}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a74a14c66f64b0528d608af5130634616} 
+String {\bfseries get\+Name} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_afad3c34cbd4bedf0a065e73d6e85818e}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_afad3c34cbd4bedf0a065e73d6e85818e} 
+Bounds {\bfseries get\+Offset\+Bounds} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a507040e4579aee3ee620e3bb9412e397}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a507040e4579aee3ee620e3bb9412e397} 
+boolean {\bfseries has\+Three\+State\+Drivers} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_afe89bee79e17d1e16af6ab558a6e487c}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_afe89bee79e17d1e16af6ab558a6e487c} 
+boolean {\bfseries is\+HDLSupported\+Component} (Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a3073342239c3fb37663cece1b2414488}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a3073342239c3fb37663cece1b2414488} 
+boolean {\bfseries is\+All\+Default\+Values} (Attribute\+Set attrs, \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{Logisim\+Version}} ver)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a36b7e3a1e5446618708bdc9a8a4b86fe}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a36b7e3a1e5446618708bdc9a8a4b86fe} 
+boolean {\bfseries check\+For\+Gated\+Clocks} (netlist\+Component comp)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ab1196f6e6f9668fc84b3af9a86740bf8}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ab1196f6e6f9668fc84b3af9a86740bf8} 
+int\mbox{[}$\,$\mbox{]} {\bfseries clock\+Pin\+Index} (netlist\+Component comp)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a9a18e0d6ebb0396631e70adf5a109c3e}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a9a18e0d6ebb0396631e70adf5a109c3e} 
+void {\bfseries paint\+Icon} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1comp_1_1ComponentDrawContext}{Component\+Draw\+Context}} context, int x, int y, Attribute\+Set attrs)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a8815f810aceb583332a1e417907a58e0}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a8815f810aceb583332a1e417907a58e0} 
+boolean {\bfseries requires\+Global\+Clock} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a707e64b0a511c0946d9e08111d847f8d}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a707e64b0a511c0946d9e08111d847f8d} 
+boolean {\bfseries requires\+Non\+Zero\+Label} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ac1662235e520a84ae3de28c4cd5c730f}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ac1662235e520a84ae3de28c4cd5c730f} 
+boolean {\bfseries is\+Soc\+Component} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a64294bc35540697d2174abd63ef2791a}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a64294bc35540697d2174abd63ef2791a} 
+Object {\bfseries SHOULD\+\_\+\+SNAP} = new Object()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a69135211f6cb13438a07bec884fe13e4}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a69135211f6cb13438a07bec884fe13e4} 
+Object {\bfseries TOOL\+\_\+\+TIP} = new Object()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a37b8174f5f45d06cd941be008f8bc9be}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_a37b8174f5f45d06cd941be008f8bc9be} 
+Object {\bfseries FACING\+\_\+\+ATTRIBUTE\+\_\+\+KEY} = new Object()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a category of components that appear in a circuit. This class and {\ttfamily Component } share the same sort of relationship as the relation between {\itshape classes} and {\itshape instances} in Java. Normally, there is only one Component\+Factory created for any particular category. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ac7e9e0b4d48b0848590b6b10c49a2cac}\label{interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory_ac7e9e0b4d48b0848590b6b10c49a2cac} 
+\index{com.cburch.logisim.comp.ComponentFactory@{com.cburch.logisim.comp.ComponentFactory}!getFeature@{getFeature}}
+\index{getFeature@{getFeature}!com.cburch.logisim.comp.ComponentFactory@{com.cburch.logisim.comp.ComponentFactory}}
+\doxysubsubsection{\texorpdfstring{getFeature()}{getFeature()}}
+{\footnotesize\ttfamily Object com.\+cburch.\+logisim.\+comp.\+Component\+Factory.\+get\+Feature (\begin{DoxyParamCaption}\item[{Object}]{key,  }\item[{Attribute\+Set}]{attrs }\end{DoxyParamCaption})}
+
+Retrieves special-\/purpose features for this factory. This technique allows for future Logisim versions to add new features for components without requiring changes to existing components. It also removes the necessity for the Component API to directly declare methods for each individual feature. In most cases, the {\ttfamily key} is a {\ttfamily Class} object corresponding to an interface, and the method should return an implementation of that interface if it supports the feature.
+
+As of this writing, possible values for {\ttfamily key} include\+: {\ttfamily TOOL\+\_\+\+TIP} (return a {\ttfamily String}) and {\ttfamily SHOULD\+\_\+\+SNAP} (return a {\ttfamily Boolean}).
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & an object representing a feature. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an object representing information about how the component supports the feature, or {\ttfamily null} if it does not support the feature. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1comp_1_1AbstractComponentFactory_a4430eb587669e0dd92d3f89eacfd481b}{com.\+cburch.\+logisim.\+comp.\+Abstract\+Component\+Factory}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/comp/Component\+Factory.\+java\end{DoxyCompactItemize}

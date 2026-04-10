@@ -1,0 +1,7 @@
+<map id="com.cburch.draw.toolbar.ToolbarItem" name="com.cburch.draw.toolbar.ToolbarItem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="109,5,310,175"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1draw_1_1toolbar_1_1ToolbarClickableItem.html" title=" " alt="" coords="5,260,195,389"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,188,132,261,128,259,162,186"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1draw_1_1toolbar_1_1ToolbarSeparator.html" title=" " alt="" coords="219,223,421,427"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,186,274,221,269,223,253,189"/>
+</map>

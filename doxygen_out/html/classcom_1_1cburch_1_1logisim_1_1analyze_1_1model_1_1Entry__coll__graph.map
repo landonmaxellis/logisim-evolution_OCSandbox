@@ -1,0 +1,12 @@
+<map id="com.cburch.logisim.analyze.model.Entry" name="com.cburch.logisim.analyze.model.Entry">
+<area shape="rect" id="Node000001" title=" " alt="" coords="57,575,303,908"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,163,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,84,48,121,30,213,24,287,30,360,48,453,66,514,90,574,85,576,61,516,43,454,24,361,18,287,24,212,43,119,56,82"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Entry.html" title=" " alt="" coords="57,120,303,453"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="104,83,118,119,113,121,99,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="297,5,482,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="446,78,462,97,474,119,507,210,515,249,518,287,515,324,507,364,474,454,442,514,400,569,353,617,305,659,301,655,349,613,396,565,438,511,470,452,502,362,510,323,512,287,510,250,502,211,470,121,458,100,442,82"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="355,83,305,142,301,139,351,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,454,183,558,177,558,177,454"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="305,254,322,267,329,286,327,300,319,310,315,307,322,298,324,287,318,270,302,259"/>
+</map>

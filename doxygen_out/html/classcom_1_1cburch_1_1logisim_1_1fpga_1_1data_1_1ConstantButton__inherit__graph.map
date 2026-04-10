@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.fpga.data.ConstantButton" name="com.cburch.logisim.fpga.data.ConstantButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,807,257,1219"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1FpgaIoInformationContainer.html" title=" " alt="" coords="5,119,272,759"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,773,141,806,136,806,136,773"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="99,5,178,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,84,141,118,136,118,136,84"/>
+</map>

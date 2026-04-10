@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.instance.InstanceTextField" name="com.cburch.logisim.instance.InstanceTextField">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,119,333,529"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,128,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,82,110,117,106,120,87,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="153,5,277,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,84,217,118,212,118,212,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="301,5,395,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="330,84,313,120,308,117,325,82"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.comp.AbstractComponent" name="com.cburch.logisim.comp.AbstractComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="19,549,249,759"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1comp_1_1ManagedComponent.html" title=" " alt="" coords="19,807,249,1328"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,773,137,806,131,806,131,773"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1logisim_1_1comp_1_1Component.html" title=" " alt="" coords="5,119,263,501"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,515,137,549,131,549,131,515"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,5,179,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,84,137,119,131,119,131,84"/>
+</map>

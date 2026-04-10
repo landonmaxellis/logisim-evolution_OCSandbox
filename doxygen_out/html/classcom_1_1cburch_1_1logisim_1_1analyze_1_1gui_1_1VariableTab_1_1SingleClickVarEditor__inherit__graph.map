@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.analyze.gui.VariableTab.SingleClickVarEditor" name="com.cburch.logisim.analyze.gui.VariableTab.SingleClickVarEditor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="18,119,267,412"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1gui_1_1VariableTab_1_1DoubleClickVarEditor.html" title=" " alt="" coords="27,460,258,589"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,426,145,460,140,460,140,426"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,136,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,83,99,118,94,119,82,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="161,5,271,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,85,193,119,188,118,199,83"/>
+</map>

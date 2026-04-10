@@ -1,0 +1,106 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+file.\+Elf\+Program\+Header Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader}\index{com.cburch.logisim.soc.file.ElfProgramHeader@{com.cburch.logisim.soc.file.ElfProgramHeader}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+file.\+Elf\+Program\+Header\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Program\+Header}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a8f6a3b95f19ee3e4aa335ea10625ee24}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a8f6a3b95f19ee3e4aa335ea10625ee24} 
+{\bfseries Elf\+Program\+Header} (File\+Input\+Stream file, \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfHeader}{Elf\+Header}} elf\+Header)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a869d76a21a5a8cec98b74cec15b64870}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a869d76a21a5a8cec98b74cec15b64870} 
+boolean {\bfseries is\+Valid} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_aa5fc85ba114e7f8499d02b99116684eb}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_aa5fc85ba114e7f8499d02b99116684eb} 
+long {\bfseries get\+Size} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a4f5058751e3e899c9d5bc982e28d7156}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a4f5058751e3e899c9d5bc982e28d7156} 
+String {\bfseries get\+Error\+String} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a48c7f06eb119feae9211e5405634c998}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a48c7f06eb119feae9211e5405634c998} 
+int {\bfseries get\+Nr\+Of\+Headers} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_ac80937caa5824b3e501c02fc05818c0f}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_ac80937caa5824b3e501c02fc05818c0f} 
+Program\+Header {\bfseries get\+Header} (int index)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a1787e8c71208270971e5ef36d5877127}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a1787e8c71208270971e5ef36d5877127} 
+static final int {\bfseries P\+\_\+\+TYPE} = 0
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a4f2abeeda96565ebcb6d1482fef2356d}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a4f2abeeda96565ebcb6d1482fef2356d} 
+static final int {\bfseries P\+\_\+\+FLAGS} = 1
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_aa5e407f3d7ce337cb244e00a4d971eaa}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_aa5e407f3d7ce337cb244e00a4d971eaa} 
+static final int {\bfseries P\+\_\+\+OFFSET} = 2
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a00bdfec9bbdb87cbf8d8fc3e9cafd6df}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a00bdfec9bbdb87cbf8d8fc3e9cafd6df} 
+static final int {\bfseries P\+\_\+\+VADDR} = 3
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_acc534ab7ac5e2f7e14aef1dc57d72411}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_acc534ab7ac5e2f7e14aef1dc57d72411} 
+static final int {\bfseries P\+\_\+\+PADDR} = 4
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a8824c2bc2b595486b3e5f5b29a4e5f2a}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a8824c2bc2b595486b3e5f5b29a4e5f2a} 
+static final int {\bfseries P\+\_\+\+FILESZ} = 5
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a480f685819f8a102d59c4c5eb8dd4562}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a480f685819f8a102d59c4c5eb8dd4562} 
+static final int {\bfseries P\+\_\+\+MEMSZ} = 6
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a7edebf3583b0ef8dccb311966612f949}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a7edebf3583b0ef8dccb311966612f949} 
+static final int {\bfseries P\+\_\+\+ALIGN} = 7
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a902aff535206829a459c4cf5a943b340}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a902aff535206829a459c4cf5a943b340} 
+static final int {\bfseries PT\+\_\+\+NULL} = 0
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a7e0beaf23c5800e90d428f0ff10f1c47}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a7e0beaf23c5800e90d428f0ff10f1c47} 
+static final int {\bfseries PT\+\_\+\+LOAD} = 1
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a58ee4843b6d6337e14d2a1cbcf3589f5}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a58ee4843b6d6337e14d2a1cbcf3589f5} 
+static final int {\bfseries PT\+\_\+\+DYNAMIC} = 2
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_acc669984564f793ca04d15571ddc653c}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_acc669984564f793ca04d15571ddc653c} 
+static final int {\bfseries PT\+\_\+\+INTERP} = 3
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a901f9cab27154b26e1eaf9ab6db4a329}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a901f9cab27154b26e1eaf9ab6db4a329} 
+static final int {\bfseries PT\+\_\+\+NOTE} = 4
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_af099b45145eafbbd51f6831a44d69a67}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_af099b45145eafbbd51f6831a44d69a67} 
+static final int {\bfseries PT\+\_\+\+SHLIB} = 5
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a5d7d17dc90ee337e12ebea4b26d85b81}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a5d7d17dc90ee337e12ebea4b26d85b81} 
+static final int {\bfseries PT\+\_\+\+PHDR} = 6
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a794195415109498d69791c89b1aac8fb}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a794195415109498d69791c89b1aac8fb} 
+static final int {\bfseries PT\+\_\+\+LOPROC} = 0x70000000
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_af19a5795fc270fe1f8a78f77af5c6858}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_af19a5795fc270fe1f8a78f77af5c6858} 
+static final int {\bfseries PT\+\_\+\+HIPROC} = 0x7\+FFFFFFF
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_ad733eda6bb8b6f49fd83561ebf1ef4d4}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_ad733eda6bb8b6f49fd83561ebf1ef4d4} 
+static final int {\bfseries PF\+\_\+X} = 1
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a77ee8a946d6ee30e9c499df03743fa93}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a77ee8a946d6ee30e9c499df03743fa93} 
+static final int {\bfseries PF\+\_\+W} = 2
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a72a7b3dfdda1f49aff55e4c3c159980a}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1file_1_1ElfProgramHeader_a72a7b3dfdda1f49aff55e4c3c159980a} 
+static final int {\bfseries PF\+\_\+R} = 4
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/file/Elf\+Program\+Header.\+java\end{DoxyCompactItemize}

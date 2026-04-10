@@ -1,0 +1,15 @@
+<map id="com.cburch.logisim.circuit.Splitter" name="com.cburch.logisim.circuit.Splitter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="314,479,571,1040"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,316,155,381"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,390,316,611,312,615,115,394"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="179,267,368,431"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,443,329,477,324,480,310,445"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitTransaction.html" title=" " alt="" coords="154,5,393,219"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="276,232,276,266,271,266,271,232"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="393,316,493,381"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="445,395,445,479,440,479,440,395"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="517,316,625,381"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="559,395,533,479,528,478,554,394"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="649,316,772,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="685,394,574,563,569,560,680,391"/>
+</map>

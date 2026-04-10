@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.gui.log.Model.Listener" name="com.cburch.logisim.gui.log.Model.Listener">
+<area shape="rect" id="Node000001" title=" " alt="" coords="145,5,371,273"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,458,247,786"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,288,173,459,168,457,215,286"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="271,321,512,923"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="301,286,311,320,305,322,296,287"/>
+</map>

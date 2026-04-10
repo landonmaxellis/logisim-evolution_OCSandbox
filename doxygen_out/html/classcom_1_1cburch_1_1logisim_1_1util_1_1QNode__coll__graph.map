@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.util.QNode" name="com.cburch.logisim.util.QNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,347,179,496"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,172,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,85,96,346,90,346,87,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1util_1_1QNode.html" title=" " alt="" coords="110,120,281,269"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="120,81,147,118,142,121,116,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,270,136,333,132,331,160,268"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="282,175,300,182,307,194,305,203,298,209,295,205,300,200,302,195,296,186,280,180"/>
+</map>

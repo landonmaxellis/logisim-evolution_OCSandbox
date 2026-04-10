@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.file.XmlIterator&lt; E extends Node &gt;" name="com.cburch.logisim.file.XmlIterator&lt; E extends Node &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="52,119,312,511"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,108,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,82,95,117,90,119,74,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="132,5,232,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,84,185,118,179,118,179,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="256,5,335,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="280,84,265,119,260,117,275,82"/>
+</map>

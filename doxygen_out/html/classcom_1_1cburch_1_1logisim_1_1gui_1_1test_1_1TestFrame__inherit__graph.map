@@ -1,0 +1,5 @@
+<map id="com.cburch.logisim.gui.test.TestFrame" name="com.cburch.logisim.gui.test.TestFrame">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,119,226,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,248,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,84,129,118,124,118,124,84"/>
+</map>

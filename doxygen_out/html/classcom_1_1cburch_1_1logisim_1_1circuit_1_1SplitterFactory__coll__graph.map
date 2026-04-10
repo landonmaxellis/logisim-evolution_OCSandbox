@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.circuit.SplitterFactory" name="com.cburch.logisim.circuit.SplitterFactory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,619,269,1055"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,5,227,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,85,139,618,133,618,130,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1SplitterFactory.html" title=" " alt="" coords="153,120,417,556"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="157,82,176,119,171,121,152,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,557,209,604,204,602,218,555"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="419,298,437,313,444,338,441,355,433,368,428,365,436,353,439,338,433,316,416,302"/>
+</map>

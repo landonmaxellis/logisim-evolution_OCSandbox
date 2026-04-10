@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.soc.data.SocMemMapModel" name="com.cburch.logisim.soc.data.SocMemMapModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="261,153,479,551"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,23,148,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,96,262,239,258,242,116,100"/>
+<area shape="rect" id="Node000003" href="$interfacecom_1_1cburch_1_1logisim_1_1soc_1_1data_1_1SocBusSlaveListener.html" title=" " alt="" coords="173,5,383,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="300,118,311,152,306,154,295,120"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="408,23,516,88"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="451,102,434,154,429,152,446,100"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="540,23,736,88"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="602,100,482,232,478,229,598,96"/>
+</map>

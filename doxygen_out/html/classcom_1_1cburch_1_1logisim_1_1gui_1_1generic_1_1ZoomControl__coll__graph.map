@@ -1,0 +1,15 @@
+<map id="com.cburch.logisim.gui.generic.ZoomControl" name="com.cburch.logisim.gui.generic.ZoomControl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,391,331,635"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,177,59,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,254,73,297,128,389,123,392,68,300,47,256"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1generic_1_1ZoomControl_1_1AutoZoomButton.html" title=" " alt="" coords="361,127,602,291"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="414,293,347,368,337,380,333,377,343,365,410,290"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="276,5,337,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="349,77,399,125,396,129,346,81"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1generic_1_1ZoomControl_1_1PredefinedZoomButton.html" title=" " alt="" coords="83,120,336,299"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="284,84,263,121,258,118,279,82"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="395,5,501,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="459,84,468,127,463,128,454,85"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="394,81,336,122,333,118,390,77"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="212,299,212,374,207,374,207,299"/>
+</map>

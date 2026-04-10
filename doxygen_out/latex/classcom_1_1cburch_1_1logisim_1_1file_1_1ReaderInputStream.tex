@@ -1,0 +1,188 @@
+\doxysection{com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream}{}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream}\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a19761875026bb45fa6656abad561bb80}{Reader\+Input\+Stream}} (Reader reader)
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_aa282844d34cd69f8119c8675f51c7345}{Reader\+Input\+Stream}} (Reader reader, String encoding)
+\item 
+synchronized int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a75d3be1042f01b9a7506f7c63eacf78e}{available}} ()  throws IOException 
+\item 
+synchronized void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_abd585a560ac970439f48104a9166d6ea}{close}} ()  throws IOException 
+\item 
+synchronized void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_af428fc4d22ee25001742a4b196c4020a}{mark}} (final int limit)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a89eacdc27a601d5db9843986edf936e6}{mark\+Supported}} ()
+\item 
+synchronized int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a6c4a7abc2e8d08e0456af5977218c874}{read}} ()  throws IOException 
+\item 
+synchronized int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_abdb9ad4d666152347977fcf36b1f994c}{read}} (byte\mbox{[}$\,$\mbox{]} b, int off, int len)  throws IOException 
+\item 
+synchronized void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a96653ff6128fb74aea78457468fc1611}{reset}} ()  throws IOException 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Adapts a {\ttfamily Reader} as an {\ttfamily Input\+Stream}. Adapted from {\ttfamily String\+Input\+Stream }. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a19761875026bb45fa6656abad561bb80}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a19761875026bb45fa6656abad561bb80} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!ReaderInputStream@{ReaderInputStream}}
+\index{ReaderInputStream@{ReaderInputStream}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{ReaderInputStream()}{ReaderInputStream()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+Reader\+Input\+Stream (\begin{DoxyParamCaption}\item[{Reader}]{reader }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construct a {\ttfamily Reader\+Input\+Stream} for the specified {\ttfamily Reader}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em reader} & {\ttfamily Reader}. Must not be {\ttfamily null}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_aa282844d34cd69f8119c8675f51c7345}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_aa282844d34cd69f8119c8675f51c7345} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!ReaderInputStream@{ReaderInputStream}}
+\index{ReaderInputStream@{ReaderInputStream}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{ReaderInputStream()}{ReaderInputStream()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+Reader\+Input\+Stream (\begin{DoxyParamCaption}\item[{Reader}]{reader,  }\item[{String}]{encoding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Construct a {\ttfamily Reader\+Input\+Stream} for the specified {\ttfamily Reader}, with the specified encoding.
+
+
+\begin{DoxyParams}{Parameters}
+{\em reader} & non-\/null {\ttfamily Reader}. \\
+\hline
+{\em encoding} & non-\/null {\ttfamily String} encoding. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a75d3be1042f01b9a7506f7c63eacf78e}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a75d3be1042f01b9a7506f7c63eacf78e} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!available@{available}}
+\index{available@{available}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{available()}{available()}}
+{\footnotesize\ttfamily synchronized int com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the current number of bytes ready for reading 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & if an error occurs \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_abd585a560ac970439f48104a9166d6ea}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_abd585a560ac970439f48104a9166d6ea} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!close@{close}}
+\index{close@{close}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily synchronized void com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Closes the Stringreader.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & if the original String\+Reader fails to be closed \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_af428fc4d22ee25001742a4b196c4020a}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_af428fc4d22ee25001742a4b196c4020a} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!mark@{mark}}
+\index{mark@{mark}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{mark()}{mark()}}
+{\footnotesize\ttfamily synchronized void com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+mark (\begin{DoxyParamCaption}\item[{final int}]{limit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Marks the read limit of the String\+Reader.
+
+
+\begin{DoxyParams}{Parameters}
+{\em limit} & the maximum limit of bytes that can be read before the mark position becomes invalid \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a89eacdc27a601d5db9843986edf936e6}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a89eacdc27a601d5db9843986edf936e6} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!markSupported@{markSupported}}
+\index{markSupported@{markSupported}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{markSupported()}{markSupported()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+mark\+Supported (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+false -\/ mark is not supported 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a6c4a7abc2e8d08e0456af5977218c874}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a6c4a7abc2e8d08e0456af5977218c874} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!read@{read}}
+\index{read@{read}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily synchronized int com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads from the {\ttfamily Reader}, returning the same value.
+
+\begin{DoxyReturn}{Returns}
+the value of the next character in the {\ttfamily Reader}. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & if the original {\ttfamily Reader} fails to be read \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_abdb9ad4d666152347977fcf36b1f994c}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_abdb9ad4d666152347977fcf36b1f994c} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!read@{read}}
+\index{read@{read}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily synchronized int com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+read (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{b,  }\item[{int}]{off,  }\item[{int}]{len }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads from the {\ttfamily Reader} into a byte array
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & the byte array to read into \\
+\hline
+{\em off} & the offset in the byte array \\
+\hline
+{\em len} & the length in the byte array to fill \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the actual number read into the byte array, -\/1 at the end of the stream 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & if an error occurs \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a96653ff6128fb74aea78457468fc1611}\label{classcom_1_1cburch_1_1logisim_1_1file_1_1ReaderInputStream_a96653ff6128fb74aea78457468fc1611} 
+\index{com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}!reset@{reset}}
+\index{reset@{reset}!com.cburch.logisim.file.ReaderInputStream@{com.cburch.logisim.file.ReaderInputStream}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily synchronized void com.\+cburch.\+logisim.\+file.\+Reader\+Input\+Stream.\+reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [inline]}}
+
+Resets the String\+Reader.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & if the String\+Reader fails to be reset \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/file/Reader\+Input\+Stream.\+java\end{DoxyCompactItemize}

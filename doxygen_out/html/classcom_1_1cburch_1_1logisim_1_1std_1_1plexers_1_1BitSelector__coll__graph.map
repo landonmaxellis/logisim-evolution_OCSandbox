@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.plexers.BitSelector" name="com.cburch.logisim.std.plexers.BitSelector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,589,367,927"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,121,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,304,101,400,136,511,169,588,164,590,132,513,96,402,71,306"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="146,5,359,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,512,255,573,250,573,250,512"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="383,5,597,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="388,513,363,566,358,576,353,574,358,564,383,511"/>
+</map>

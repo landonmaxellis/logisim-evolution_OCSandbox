@@ -1,0 +1,12 @@
+<map id="com.cburch.logisim.std.wiring.Clock" name="com.cburch.logisim.std.wiring.Clock">
+<area shape="rect" id="Node000001" title=" " alt="" coords="47,1137,277,1608"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,121,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,305,36,437,17,628,12,737,13,850,21,964,38,1074,55,1137,49,1138,33,1075,16,964,8,850,7,737,12,628,31,436,52,304"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1Clock.html" title=" " alt="" coords="47,604,277,1075"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="74,304,125,603,119,604,68,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="230,5,443,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="403,512,422,644,430,787,428,861,421,934,408,1006,389,1076,370,1121,346,1165,290,1245,285,1241,342,1162,365,1119,383,1074,403,1005,415,933,422,860,424,787,416,644,397,513"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="263,513,240,589,235,587,258,511"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,1075,165,1121,159,1121,159,1075"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="279,794,296,811,303,839,300,859,292,874,287,871,295,857,298,839,292,814,275,798"/>
+</map>

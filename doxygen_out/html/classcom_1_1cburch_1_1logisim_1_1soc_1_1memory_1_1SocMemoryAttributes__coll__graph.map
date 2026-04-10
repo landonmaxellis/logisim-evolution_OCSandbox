@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.soc.memory.SocMemoryAttributes" name="com.cburch.logisim.soc.memory.SocMemoryAttributes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="143,575,422,857"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,152,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,303,123,400,166,511,198,573,193,576,162,513,118,402,88,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="176,5,389,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,513,285,558,280,558,280,513"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="413,5,627,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="436,513,416,552,410,562,405,559,411,549,431,511"/>
+</map>

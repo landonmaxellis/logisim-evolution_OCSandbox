@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.util.TextLineNumber" name="com.cburch.logisim.util.TextLineNumber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="59,119,349,591"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,59,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,82,78,117,73,120,54,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,5,184,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,84,154,118,148,119,141,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="208,5,341,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,85,260,119,254,118,262,84"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="365,5,536,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="419,84,351,171,347,167,415,80"/>
+</map>

@@ -1,0 +1,62 @@
+\doxysection{com.\+cburch.\+logisim.\+util.\+String\+Util Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil}{}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil}\index{com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+util.\+String\+Util\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a252386a327fa8366ff645fb391e189d8}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a252386a327fa8366ff645fb391e189d8} 
+static \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1util_1_1StringGetter}{String\+Getter}} {\bfseries constant\+Getter} (final String value)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_aead2947090886e862116c300e60ff102}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_aead2947090886e862116c300e60ff102} 
+static String {\bfseries resize\+String} (String value, Font\+Metrics metrics, int max\+Width)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a3b85a1c9b46d1bd66c3eb8ad669d24ca}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a3b85a1c9b46d1bd66c3eb8ad669d24ca} 
+static String {\bfseries to\+Hex\+String} (int bits, long value)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a6e0660e9e46021ba5df8358cb15ca8dc}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a6e0660e9e46021ba5df8358cb15ca8dc} 
+static Bounds {\bfseries estimate\+Bounds} (String text, Font font)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_afdae7ee3a86ae0d683ff9df458444892}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_afdae7ee3a86ae0d683ff9df458444892} 
+static Bounds {\bfseries estimate\+Bounds} (String text, Font font, int h\+Align, int v\+Align)
+\item 
+static boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_af666211909adb53b05ddd6177ea214c2}{is\+Null\+Or\+Empty}} (Char\+Sequence str)
+\item 
+static boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_aa374c50340240bd7f0af2bb8fceb5001}{is\+Not\+Empty}} (Char\+Sequence seq)
+\item 
+static boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a0a5c53d720f5d0e38c93cb67898d2807}{starts\+With}} (String seq, String prefix)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_aa374c50340240bd7f0af2bb8fceb5001}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_aa374c50340240bd7f0af2bb8fceb5001} 
+\index{com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}!isNotEmpty@{isNotEmpty}}
+\index{isNotEmpty@{isNotEmpty}!com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}}
+\doxysubsubsection{\texorpdfstring{isNotEmpty()}{isNotEmpty()}}
+{\footnotesize\ttfamily static boolean com.\+cburch.\+logisim.\+util.\+String\+Util.\+is\+Not\+Empty (\begin{DoxyParamCaption}\item[{Char\+Sequence}]{seq }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Checks if given char sequence is not null and not empty. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_af666211909adb53b05ddd6177ea214c2}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_af666211909adb53b05ddd6177ea214c2} 
+\index{com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}!isNullOrEmpty@{isNullOrEmpty}}
+\index{isNullOrEmpty@{isNullOrEmpty}!com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}}
+\doxysubsubsection{\texorpdfstring{isNullOrEmpty()}{isNullOrEmpty()}}
+{\footnotesize\ttfamily static boolean com.\+cburch.\+logisim.\+util.\+String\+Util.\+is\+Null\+Or\+Empty (\begin{DoxyParamCaption}\item[{Char\+Sequence}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Checks if given char sequence is either null or empty. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a0a5c53d720f5d0e38c93cb67898d2807}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1StringUtil_a0a5c53d720f5d0e38c93cb67898d2807} 
+\index{com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}!startsWith@{startsWith}}
+\index{startsWith@{startsWith}!com.cburch.logisim.util.StringUtil@{com.cburch.logisim.util.StringUtil}}
+\doxysubsubsection{\texorpdfstring{startsWith()}{startsWith()}}
+{\footnotesize\ttfamily static boolean com.\+cburch.\+logisim.\+util.\+String\+Util.\+starts\+With (\begin{DoxyParamCaption}\item[{String}]{seq,  }\item[{String}]{prefix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Null safe version of {\ttfamily String.\+starts\+With()} 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/util/String\+Util.\+java\end{DoxyCompactItemize}

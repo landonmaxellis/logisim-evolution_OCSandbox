@@ -1,0 +1,12 @@
+<map id="com.cburch.logisim.std.wiring.ProbeAttributes" name="com.cburch.logisim.std.wiring.ProbeAttributes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="69,660,363,1137"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,152,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,84,60,120,41,255,31,360,30,411,35,465,44,526,60,597,80,659,75,661,55,598,39,527,29,466,25,411,25,360,36,254,55,120,62,83"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1ProbeAttributes.html" title=" " alt="" coords="69,120,363,597"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="100,82,116,119,111,121,95,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="340,5,495,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="454,81,472,119,507,252,518,308,522,360,520,413,511,468,495,529,472,598,452,644,426,687,365,766,361,763,421,684,447,641,467,596,490,527,506,467,514,412,516,360,512,308,502,253,467,121,449,83"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="392,84,365,127,360,124,388,81"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,598,219,644,213,644,213,598"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="365,317,383,333,389,359,386,376,378,390,374,387,381,374,384,359,378,336,361,321"/>
+</map>

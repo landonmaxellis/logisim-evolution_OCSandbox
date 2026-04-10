@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.tools.key.DirectionConfigurator" name="com.cburch.logisim.tools.key.DirectionConfigurator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="104,183,373,376"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1logisim_1_1tools_1_1key_1_1KeyConfigurator.html" title=" " alt="" coords="5,5,275,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,146,196,181,191,184,174,148"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="299,37,378,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,116,287,183,283,181,315,114"/>
+</map>

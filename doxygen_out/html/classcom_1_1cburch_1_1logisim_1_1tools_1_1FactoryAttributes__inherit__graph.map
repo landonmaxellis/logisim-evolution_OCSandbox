@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.tools.FactoryAttributes" name="com.cburch.logisim.tools.FactoryAttributes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="45,119,322,759"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,97,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,83,80,118,75,119,63,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="122,5,245,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,84,186,118,181,118,181,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="269,5,348,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="297,85,286,119,281,118,292,83"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="com.cburch.logisim.circuit.Splitter" name="com.cburch.logisim.circuit.Splitter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="378,1172,635,1699"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,846,155,911"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,924,121,1012,143,1062,169,1108,216,1171,269,1231,325,1285,380,1333,376,1337,321,1289,265,1234,212,1174,164,1111,138,1064,116,1014,88,926"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="179,797,368,961"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,973,399,1171,394,1173,310,975"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitTransaction.html" title=" " alt="" coords="154,189,393,402"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="276,416,276,796,271,796,271,416"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="393,846,493,911"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="450,924,479,1172,474,1172,445,925"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="517,846,625,911"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="568,925,540,1172,534,1172,563,924"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="649,846,772,911"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="700,925,639,1110,615,1173,610,1171,633,1108,695,923"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitWires.html" title=" " alt="" coords="797,648,1054,1109"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="799,1094,786,1111,718,1199,648,1282,644,1279,714,1195,782,1108,794,1090"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="787,5,1064,585"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="928,586,928,631,923,631,923,586"/>
+</map>

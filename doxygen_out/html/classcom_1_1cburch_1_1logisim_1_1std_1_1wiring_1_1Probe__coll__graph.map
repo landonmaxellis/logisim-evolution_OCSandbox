@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.wiring.Probe" name="com.cburch.logisim.std.wiring.Probe">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,816,269,1449"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="74,5,190,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,84,138,816,133,816,130,84"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1Probe.html" title=" " alt="" coords="153,120,417,753"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="152,82,166,119,161,121,147,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,754,211,800,206,799,215,753"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="419,381,437,403,444,437,441,462,431,481,426,478,435,460,439,437,432,405,415,385"/>
+</map>

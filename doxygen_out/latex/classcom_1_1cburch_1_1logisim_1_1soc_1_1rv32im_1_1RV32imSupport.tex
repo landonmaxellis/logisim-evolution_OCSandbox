@@ -1,0 +1,83 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+rv32im.\+RV32im\+Support Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport}\index{com.cburch.logisim.soc.rv32im.RV32imSupport@{com.cburch.logisim.soc.rv32im.RV32imSupport}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+rv32im.\+RV32im\+Support\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a9965e9c05ed854127229bb877be200c3}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a9965e9c05ed854127229bb877be200c3} 
+static int {\bfseries get\+Immediate\+Value} (int instruction, int type)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a8458ff55e1be69ce398e5e05513b5c54}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a8458ff55e1be69ce398e5e05513b5c54} 
+static int {\bfseries get\+IType\+Instruction} (int opcode, int rd, int func3, int rs, int imm)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a65cd0a85669042f62341ecc424992916}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a65cd0a85669042f62341ecc424992916} 
+static int {\bfseries get\+RType\+Instruction} (int opcode, int rd, int func3, int rs1, int rs2, int funct7)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a59516ebc1a14e3de4a99baa1b22cc1fb}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a59516ebc1a14e3de4a99baa1b22cc1fb} 
+static int {\bfseries get\+SType\+Instruction} (int opcode, int rs1, int rs2, int funct3, int imm)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a48e83eac25caadbd5ce5266625bdde9b}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a48e83eac25caadbd5ce5266625bdde9b} 
+static int {\bfseries get\+JType\+Instruction} (int opcode, int rd, int imm)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a0c12ff2cb9e54d41818a879e25c58a3d}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a0c12ff2cb9e54d41818a879e25c58a3d} 
+static int {\bfseries get\+BType\+Instruction} (int opcode, int funct3, int rs1, int rs2, int imm)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_abf2443277c80bde4f6e53a1d7bb5d3c6}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_abf2443277c80bde4f6e53a1d7bb5d3c6} 
+static int {\bfseries get\+UType\+Instruction} (int opcode, int rd, int imm)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a2d5d8708db5bf71ee7f1ff838e79049d}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a2d5d8708db5bf71ee7f1ff838e79049d} 
+static int {\bfseries get\+Opcode} (int instruction)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a3add8658e214332365b71b3d8d61079e}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a3add8658e214332365b71b3d8d61079e} 
+static int {\bfseries get\+Funct3} (int instruction)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_ae6ba57cb0dbd2adc895e564126daf88e}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_ae6ba57cb0dbd2adc895e564126daf88e} 
+static int {\bfseries get\+Destination\+Register\+Index} (int instruction)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a167ea12c85bcf380d8b39e32cb37c653}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a167ea12c85bcf380d8b39e32cb37c653} 
+static int {\bfseries get\+Source\+Register1\+Index} (int instruction)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a1714064b1d596bfd228a5f2a1d3b1e15}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a1714064b1d596bfd228a5f2a1d3b1e15} 
+static int {\bfseries get\+Source\+Register2\+Index} (int instruction)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a0d10f37f837728fdf591b309928be285}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a0d10f37f837728fdf591b309928be285} 
+static int {\bfseries get\+Funct7} (int instruction)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a231e99f6d1c7ba4e4365ea6c43e13a56}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a231e99f6d1c7ba4e4365ea6c43e13a56} 
+static final int {\bfseries ASM\+\_\+\+FIELD\+\_\+\+SIZE} = 10
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a17f6199d36756647c8b2e3257ac3fc83}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a17f6199d36756647c8b2e3257ac3fc83} 
+static final int {\bfseries R\+\_\+\+TYPE} = 0
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_ad28e359ce16a622264a1d8e650398324}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_ad28e359ce16a622264a1d8e650398324} 
+static final int {\bfseries I\+\_\+\+TYPE} = 1
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_aba921756db1485a576dbe2a8ae6c199c}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_aba921756db1485a576dbe2a8ae6c199c} 
+static final int {\bfseries S\+\_\+\+TYPE} = 2
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a3ae11b26d5f0470ed9b3be1856745c04}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a3ae11b26d5f0470ed9b3be1856745c04} 
+static final int {\bfseries B\+\_\+\+TYPE} = 3
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_aa33f724a9ec03c0c0f5207922173bb4b}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_aa33f724a9ec03c0c0f5207922173bb4b} 
+static final int {\bfseries U\+\_\+\+TYPE} = 4
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a4496c1e8d5ba80ee667c6cf69c8405c4}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imSupport_a4496c1e8d5ba80ee667c6cf69c8405c4} 
+static final int {\bfseries J\+\_\+\+TYPE} = 5
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/rv32im/RV32im\+Support.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.util.Assembler" name="com.cburch.logisim.soc.util.Assembler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,257,531"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,5,120,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,83,87,118,82,119,74,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="144,5,252,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,85,182,119,177,118,185,83"/>
+</map>

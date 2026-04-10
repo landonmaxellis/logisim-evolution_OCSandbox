@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.instance.InstanceDataSingleton" name="com.cburch.logisim.instance.InstanceDataSingleton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="88,247,292,431"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1logisim_1_1instance_1_1InstanceData.html" title=" " alt="" coords="5,119,209,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,210,150,245,145,248,129,212"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="46,5,169,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,85,110,118,105,118,105,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="233,126,312,191"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,205,235,248,230,245,250,203"/>
+</map>

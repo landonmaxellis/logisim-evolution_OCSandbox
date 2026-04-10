@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,141,140,166"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1vga_1_1SocVgaShape.html" title=" " alt="" coords="202,5,409,45"/>
+<area shape="poly" id="edge546_Node000000_Node000001" title=" " alt="" coords="94,128,134,91,187,55,215,43,217,48,189,60,138,95,97,132"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1LedShape.html" title=" " alt="" coords="209,69,402,109"/>
+<area shape="poly" id="edge547_Node000000_Node000002" title=" " alt="" coords="132,134,187,119,230,107,232,112,189,124,133,139"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1SevenSegmentShape.html" title=" " alt="" coords="209,133,402,173"/>
+<area shape="poly" id="edge549_Node000000_Node000004" title=" " alt="" coords="154,151,209,151,209,156,154,156"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1TtyShape.html" title=" " alt="" coords="209,197,402,237"/>
+<area shape="poly" id="edge551_Node000000_Node000006" title=" " alt="" coords="133,167,189,183,232,195,230,200,187,188,132,172"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1RegisterShape.html" title=" " alt="" coords="188,261,423,301"/>
+<area shape="poly" id="edge552_Node000000_Node000007" title=" " alt="" coords="97,174,138,212,189,247,217,259,215,264,187,252,134,216,94,178"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1RgbLedShape.html" title=" " alt="" coords="491,69,685,109"/>
+<area shape="poly" id="edge548_Node000002_Node000003" title=" " alt="" coords="416,87,491,87,491,92,416,92"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1HexDigitShape.html" title=" " alt="" coords="491,133,685,173"/>
+<area shape="poly" id="edge550_Node000004_Node000005" title=" " alt="" coords="416,151,491,151,491,156,416,156"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1CounterShape.html" title=" " alt="" coords="471,261,705,301"/>
+<area shape="poly" id="edge553_Node000007_Node000008" title=" " alt="" coords="437,279,470,279,470,284,437,284"/>
+</map>

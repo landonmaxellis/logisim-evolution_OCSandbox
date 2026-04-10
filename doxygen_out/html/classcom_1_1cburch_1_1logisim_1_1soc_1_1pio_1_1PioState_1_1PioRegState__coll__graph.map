@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.pio.PioState.PioRegState" name="com.cburch.logisim.soc.pio.PioState.PioRegState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,119,217,373"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,105,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,83,79,118,74,119,65,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="129,5,208,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,85,149,119,144,118,154,83"/>
+</map>

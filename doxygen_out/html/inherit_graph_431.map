@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,269,103,294"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelAction.html" title=" " alt="" coords="151,261,337,301"/>
+<area shape="poly" id="edge858_Node000000_Node000001" title=" " alt="" coords="116,279,151,279,151,284,116,284"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelAddAction.html" title=" " alt="" coords="397,5,583,45"/>
+<area shape="poly" id="edge859_Node000001_Node000002" title=" " alt="" coords="255,248,274,204,301,152,338,100,384,55,403,43,406,48,387,59,342,104,306,155,278,207,260,250"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelChangeAttributeAction.html" title=" " alt="" coords="385,69,595,109"/>
+<area shape="poly" id="edge860_Node000001_Node000003" title=" " alt="" coords="263,248,313,183,346,149,384,119,406,107,409,112,387,124,350,153,317,186,267,251"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelDeleteHandleAction.html" title=" " alt="" coords="394,133,586,173"/>
+<area shape="poly" id="edge861_Node000001_Node000004" title=" " alt="" coords="279,251,327,216,384,183,413,171,415,176,387,188,330,220,282,255"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelEditTextAction.html" title=" " alt="" coords="397,197,583,237"/>
+<area shape="poly" id="edge862_Node000001_Node000005" title=" " alt="" coords="334,255,412,235,413,240,335,260"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelInsertHandleAction.html" title=" " alt="" coords="397,261,583,301"/>
+<area shape="poly" id="edge863_Node000001_Node000006" title=" " alt="" coords="351,279,396,279,396,284,351,284"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelMoveHandleAction.html" title=" " alt="" coords="397,325,583,365"/>
+<area shape="poly" id="edge864_Node000001_Node000007" title=" " alt="" coords="335,302,413,323,412,328,334,307"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelRemoveAction.html" title=" " alt="" coords="397,389,583,429"/>
+<area shape="poly" id="edge865_Node000001_Node000008" title=" " alt="" coords="282,308,330,342,387,375,415,387,413,392,384,380,327,347,279,312"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelReorderAction.html" title=" " alt="" coords="397,453,583,493"/>
+<area shape="poly" id="edge866_Node000001_Node000009" title=" " alt="" coords="267,311,317,376,350,410,387,439,409,451,406,455,384,444,346,414,313,380,263,315"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelTranslateAction.html" title=" " alt="" coords="397,517,583,557"/>
+<area shape="poly" id="edge867_Node000001_Node000010" title=" " alt="" coords="260,313,278,356,306,407,342,459,387,503,406,515,403,519,384,507,338,463,301,410,274,358,255,315"/>
+</map>

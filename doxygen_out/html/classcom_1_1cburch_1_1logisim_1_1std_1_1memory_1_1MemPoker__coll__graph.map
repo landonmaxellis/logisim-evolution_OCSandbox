@@ -1,0 +1,5 @@
+<map id="com.cburch.logisim.std.memory.MemPoker" name="com.cburch.logisim.std.memory.MemPoker">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,232,352"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="66,5,171,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,85,121,119,116,119,116,85"/>
+</map>

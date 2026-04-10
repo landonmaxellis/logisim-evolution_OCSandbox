@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.io.SevenSegment" name="com.cburch.logisim.std.io.SevenSegment">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,119,287,859"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,121,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,84,81,118,76,119,69,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,5,325,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,85,223,119,217,118,224,84"/>
+</map>

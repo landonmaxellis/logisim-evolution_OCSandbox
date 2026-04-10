@@ -1,0 +1,101 @@
+\doxysection{com.\+cburch.\+hdl.\+Hdl\+Model Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel}{}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel}\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+
+
+Collaboration diagram for com.\+cburch.\+hdl.\+Hdl\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{interfacecom_1_1cburch_1_1hdl_1_1HdlModel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_af88045584494fd66bd50aaf760ce3c3b}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_af88045584494fd66bd50aaf760ce3c3b} 
+record {\bfseries Port\+Description} (String \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a423f8932ce054848ec7d45b025a61df8}{get\+Name}}, String get\+Type, int get\+Width\+Int, Bit\+Width get\+Width)
+\item 
+void \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_aa5fbe7b9e4fbf4b26aee3462cc4b25ce}{add\+Hdl\+Model\+Listener}} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModelListener}{Hdl\+Model\+Listener}} l)
+\item 
+boolean \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a196e7411365e7ab1f3c7a440b5e18a70}{compare}} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel}{Hdl\+Model}} model)
+\item 
+boolean \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a30eb5ab4348e39facb241473f44c5c6d}{compare}} (String value)
+\item 
+String \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a1fb651cea0b87daf8f6c4ce5b7827ee1}{get\+Content}} ()
+\item 
+String \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a423f8932ce054848ec7d45b025a61df8}{get\+Name}} ()
+\item 
+Port\+Description\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a5e1dce374c67f75f95667afc2909b8bf}{get\+Inputs}} ()
+\item 
+Port\+Description\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a453e56ecf34838d3c6963458718d7ea7}{get\+Outputs}} ()
+\item 
+void \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_acae528bd7b2af5b8f698a057e999c177}{remove\+Hdl\+Model\+Listener}} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModelListener}{Hdl\+Model\+Listener}} l)
+\item 
+boolean \mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a3b15870f0d96ff32083d85330427f149}{set\+Content}} (String content)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Hdl\+Model is a base interface for objects that contain mutable text representing code written in an HDL. Listeners may be attached to appropriately handle updates. Implementors should typically use Hdl\+Content. It should not be confused with the other Hdl\+Model, located in the logisim.\+vhdl.\+base package. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_aa5fbe7b9e4fbf4b26aee3462cc4b25ce}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_aa5fbe7b9e4fbf4b26aee3462cc4b25ce} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!addHdlModelListener@{addHdlModelListener}}
+\index{addHdlModelListener@{addHdlModelListener}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{addHdlModelListener()}{addHdlModelListener()}}
+{\footnotesize\ttfamily void com.\+cburch.\+hdl.\+Hdl\+Model.\+add\+Hdl\+Model\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModelListener}{Hdl\+Model\+Listener}}}]{l }\end{DoxyParamCaption})}
+
+Registers a listener for changes to the values. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a196e7411365e7ab1f3c7a440b5e18a70}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a196e7411365e7ab1f3c7a440b5e18a70} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!compare@{compare}}
+\index{compare@{compare}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{compare()}{compare()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+hdl.\+Hdl\+Model.\+compare (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModel}{Hdl\+Model}}}]{model }\end{DoxyParamCaption})}
+
+Compares the model\textquotesingle{}s content with another model. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a30eb5ab4348e39facb241473f44c5c6d}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a30eb5ab4348e39facb241473f44c5c6d} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!compare@{compare}}
+\index{compare@{compare}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{compare()}{compare()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+hdl.\+Hdl\+Model.\+compare (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})}
+
+Compares the model\textquotesingle{}s content with a string. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a1fb651cea0b87daf8f6c4ce5b7827ee1}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a1fb651cea0b87daf8f6c4ce5b7827ee1} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!getContent@{getContent}}
+\index{getContent@{getContent}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{getContent()}{getContent()}}
+{\footnotesize\ttfamily String com.\+cburch.\+hdl.\+Hdl\+Model.\+get\+Content (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the content of the HDL-\/\+IP component. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a5e1dce374c67f75f95667afc2909b8bf}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a5e1dce374c67f75f95667afc2909b8bf} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!getInputs@{getInputs}}
+\index{getInputs@{getInputs}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{getInputs()}{getInputs()}}
+{\footnotesize\ttfamily Port\+Description\mbox{[}$\,$\mbox{]} com.\+cburch.\+hdl.\+Hdl\+Model.\+get\+Inputs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the component\textquotesingle{}s input ports. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a423f8932ce054848ec7d45b025a61df8}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a423f8932ce054848ec7d45b025a61df8} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!getName@{getName}}
+\index{getName@{getName}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String com.\+cburch.\+hdl.\+Hdl\+Model.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the component\textquotesingle{}s name. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a453e56ecf34838d3c6963458718d7ea7}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a453e56ecf34838d3c6963458718d7ea7} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!getOutputs@{getOutputs}}
+\index{getOutputs@{getOutputs}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{getOutputs()}{getOutputs()}}
+{\footnotesize\ttfamily Port\+Description\mbox{[}$\,$\mbox{]} com.\+cburch.\+hdl.\+Hdl\+Model.\+get\+Outputs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the component\textquotesingle{}s output ports. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_acae528bd7b2af5b8f698a057e999c177}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_acae528bd7b2af5b8f698a057e999c177} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!removeHdlModelListener@{removeHdlModelListener}}
+\index{removeHdlModelListener@{removeHdlModelListener}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{removeHdlModelListener()}{removeHdlModelListener()}}
+{\footnotesize\ttfamily void com.\+cburch.\+hdl.\+Hdl\+Model.\+remove\+Hdl\+Model\+Listener (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacecom_1_1cburch_1_1hdl_1_1HdlModelListener}{Hdl\+Model\+Listener}}}]{l }\end{DoxyParamCaption})}
+
+Unregisters a listener for changes to the values. \Hypertarget{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a3b15870f0d96ff32083d85330427f149}\label{interfacecom_1_1cburch_1_1hdl_1_1HdlModel_a3b15870f0d96ff32083d85330427f149} 
+\index{com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}!setContent@{setContent}}
+\index{setContent@{setContent}!com.cburch.hdl.HdlModel@{com.cburch.hdl.HdlModel}}
+\doxysubsubsection{\texorpdfstring{setContent()}{setContent()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+hdl.\+Hdl\+Model.\+set\+Content (\begin{DoxyParamCaption}\item[{String}]{content }\end{DoxyParamCaption})}
+
+Sets the content of the component. 
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/hdl/Hdl\+Model.\+java\end{DoxyCompactItemize}

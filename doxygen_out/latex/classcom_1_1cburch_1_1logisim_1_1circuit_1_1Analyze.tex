@@ -1,0 +1,52 @@
+\doxysection{com.\+cburch.\+logisim.\+circuit.\+Analyze Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze}{}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze}\index{com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+circuit.\+Analyze\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Location\+Bit}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a5821868168b9e30ed0c9031e6aab11a0}{compute\+Expression}} (Analyzer\+Model model, \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Circuit}{Circuit}} circuit, Map$<$ Instance, String $>$ pin\+Names)  throws \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1AnalyzeException}{Analyze\+Exception}} 
+\item 
+static void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a18b0573bc82d929c794758fea05abeb9}{compute\+Table}} (Analyzer\+Model model, Project proj, \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Circuit}{Circuit}} circuit, Map$<$ Instance, String $>$ pin\+Labels)
+\item 
+static Sorted\+Map$<$ Instance, String $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a25cfe751985beb2f07857fa7052f6373}{get\+Pin\+Labels}} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Circuit}{Circuit}} circuit)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a5821868168b9e30ed0c9031e6aab11a0}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a5821868168b9e30ed0c9031e6aab11a0} 
+\index{com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}!computeExpression@{computeExpression}}
+\index{computeExpression@{computeExpression}!com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}}
+\doxysubsubsection{\texorpdfstring{computeExpression()}{computeExpression()}}
+{\footnotesize\ttfamily static void com.\+cburch.\+logisim.\+circuit.\+Analyze.\+compute\+Expression (\begin{DoxyParamCaption}\item[{Analyzer\+Model}]{model,  }\item[{\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Circuit}{Circuit}}}]{circuit,  }\item[{Map$<$ Instance, String $>$}]{pin\+Names }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1AnalyzeException}{Analyze\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Computes the expression corresponding to the given circuit, or raises Compute\+Exception if difficulties arise. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a18b0573bc82d929c794758fea05abeb9}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a18b0573bc82d929c794758fea05abeb9} 
+\index{com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}!computeTable@{computeTable}}
+\index{computeTable@{computeTable}!com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}}
+\doxysubsubsection{\texorpdfstring{computeTable()}{computeTable()}}
+{\footnotesize\ttfamily static void com.\+cburch.\+logisim.\+circuit.\+Analyze.\+compute\+Table (\begin{DoxyParamCaption}\item[{Analyzer\+Model}]{model,  }\item[{Project}]{proj,  }\item[{\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Circuit}{Circuit}}}]{circuit,  }\item[{Map$<$ Instance, String $>$}]{pin\+Labels }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns a truth table corresponding to the circuit. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a25cfe751985beb2f07857fa7052f6373}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Analyze_a25cfe751985beb2f07857fa7052f6373} 
+\index{com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}!getPinLabels@{getPinLabels}}
+\index{getPinLabels@{getPinLabels}!com.cburch.logisim.circuit.Analyze@{com.cburch.logisim.circuit.Analyze}}
+\doxysubsubsection{\texorpdfstring{getPinLabels()}{getPinLabels()}}
+{\footnotesize\ttfamily static Sorted\+Map$<$ Instance, String $>$ com.\+cburch.\+logisim.\+circuit.\+Analyze.\+get\+Pin\+Labels (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Circuit}{Circuit}}}]{circuit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns a sorted map from Pin objects to String objects, listed in canonical order (top-\/down order, with ties broken left-\/right). 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/circuit/Analyze.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,81 @@
+\doxysection{com.\+cburch.\+draw.\+model.\+Canvas\+Model Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel}{}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel}\index{com.cburch.draw.model.CanvasModel@{com.cburch.draw.model.CanvasModel}}
+
+
+Inheritance diagram for com.\+cburch.\+draw.\+model.\+Canvas\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+draw.\+model.\+Canvas\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a85b8766bc7a3d7f0beb4b1850c4b798b}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a85b8766bc7a3d7f0beb4b1850c4b798b} 
+void {\bfseries add\+Canvas\+Model\+Listener} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModelListener}{Canvas\+Model\+Listener}} l)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a329b2be01e4f93dfaf391d76a72b57c0}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a329b2be01e4f93dfaf391d76a72b57c0} 
+void {\bfseries add\+Objects} (int index, Collection$<$? extends \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ shapes)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_adf300a3d57a7732869eff5cb1911d1a0}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_adf300a3d57a7732869eff5cb1911d1a0} 
+void {\bfseries add\+Objects} (Map$<$? extends \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}}, Integer $>$ shapes)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_adcc1a947d05beb641e3ad16c83c89458}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_adcc1a947d05beb641e3ad16c83c89458} 
+\mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1Handle}{Handle}} {\bfseries delete\+Handle} (\mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1Handle}{Handle}} handle)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad7b40c776f3a80cf75e9744570e4ac6d}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad7b40c776f3a80cf75e9744570e4ac6d} 
+List$<$ \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ {\bfseries get\+Objects\+From\+Bottom} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ac7875f545e497344d7ba67d4e0bb4d36}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ac7875f545e497344d7ba67d4e0bb4d36} 
+List$<$ \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ {\bfseries get\+Objects\+From\+Top} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a322eba3e22cdcb778cdfe99242fe3fff}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a322eba3e22cdcb778cdfe99242fe3fff} 
+Collection$<$ \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ {\bfseries get\+Objects\+In} (Bounds bds)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad378ea3141c5f345a9df39d97d73c152}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad378ea3141c5f345a9df39d97d73c152} 
+Collection$<$ \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ {\bfseries get\+Objects\+Overlapping} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} shape)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ae1167320b7dd1d73ecf301733181200f}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ae1167320b7dd1d73ecf301733181200f} 
+void {\bfseries insert\+Handle} (\mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1Handle}{Handle}} desired, \mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1Handle}{Handle}} previous)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a4f3e6d031c116223ee5d708a4de2d309}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a4f3e6d031c116223ee5d708a4de2d309} 
+\mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1Handle}{Handle}} {\bfseries move\+Handle} (\mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1HandleGesture}{Handle\+Gesture}} gesture)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad169c5d6103f6eeef1b147f01e12e1ad}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad169c5d6103f6eeef1b147f01e12e1ad} 
+void {\bfseries paint} (Graphics g, Selection selection)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad35b41f2cc70998dc5ec1d2b77bb7a26}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ad35b41f2cc70998dc5ec1d2b77bb7a26} 
+void {\bfseries remove\+Canvas\+Model\+Listener} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModelListener}{Canvas\+Model\+Listener}} l)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a60a619ffaadfab8a8b66a4840703369a}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a60a619ffaadfab8a8b66a4840703369a} 
+void {\bfseries remove\+Objects} (Collection$<$? extends \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ shapes)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ab0931494e5cb6ffd7f409b61b99925fc}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_ab0931494e5cb6ffd7f409b61b99925fc} 
+void {\bfseries reorder\+Objects} (List$<$ \mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1ReorderRequest}{Reorder\+Request}} $>$ requests)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_af0520b1e9c00eb06bee01f3a61d96916}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_af0520b1e9c00eb06bee01f3a61d96916} 
+void {\bfseries set\+Attribute\+Values} (Map$<$ \mbox{\hyperlink{classcom_1_1cburch_1_1draw_1_1model_1_1AttributeMapKey}{Attribute\+Map\+Key}}, Object $>$ values)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a758ccc0708fa7d07127c9888dc2a5c53}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_a758ccc0708fa7d07127c9888dc2a5c53} 
+void {\bfseries set\+Text} (Text text, String value)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_adb5e54976cdb1596f7ddca9a8018fc51}\label{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModel_adb5e54976cdb1596f7ddca9a8018fc51} 
+void {\bfseries translate\+Objects} (Collection$<$? extends \mbox{\hyperlink{interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject}{Canvas\+Object}} $>$ shapes, int dx, int dy)
+\end{DoxyCompactItemize}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/draw/model/Canvas\+Model.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="com.cburch.draw.actions.ModelAddAction" name="com.cburch.draw.actions.ModelAddAction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,495,257,832"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelAction.html" title=" " alt="" coords="23,119,240,447"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,461,134,494,129,494,129,461"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="87,5,176,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,85,134,118,129,118,129,85"/>
+</map>

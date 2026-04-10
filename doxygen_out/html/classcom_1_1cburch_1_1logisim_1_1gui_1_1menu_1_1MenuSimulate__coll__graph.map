@@ -1,0 +1,17 @@
+<map id="com.cburch.logisim.gui.menu.MenuSimulate" name="com.cburch.logisim.gui.menu.MenuSimulate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,620,388,873"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1menu_1_1Menu.html" title=" " alt="" coords="5,296,252,381"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,393,221,619,216,621,144,395"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="91,5,145,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,85,130,296,125,296,117,85"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1menu_1_1AssemblyWindow.html" title=" " alt="" coords="287,120,520,557"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="329,558,312,605,307,604,324,557"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="170,5,277,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="252,82,289,143,284,145,247,84"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="301,5,506,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="406,85,406,120,401,120,401,85"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="531,5,663,71"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="571,84,522,159,518,156,566,81"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="687,5,864,71"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="727,82,522,246,518,242,724,77"/>
+</map>

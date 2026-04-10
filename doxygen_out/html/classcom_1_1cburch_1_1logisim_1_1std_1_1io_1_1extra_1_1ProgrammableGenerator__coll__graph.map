@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.io.extra.ProgrammableGenerator" name="com.cburch.logisim.std.io.extra.ProgrammableGenerator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,535,235,887"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,173,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,84,121,535,116,535,112,84"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1extra_1_1ProgrammableGenerator.html" title=" " alt="" coords="136,120,365,472"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="140,82,160,119,155,121,136,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,473,183,520,178,518,193,471"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="367,261,385,274,392,296,389,311,382,322,377,318,384,308,387,296,381,277,364,266"/>
+</map>

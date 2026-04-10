@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.circuit.appear.DynamicElement" name="com.cburch.logisim.circuit.appear.DynamicElement">
+<area shape="rect" id="Node000001" title=" " alt="" coords="66,292,325,1225"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,85,164,150"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,163,117,291,112,292,90,164"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="189,5,426,229"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,230,282,276,277,275,285,229"/>
+</map>

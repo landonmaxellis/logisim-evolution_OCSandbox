@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.vga.SocVga" name="com.cburch.logisim.soc.vga.SocVga">
+<area shape="rect" id="Node000001" title=" " alt="" coords="45,119,289,624"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,144,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,83,99,118,94,119,85,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="169,5,349,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,85,239,119,234,118,244,83"/>
+</map>

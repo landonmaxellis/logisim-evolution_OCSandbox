@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.gui.main.SimulationTreeNode" name="com.cburch.logisim.gui.main.SimulationTreeNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="144,119,395,595"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,643,256,1009"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,609,187,643,182,642,193,607"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="280,744,539,908"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="347,607,388,743,383,745,342,609"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="232,5,307,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,84,272,118,267,118,267,84"/>
+</map>

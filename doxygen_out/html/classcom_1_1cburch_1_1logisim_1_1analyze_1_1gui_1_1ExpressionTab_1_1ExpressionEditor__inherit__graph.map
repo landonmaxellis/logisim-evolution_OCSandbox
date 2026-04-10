@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.analyze.gui.ExpressionTab.ExpressionEditor" name="com.cburch.logisim.analyze.gui.ExpressionTab.ExpressionEditor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="18,119,267,417"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,136,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,83,98,118,93,119,82,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="161,5,271,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,85,193,119,188,118,199,83"/>
+</map>

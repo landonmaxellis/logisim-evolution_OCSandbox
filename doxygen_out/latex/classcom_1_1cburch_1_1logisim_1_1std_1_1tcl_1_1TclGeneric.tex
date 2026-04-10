@@ -1,0 +1,150 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric}\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Content\+Attribute}
+\item 
+class {\bfseries Tcl\+Generic\+Listener}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_ab14e9cdb28b142efd4ef93d8699e2b7e}{Tcl\+Generic}} ()
+\item 
+Attribute\+Set \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a0aca07ba55f303657eb2ef0cdef9e3ff}{create\+Attribute\+Set}} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a700a15913182aaf8c46a196ec86913ff}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a700a15913182aaf8c46a196ec86913ff} 
+String {\bfseries get\+Display\+Name} ()
+\item 
+Bounds \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a124b92e6a5ec70f38e6c5caa5f2284b0}{get\+Offset\+Bounds}} (Attribute\+Set attrs)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a56a675f7cce0db6ef1984e5b772b97fd}{paint\+Instance}} (Instance\+Painter painter)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent}{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Tcl\+Component} (String name, String\+Getter display\+Name)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent_a21228ab65ccb9166da0021fe13e7bf31}{propagate}} (Instance\+State state)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a39c4f595a6d6fe1dbb1ac32f04f94292}{\+\_\+\+ID}} = "{}Tcl\+Generic"{}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a860a02978e46e3cbc95e2d29e986137f}{configure\+New\+Instance}} (Instance instance)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_abab2b4e0ab18433e9119e6b69b8141f1}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_abab2b4e0ab18433e9119e6b69b8141f1} 
+void {\bfseries instance\+Attribute\+Changed} (Instance instance, Attribute$<$?$>$ attr)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Protected Member Functions inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent}{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Component}}}
+\begin{DoxyCompactItemize}
+\item 
+static$<$ T $>$ T\mbox{[}$\,$\mbox{]} {\bfseries concat} (T\mbox{[}$\,$\mbox{]} first, T\mbox{[}$\,$\mbox{]} second)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The Tcl\+Generic component is a standard Tcl\+Component but who has its interface defined by a VHDL entitiy. This way, you can create any TCL component you may need.
+
+\begin{DoxyAuthor}{Author}
+\href{mailto:christian.mueller@heig-vd.ch}{\texttt{ christian.\+mueller@heig-\/vd.\+ch}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_ab14e9cdb28b142efd4ef93d8699e2b7e}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_ab14e9cdb28b142efd4ef93d8699e2b7e} 
+\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}!TclGeneric@{TclGeneric}}
+\index{TclGeneric@{TclGeneric}!com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+\doxysubsubsection{\texorpdfstring{TclGeneric()}{TclGeneric()}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic.\+Tcl\+Generic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a Tcl\+Generic component. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a860a02978e46e3cbc95e2d29e986137f}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a860a02978e46e3cbc95e2d29e986137f} 
+\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}!configureNewInstance@{configureNewInstance}}
+\index{configureNewInstance@{configureNewInstance}!com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+\doxysubsubsection{\texorpdfstring{configureNewInstance()}{configureNewInstance()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic.\+configure\+New\+Instance (\begin{DoxyParamCaption}\item[{Instance}]{instance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent}{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Component}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a0aca07ba55f303657eb2ef0cdef9e3ff}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a0aca07ba55f303657eb2ef0cdef9e3ff} 
+\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}!createAttributeSet@{createAttributeSet}}
+\index{createAttributeSet@{createAttributeSet}!com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+\doxysubsubsection{\texorpdfstring{createAttributeSet()}{createAttributeSet()}}
+{\footnotesize\ttfamily Attribute\+Set com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic.\+create\+Attribute\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent}{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Component}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a124b92e6a5ec70f38e6c5caa5f2284b0}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a124b92e6a5ec70f38e6c5caa5f2284b0} 
+\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}!getOffsetBounds@{getOffsetBounds}}
+\index{getOffsetBounds@{getOffsetBounds}!com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+\doxysubsubsection{\texorpdfstring{getOffsetBounds()}{getOffsetBounds()}}
+{\footnotesize\ttfamily Bounds com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic.\+get\+Offset\+Bounds (\begin{DoxyParamCaption}\item[{Attribute\+Set}]{attrs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent}{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Component}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a56a675f7cce0db6ef1984e5b772b97fd}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a56a675f7cce0db6ef1984e5b772b97fd} 
+\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}!paintInstance@{paintInstance}}
+\index{paintInstance@{paintInstance}!com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+\doxysubsubsection{\texorpdfstring{paintInstance()}{paintInstance()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic.\+paint\+Instance (\begin{DoxyParamCaption}\item[{Instance\+Painter}]{painter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This was taken from VHDL component
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponent_ab727c86617f008da09cd0341eee48be5}{com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Component}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a39c4f595a6d6fe1dbb1ac32f04f94292}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGeneric_a39c4f595a6d6fe1dbb1ac32f04f94292} 
+\index{com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}!\_ID@{\_ID}}
+\index{\_ID@{\_ID}!com.cburch.logisim.std.tcl.TclGeneric@{com.cburch.logisim.std.tcl.TclGeneric}}
+\doxysubsubsection{\texorpdfstring{\_ID}{\_ID}}
+{\footnotesize\ttfamily final String com.\+cburch.\+logisim.\+std.\+tcl.\+Tcl\+Generic.\+\_\+\+ID = "{}Tcl\+Generic"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+Unique identifier of the tool, used as reference in project files. Do NOT change as it will prevent project files from loading. Identifier value must MUST be unique string among all tools. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/tcl/Tcl\+Generic.\+java\end{DoxyCompactItemize}

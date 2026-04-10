@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.hdl.BlifCircuitComponent.BlifCircuitState" name="com.cburch.logisim.std.hdl.BlifCircuitComponent.BlifCircuitState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,693,281,877"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,285,105,351"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,363,119,630,134,692,129,694,114,631,61,365"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit.html" title=" " alt="" coords="129,5,377,631"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,632,179,678,174,677,184,631"/>
+</map>

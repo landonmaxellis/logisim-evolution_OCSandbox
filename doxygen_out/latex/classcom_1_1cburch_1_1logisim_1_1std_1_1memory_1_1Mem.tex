@@ -1,0 +1,231 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+memory.\+Mem Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem}\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+std.\+memory.\+Mem\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+memory.\+Mem\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Mem\+Listener}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a263d4dfaad53c22d79e8674bbe122580}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a263d4dfaad53c22d79e8674bbe122580} 
+abstract Attribute\+Set {\bfseries create\+Attribute\+Set} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a05ec487702e4094a0d471410743b2ad9}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a05ec487702e4094a0d471410743b2ad9} 
+File {\bfseries get\+Current\+Image} (Instance instance)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ab79b9f7005f6d6e96279d76f5ce98e69}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ab79b9f7005f6d6e96279d76f5ce98e69} 
+abstract void {\bfseries propagate} (Instance\+State state)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a07d23d57937a1ee88276c8b63bf8f225}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a07d23d57937a1ee88276c8b63bf8f225} 
+void {\bfseries set\+Current\+Image} (Instance instance, File value)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a28902f4239e02ce410190b021475c9ee}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a28902f4239e02ce410190b021475c9ee} 
+static final int {\bfseries Symbol\+Width} = 200
+\item 
+static final Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ac0aa37fe28da0267b31a9c0044d1b7ba}{ADDR\+\_\+\+ATTR}}
+\item 
+static final Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ac388963d77c399c29b75d1a25cdb7fad}{DATA\+\_\+\+ATTR}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a9f317455db9d5c7e1053ec63344dd8e2}{SEL\+\_\+\+HIGH}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_aabb570fb1295712e891d99f39fc1a156}{SEL\+\_\+\+LOW}}
+\item 
+static final Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a95c9b1a8bc19672025bc69c7cd0754f9}{ATTR\+\_\+\+SELECTION}}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ab81ef186ac79661ab6e78809bfbbc259}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ab81ef186ac79661ab6e78809bfbbc259} 
+static final Attribute\+Option {\bfseries SINGLE} = new Attribute\+Option("{}single"{}, S.\+getter("{}mem\+Single"{}))
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a69bb473692416c9c43f510b68a6909f8}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a69bb473692416c9c43f510b68a6909f8} 
+static final Attribute\+Option {\bfseries DUAL} = new Attribute\+Option("{}dual"{}, S.\+getter("{}mem\+Dual"{}))
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a35cd2e3ed51d10c3177ff4ced561fc9f}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a35cd2e3ed51d10c3177ff4ced561fc9f} 
+static final Attribute\+Option {\bfseries QUAD} = new Attribute\+Option("{}quad"{}, S.\+getter("{}mem\+Quad"{}))
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a641119f5a06f2825d7e86bc5608d2fea}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a641119f5a06f2825d7e86bc5608d2fea} 
+static final Attribute\+Option {\bfseries OCTO} = new Attribute\+Option("{}octo"{}, S.\+getter("{}mem\+Octo"{}))
+\item 
+static final Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ae84f523c96290de29a6e6fac8fddaab4}{LINE\+\_\+\+ATTR}}
+\item 
+static final Attribute$<$ Boolean $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a15745a9d41e236db9133d05393ed0891}{ALLOW\+\_\+\+MISALIGNED}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a0479ce3236338e2792b476c7ab4c7dff}{USEBYTEENABLES}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a71d57fb2d0e5428614fb6f8935a1b48d}{USELINEENABLES}}
+\item 
+static final Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a1243c5a71e9812f6b2f6a2e79a4391e6}{ENABLES\+\_\+\+ATTR}}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_adece76ebe15d862835ab6eef6f954a91}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_adece76ebe15d862835ab6eef6f954a91} 
+static final int {\bfseries DELAY} = 10
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a6336c18b284d0be625050432467f2c8b}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a6336c18b284d0be625050432467f2c8b} 
+void {\bfseries configure\+New\+Instance} (Instance instance)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a87062ec30cf608bfed4456cf01d850eb}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a87062ec30cf608bfed4456cf01d850eb} 
+Object {\bfseries get\+Instance\+Feature} (Instance instance, Object key)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a28885011449313c55f1495c29f1d7fa6}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a28885011449313c55f1495c29f1d7fa6} 
+static String {\bfseries get\+Size\+Label} (int Nr\+Address\+Bits)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ac0aa37fe28da0267b31a9c0044d1b7ba}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ac0aa37fe28da0267b31a9c0044d1b7ba} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!ADDR\_ATTR@{ADDR\_ATTR}}
+\index{ADDR\_ATTR@{ADDR\_ATTR}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{ADDR\_ATTR}{ADDR\_ATTR}}
+{\footnotesize\ttfamily final Attribute$<$Bit\+Width$>$ com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+ADDR\+\_\+\+ATTR\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBitWidth(\textcolor{stringliteral}{"{}addrWidth"{}},\ S.getter(\textcolor{stringliteral}{"{}ramAddrWidthAttr"{}}),\ 2,\ 24)}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a15745a9d41e236db9133d05393ed0891}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a15745a9d41e236db9133d05393ed0891} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!ALLOW\_MISALIGNED@{ALLOW\_MISALIGNED}}
+\index{ALLOW\_MISALIGNED@{ALLOW\_MISALIGNED}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{ALLOW\_MISALIGNED}{ALLOW\_MISALIGNED}}
+{\footnotesize\ttfamily final Attribute$<$Boolean$>$ com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+ALLOW\+\_\+\+MISALIGNED\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBoolean(\textcolor{stringliteral}{"{}misaligned"{}},\ S.getter(\textcolor{stringliteral}{"{}memMisaligned"{}}))}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a95c9b1a8bc19672025bc69c7cd0754f9}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a95c9b1a8bc19672025bc69c7cd0754f9} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!ATTR\_SELECTION@{ATTR\_SELECTION}}
+\index{ATTR\_SELECTION@{ATTR\_SELECTION}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{ATTR\_SELECTION}{ATTR\_SELECTION}}
+{\footnotesize\ttfamily final Attribute$<$Attribute\+Option$>$ com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+ATTR\+\_\+\+SELECTION\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forOption(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}Select"{}},\ S.getter(\textcolor{stringliteral}{"{}ramSelAttr"{}}),\ \textcolor{keyword}{new}\ AttributeOption[]\ \{SEL\_HIGH,\ SEL\_LOW\})}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ac388963d77c399c29b75d1a25cdb7fad}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ac388963d77c399c29b75d1a25cdb7fad} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!DATA\_ATTR@{DATA\_ATTR}}
+\index{DATA\_ATTR@{DATA\_ATTR}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{DATA\_ATTR}{DATA\_ATTR}}
+{\footnotesize\ttfamily final Attribute$<$Bit\+Width$>$ com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+DATA\+\_\+\+ATTR\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBitWidth(\textcolor{stringliteral}{"{}dataWidth"{}},\ S.getter(\textcolor{stringliteral}{"{}ramDataWidthAttr"{}}))}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a1243c5a71e9812f6b2f6a2e79a4391e6}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a1243c5a71e9812f6b2f6a2e79a4391e6} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!ENABLES\_ATTR@{ENABLES\_ATTR}}
+\index{ENABLES\_ATTR@{ENABLES\_ATTR}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{ENABLES\_ATTR}{ENABLES\_ATTR}}
+{\footnotesize\ttfamily final Attribute$<$Attribute\+Option$>$ com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+ENABLES\+\_\+\+ATTR\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forOption(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}enables"{}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ S.getter(\textcolor{stringliteral}{"{}memEnables"{}}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ AttributeOption[]\ \{USEBYTEENABLES,\ USELINEENABLES\})}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ae84f523c96290de29a6e6fac8fddaab4}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_ae84f523c96290de29a6e6fac8fddaab4} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!LINE\_ATTR@{LINE\_ATTR}}
+\index{LINE\_ATTR@{LINE\_ATTR}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{LINE\_ATTR}{LINE\_ATTR}}
+{\footnotesize\ttfamily final Attribute$<$Attribute\+Option$>$ com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+LINE\+\_\+\+ATTR\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forOption(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \textcolor{stringliteral}{"{}line"{}},\ S.getter(\textcolor{stringliteral}{"{}memLineSize"{}}),\ \textcolor{keyword}{new}\ AttributeOption[]\ \{SINGLE,\ DUAL,\ QUAD,\ OCTO\})}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a9f317455db9d5c7e1053ec63344dd8e2}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a9f317455db9d5c7e1053ec63344dd8e2} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!SEL\_HIGH@{SEL\_HIGH}}
+\index{SEL\_HIGH@{SEL\_HIGH}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{SEL\_HIGH}{SEL\_HIGH}}
+{\footnotesize\ttfamily final Attribute\+Option com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+SEL\+\_\+\+HIGH\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{keyword}{new}\ AttributeOption(\textcolor{stringliteral}{"{}high"{}},\ S.getter(\textcolor{stringliteral}{"{}stdTriggerHigh"{}}))}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_aabb570fb1295712e891d99f39fc1a156}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_aabb570fb1295712e891d99f39fc1a156} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!SEL\_LOW@{SEL\_LOW}}
+\index{SEL\_LOW@{SEL\_LOW}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{SEL\_LOW}{SEL\_LOW}}
+{\footnotesize\ttfamily final Attribute\+Option com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+SEL\+\_\+\+LOW\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{keyword}{new}\ AttributeOption(\textcolor{stringliteral}{"{}low"{}},\ S.getter(\textcolor{stringliteral}{"{}stdTriggerLow"{}}))}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a0479ce3236338e2792b476c7ab4c7dff}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a0479ce3236338e2792b476c7ab4c7dff} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!USEBYTEENABLES@{USEBYTEENABLES}}
+\index{USEBYTEENABLES@{USEBYTEENABLES}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{USEBYTEENABLES}{USEBYTEENABLES}}
+{\footnotesize\ttfamily final Attribute\+Option com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+USEBYTEENABLES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{keyword}{new}\ AttributeOption(\textcolor{stringliteral}{"{}byte"{}},\ S.getter(\textcolor{stringliteral}{"{}memByte"{}}))}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a71d57fb2d0e5428614fb6f8935a1b48d}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem_a71d57fb2d0e5428614fb6f8935a1b48d} 
+\index{com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}!USELINEENABLES@{USELINEENABLES}}
+\index{USELINEENABLES@{USELINEENABLES}!com.cburch.logisim.std.memory.Mem@{com.cburch.logisim.std.memory.Mem}}
+\doxysubsubsection{\texorpdfstring{USELINEENABLES}{USELINEENABLES}}
+{\footnotesize\ttfamily final Attribute\+Option com.\+cburch.\+logisim.\+std.\+memory.\+Mem.\+USELINEENABLES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{keyword}{new}\ AttributeOption(\textcolor{stringliteral}{"{}line"{}},\ S.getter(\textcolor{stringliteral}{"{}memLine"{}}))}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/memory/Mem.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,42 @@
+\doxysection{com.\+cburch.\+contracts.\+Base\+Key\+Listener\+Contract Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract}{}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract}\index{com.cburch.contracts.BaseKeyListenerContract@{com.cburch.contracts.BaseKeyListenerContract}}
+
+
+Inheritance diagram for com.\+cburch.\+contracts.\+Base\+Key\+Listener\+Contract\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+contracts.\+Base\+Key\+Listener\+Contract\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract_a6c0ff9be2b30a295cfc4fa8515539a12}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract_a6c0ff9be2b30a295cfc4fa8515539a12} 
+default void {\bfseries key\+Typed} (Key\+Event key\+Event)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract_a324176f9458770f5919d6c69ea67b164}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract_a324176f9458770f5919d6c69ea67b164} 
+default void {\bfseries key\+Pressed} (Key\+Event key\+Event)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract_ab481c782f43549c0579fab54a9f9e8c2}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseKeyListenerContract_ab481c782f43549c0579fab54a9f9e8c2} 
+default void {\bfseries key\+Released} (Key\+Event key\+Event)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dummy implementation of java.\+awt.\+event.\+Key\+Listener interface. The main purpose of this interface is to provide default (empty) implementation of interface methods as, unfortunately JDKs interfaces do not come with default implementation even they easily could. Implementing this interface instead of the parent one allows skipping the need of implementing all, even unneeded, methods. That\textquotesingle{}s saves some efforts and reduces overall LOC. 
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/contracts/Base\+Key\+Listener\+Contract.\+java\end{DoxyCompactItemize}

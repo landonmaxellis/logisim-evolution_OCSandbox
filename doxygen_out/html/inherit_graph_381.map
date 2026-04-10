@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,45,116,70"/>
+<area shape="rect" id="Node000001" href="$interfacecom_1_1cburch_1_1draw_1_1canvas_1_1SelectionListener.html" title=" " alt="" coords="164,5,411,45"/>
+<area shape="poly" id="edge715_Node000000_Node000001" title=" " alt="" coords="129,45,163,40,164,45,130,50"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasModelListener.html" title=" " alt="" coords="173,69,402,109"/>
+<area shape="poly" id="edge716_Node000000_Node000002" title=" " alt="" coords="130,64,173,70,172,76,129,70"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.wiring.PullResistor" name="com.cburch.logisim.std.wiring.PullResistor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,604,235,1025"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,173,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,85,121,604,116,604,112,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1PullResistor.html" title=" " alt="" coords="136,120,365,541"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="138,82,155,118,150,121,133,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,542,184,589,179,587,191,541"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="367,290,385,306,392,331,389,348,381,361,377,358,384,346,387,331,381,308,364,294"/>
+</map>

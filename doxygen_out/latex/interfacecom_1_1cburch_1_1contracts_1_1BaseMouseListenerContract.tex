@@ -1,0 +1,48 @@
+\doxysection{com.\+cburch.\+contracts.\+Base\+Mouse\+Listener\+Contract Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract}{}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract}\index{com.cburch.contracts.BaseMouseListenerContract@{com.cburch.contracts.BaseMouseListenerContract}}
+
+
+Inheritance diagram for com.\+cburch.\+contracts.\+Base\+Mouse\+Listener\+Contract\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+contracts.\+Base\+Mouse\+Listener\+Contract\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a920eeeee172e923a0f67e4a608e3ed31}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a920eeeee172e923a0f67e4a608e3ed31} 
+void {\bfseries mouse\+Clicked} (Mouse\+Event mouse\+Event)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_abb952c2a92e6ebdd88e423e5ad6ccca5}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_abb952c2a92e6ebdd88e423e5ad6ccca5} 
+default void {\bfseries mouse\+Pressed} (Mouse\+Event mouse\+Event)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a43c7b4f47319a2e82b7fecbf54d34afb}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a43c7b4f47319a2e82b7fecbf54d34afb} 
+default void {\bfseries mouse\+Released} (Mouse\+Event mouse\+Event)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a8490b3238d0c574817b8209f340e74de}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a8490b3238d0c574817b8209f340e74de} 
+default void {\bfseries mouse\+Entered} (Mouse\+Event mouse\+Event)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a7152f42e7cea24fc1f5b8ec9e22972c3}\label{interfacecom_1_1cburch_1_1contracts_1_1BaseMouseListenerContract_a7152f42e7cea24fc1f5b8ec9e22972c3} 
+default void {\bfseries mouse\+Exited} (Mouse\+Event mouse\+Event)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dummy implementation of java.\+awt.\+event.\+Mouse\+Listener interface. The main purpose of this interface is to provide default (empty) implementation of interface methods as, unfortunately JDKs interfaces do not come with default implementation even they easily could. Implementing this interface instead of the parent one allows skipping the need of implementing all, even unneeded, methods. That\textquotesingle{}s saves some efforts and reduces overall LOC. 
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/contracts/Base\+Mouse\+Listener\+Contract.\+java\end{DoxyCompactItemize}

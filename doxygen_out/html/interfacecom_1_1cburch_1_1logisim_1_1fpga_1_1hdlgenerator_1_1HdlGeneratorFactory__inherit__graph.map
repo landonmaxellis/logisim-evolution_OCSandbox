@@ -1,0 +1,15 @@
+<map id="com.cburch.logisim.fpga.hdlgenerator.HdlGeneratorFactory" name="com.cburch.logisim.fpga.hdlgenerator.HdlGeneratorFactory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="465,5,743,669"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1AbstractHdlGeneratorFactory.html" title=" " alt="" coords="315,717,592,1588"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="543,684,536,718,531,717,538,683"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory.html" title=" " alt="" coords="616,923,893,1383"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="671,683,715,922,710,923,665,684"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1SynthesizedClockHdlGeneratorFactory.html" title=" " alt="" coords="19,1661,293,1973"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="311,1476,228,1661,223,1659,306,1474"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1TickComponentHdlGeneratorFactory.html" title=" " alt="" coords="317,1646,590,1987"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="456,1602,456,1646,451,1646,451,1602"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1ToplevelHdlGeneratorFactory.html" title=" " alt="" coords="615,1636,999,1997"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="601,1578,606,1587,638,1634,634,1637,602,1589,596,1580"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1XilinxSeries7SynthesizedClockHdlGeneratorFactory.html" title=" " alt="" coords="5,2045,307,2317"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="159,1987,159,2045,153,2045,153,1987"/>
+</map>

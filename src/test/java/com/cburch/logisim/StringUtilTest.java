@@ -70,4 +70,29 @@ public class StringUtilTest extends TestBase {
     assertFalse(StringUtil.containsIgnoreCase("AND Gate", "or"));
   }
 
+  @Test
+  void testMatchesSearchQueryCaseInsensitive() {
+    assertTrue(StringUtil.matchesSearchQuery("AND Gate", "and"));
+  }
+
+  @Test
+  void testMatchesSearchQueryPartialMatch() {
+    assertTrue(StringUtil.matchesSearchQuery("Multiplexer", "multi"));
+  }
+
+  @Test
+  void testMatchesSearchQueryNoMatch() {
+    assertFalse(StringUtil.matchesSearchQuery("Register", "clock"));
+  }
+
+  @Test
+  void testMatchesSearchQueryEmptyQueryReturnsTrue() {
+    assertTrue(StringUtil.matchesSearchQuery("Decoder", ""));
+  }
+
+  @Test
+  void testMatchesSearchQueryHandlesWhitespace() {
+    assertTrue(StringUtil.matchesSearchQuery("XOR Gate", "  xor  "));
+  }
+
 }

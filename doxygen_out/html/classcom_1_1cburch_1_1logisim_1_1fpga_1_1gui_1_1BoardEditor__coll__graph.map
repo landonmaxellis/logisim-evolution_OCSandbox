@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.fpga.gui.BoardEditor" name="com.cburch.logisim.fpga.gui.BoardEditor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="245,119,449,452"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,112,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,78,246,195,242,199,105,82"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="137,5,365,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,82,284,117,279,119,265,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="389,5,497,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="428,84,414,119,409,117,423,82"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="521,5,703,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="570,82,451,192,447,188,566,78"/>
+</map>

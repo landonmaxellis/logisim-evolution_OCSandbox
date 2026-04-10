@@ -1,0 +1,17 @@
+<map id="com.cburch.logisim.fpga.data.ConstantButton" name="com.cburch.logisim.fpga.data.ConstantButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,1536,336,1809"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1FpgaIoInformationContainer.html" title=" " alt="" coords="79,521,346,1107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,1121,220,1536,214,1536,212,1121"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1ConstantButton.html" title=" " alt="" coords="233,1156,469,1429"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="304,1119,314,1155,309,1157,299,1121"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,264,84,329"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="61,342,98,458,118,520,113,522,93,459,56,343"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1BoardRectangle.html" title=" " alt="" coords="107,135,318,459"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="215,459,215,505,210,505,210,459"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1MapListModel.html" title=" " alt="" coords="343,167,560,426"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="394,428,355,511,351,509,389,425"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="356,5,547,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="454,99,454,167,449,167,449,99"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="306,1431,274,1521,269,1519,301,1429"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="471,1264,489,1275,496,1292,493,1304,486,1313,482,1310,488,1302,491,1293,485,1278,468,1269"/>
+</map>

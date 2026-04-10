@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.memory.ClockState" name="com.cburch.logisim.std.memory.ClockState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,119,357,268"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,381,232,530"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,282,157,382,152,379,200,279"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="256,316,483,595"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="288,279,305,315,300,317,283,282"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="205,5,283,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,84,247,118,241,118,241,84"/>
+</map>

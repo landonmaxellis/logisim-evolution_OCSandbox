@@ -1,0 +1,103 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser}\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_adf2e1662724b47243db9c18dbd5aa645}{Blif\+Parser}} (String source)
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a03f62e44cd78b966502ad69c3ffd5012}{get\+Name}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_ae8dd1a97808701ca6ea414988a346e5f}{parse}} ()
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_aa8bfaaaee9cda2e2fdeeab8926609f4e}{get\+Pin\+Blif\+Symbol}} (Port\+Description port, int index)
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a409479b99d8285abf37570ea4d1716d3}{get\+Pin\+Dlc\+Symbol}} (Port\+Description port, int index, boolean output)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a1f75e45dc3d568be75df74d181e9aea5}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a1f75e45dc3d568be75df74d181e9aea5} 
+List$<$ Port\+Description $>$ {\bfseries get\+Inputs} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a5e04aa931d3db9c2b079c6d488fb25bb}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a5e04aa931d3db9c2b079c6d488fb25bb} 
+List$<$ Port\+Description $>$ {\bfseries get\+Outputs} ()
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit}{Dense\+Logic\+Circuit}} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a91f64bdb65b4143803472ef5b0d3a1b6}{compile}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a452d4455730438e3c67bf1ec7716603f}{RECOMMENDED\+\_\+\+LOGIC\+\_\+\+LIBRARY\+\_\+\+URL}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Parses a BLIF file. The BLIF file must contain a single circuit made up of a fixed set of supported subcircuits. The objective here is to provide a Yosys-\/compatible target. This can be compiled with something like\+: write\+\_\+blif -\/icells -\/conn test1.\+blif Some effort has been made to support other configurations of Yosys, but icells must be used. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_adf2e1662724b47243db9c18dbd5aa645}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_adf2e1662724b47243db9c18dbd5aa645} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!BlifParser@{BlifParser}}
+\index{BlifParser@{BlifParser}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{BlifParser()}{BlifParser()}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+Blif\+Parser (\begin{DoxyParamCaption}\item[{String}]{source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates the Blif\+Parser with the source. The parse won\textquotesingle{}t be complete until parse() is called. And it should only be called once. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a91f64bdb65b4143803472ef5b0d3a1b6}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a91f64bdb65b4143803472ef5b0d3a1b6} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!compile@{compile}}
+\index{compile@{compile}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{compile()}{compile()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit}{Dense\+Logic\+Circuit}} com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+compile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compiles the BLIF into the Dense\+Logic\+Circuit format used for simulation. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a03f62e44cd78b966502ad69c3ffd5012}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a03f62e44cd78b966502ad69c3ffd5012} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!getName@{getName}}
+\index{getName@{getName}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets the model name (or null if none). \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_aa8bfaaaee9cda2e2fdeeab8926609f4e}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_aa8bfaaaee9cda2e2fdeeab8926609f4e} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!getPinBlifSymbol@{getPinBlifSymbol}}
+\index{getPinBlifSymbol@{getPinBlifSymbol}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{getPinBlifSymbol()}{getPinBlifSymbol()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+get\+Pin\+Blif\+Symbol (\begin{DoxyParamCaption}\item[{Port\+Description}]{port,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Describes the outer \textquotesingle{}ABI\textquotesingle{} (and used by compile\+Port to compile it). \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a409479b99d8285abf37570ea4d1716d3}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a409479b99d8285abf37570ea4d1716d3} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!getPinDlcSymbol@{getPinDlcSymbol}}
+\index{getPinDlcSymbol@{getPinDlcSymbol}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{getPinDlcSymbol()}{getPinDlcSymbol()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+get\+Pin\+Dlc\+Symbol (\begin{DoxyParamCaption}\item[{Port\+Description}]{port,  }\item[{int}]{index,  }\item[{boolean}]{output }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Implements the \textquotesingle{}inner ABI\textquotesingle{}. Splitting the line into two prevents self-\/propagation for bi-\/directional ports. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_ae8dd1a97808701ca6ea414988a346e5f}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_ae8dd1a97808701ca6ea414988a346e5f} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!parse@{parse}}
+\index{parse@{parse}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+parse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parses the BLIF file. Call only once. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a452d4455730438e3c67bf1ec7716603f}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifParser_a452d4455730438e3c67bf1ec7716603f} 
+\index{com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}!RECOMMENDED\_LOGIC\_LIBRARY\_URL@{RECOMMENDED\_LOGIC\_LIBRARY\_URL}}
+\index{RECOMMENDED\_LOGIC\_LIBRARY\_URL@{RECOMMENDED\_LOGIC\_LIBRARY\_URL}!com.cburch.logisim.std.hdl.BlifParser@{com.cburch.logisim.std.hdl.BlifParser}}
+\doxysubsubsection{\texorpdfstring{RECOMMENDED\_LOGIC\_LIBRARY\_URL}{RECOMMENDED\_LOGIC\_LIBRARY\_URL}}
+{\footnotesize\ttfamily final String com.\+cburch.\+logisim.\+std.\+hdl.\+Blif\+Parser.\+RECOMMENDED\+\_\+\+LOGIC\+\_\+\+LIBRARY\+\_\+\+URL\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{stringliteral}{"{}https://github.com/YosysHQ/yosys/tree/main/examples/cmos"{}}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/hdl/Blif\+Parser.\+java\end{DoxyCompactItemize}

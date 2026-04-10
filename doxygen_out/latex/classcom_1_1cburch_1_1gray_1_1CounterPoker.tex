@@ -1,0 +1,60 @@
+\doxysection{com.\+cburch.\+gray.\+Counter\+Poker Class Reference}
+\hypertarget{classcom_1_1cburch_1_1gray_1_1CounterPoker}{}\label{classcom_1_1cburch_1_1gray_1_1CounterPoker}\index{com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}}
+
+
+Inheritance diagram for com.\+cburch.\+gray.\+Counter\+Poker\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{classcom_1_1cburch_1_1gray_1_1CounterPoker__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+gray.\+Counter\+Poker\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{classcom_1_1cburch_1_1gray_1_1CounterPoker__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1gray_1_1CounterPoker_a918ef3aaa96bc124efa3478079c0680e}{init}} (Instance\+State state, Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1gray_1_1CounterPoker_a0a66f2b63199311f7567f93d2af73ed9}{key\+Typed}} (Instance\+State state, Key\+Event e)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1gray_1_1CounterPoker_adfb976a397823f6e61011f0eb87f447e}{paint}} (Instance\+Painter painter)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+When the user clicks a counter using the Poke Tool, a Counter\+Poker object is created, and that object will handle all user events. Note that Counter\+Poker is a class specific to Gray\+Counter, and that it must be a subclass of Instance\+Poker in the com.\+cburch.\+logisim.\+instance package. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1gray_1_1CounterPoker_a918ef3aaa96bc124efa3478079c0680e}\label{classcom_1_1cburch_1_1gray_1_1CounterPoker_a918ef3aaa96bc124efa3478079c0680e} 
+\index{com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}!init@{init}}
+\index{init@{init}!com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+gray.\+Counter\+Poker.\+init (\begin{DoxyParamCaption}\item[{Instance\+State}]{state,  }\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Determines whether the location the mouse was pressed should result in initiating a poke. \Hypertarget{classcom_1_1cburch_1_1gray_1_1CounterPoker_a0a66f2b63199311f7567f93d2af73ed9}\label{classcom_1_1cburch_1_1gray_1_1CounterPoker_a0a66f2b63199311f7567f93d2af73ed9} 
+\index{com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}!keyTyped@{keyTyped}}
+\index{keyTyped@{keyTyped}!com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}}
+\doxysubsubsection{\texorpdfstring{keyTyped()}{keyTyped()}}
+{\footnotesize\ttfamily void com.\+cburch.\+gray.\+Counter\+Poker.\+key\+Typed (\begin{DoxyParamCaption}\item[{Instance\+State}]{state,  }\item[{Key\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Processes a key by just adding it onto the end of the current value. \Hypertarget{classcom_1_1cburch_1_1gray_1_1CounterPoker_adfb976a397823f6e61011f0eb87f447e}\label{classcom_1_1cburch_1_1gray_1_1CounterPoker_adfb976a397823f6e61011f0eb87f447e} 
+\index{com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}!paint@{paint}}
+\index{paint@{paint}!com.cburch.gray.CounterPoker@{com.cburch.gray.CounterPoker}}
+\doxysubsubsection{\texorpdfstring{paint()}{paint()}}
+{\footnotesize\ttfamily void com.\+cburch.\+gray.\+Counter\+Poker.\+paint (\begin{DoxyParamCaption}\item[{Instance\+Painter}]{painter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Draws an indicator that the caret is being selected. Here, we\textquotesingle{}ll draw a red rectangle around the value. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/gray/Counter\+Poker.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,141,92,166"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1ParserException.html" title=" " alt="" coords="140,5,393,45"/>
+<area shape="poly" id="edge720_Node000000_Node000001" title=" " alt="" coords="64,128,96,90,116,71,139,55,164,43,166,48,141,60,119,75,99,94,68,131"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1AnalyzeException.html" title=" " alt="" coords="168,69,365,109"/>
+<area shape="poly" id="edge721_Node000000_Node000002" title=" " alt="" coords="96,133,139,119,182,107,183,112,141,124,97,138"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1TestException.html" title=" " alt="" coords="173,133,360,173"/>
+<area shape="poly" id="edge722_Node000000_Node000003" title=" " alt="" coords="106,151,173,151,173,156,106,156"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1file_1_1LoadFailedException.html" title=" " alt="" coords="178,197,355,237"/>
+<area shape="poly" id="edge724_Node000000_Node000005" title=" " alt="" coords="97,168,141,183,183,195,182,200,139,188,96,173"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1generic_1_1AttrTableSetException.html" title=" " alt="" coords="152,261,381,301"/>
+<area shape="poly" id="edge725_Node000000_Node000006" title=" " alt="" coords="68,175,99,213,119,231,141,247,166,259,164,264,139,252,116,236,96,216,64,179"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1FailException.html" title=" " alt="" coords="441,133,628,173"/>
+<area shape="poly" id="edge723_Node000003_Node000004" title=" " alt="" coords="374,151,441,151,441,156,374,156"/>
+</map>

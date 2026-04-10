@@ -1,0 +1,15 @@
+<map id="com.cburch.logisim.gui.log.ClockSource" name="com.cburch.logisim.gui.log.ClockSource">
+<area shape="rect" id="Node000001" title=" " alt="" coords="86,615,345,952"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,303,84,369"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,382,72,462,99,551,126,613,121,616,94,553,67,463,50,383"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1log_1_1SignalInfo.html" title=" " alt="" coords="109,120,322,552"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,553,218,598,213,598,213,553"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="14,5,137,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="98,82,116,119,111,121,94,84"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="161,5,269,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="218,84,218,120,213,120,213,84"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="293,5,380,71"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="321,84,306,121,301,119,316,82"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="347,259,540,413"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="407,415,336,553,312,601,307,599,332,551,402,412"/>
+</map>

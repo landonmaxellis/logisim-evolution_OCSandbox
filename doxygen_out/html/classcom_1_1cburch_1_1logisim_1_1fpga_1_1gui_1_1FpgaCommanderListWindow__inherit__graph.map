@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.fpga.gui.FpgaCommanderListWindow" name="com.cburch.logisim.fpga.gui.FpgaCommanderListWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="57,119,325,387"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,64,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,80,95,117,91,120,64,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="88,5,293,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,85,193,118,188,118,188,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="318,5,525,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="379,82,327,130,323,126,375,78"/>
+</map>

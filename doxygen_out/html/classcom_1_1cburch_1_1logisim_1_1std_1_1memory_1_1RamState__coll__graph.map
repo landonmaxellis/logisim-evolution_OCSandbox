@@ -1,0 +1,13 @@
+<map id="com.cburch.logisim.std.memory.RamState" name="com.cburch.logisim.std.memory.RamState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="163,921,390,1169"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,119,299,873"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,887,255,921,250,922,243,888"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,105,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,83,78,118,72,119,64,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="129,5,208,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="171,85,171,118,166,118,166,85"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="232,5,364,71"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="288,85,278,119,273,118,283,83"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="323,463,446,529"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="379,543,314,874,304,921,299,920,309,873,373,542"/>
+</map>

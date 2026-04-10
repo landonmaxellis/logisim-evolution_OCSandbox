@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.memory.Counter" name="com.cburch.logisim.std.memory.Counter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="97,575,374,1503"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,121,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,304,136,574,130,575,71,305"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,226,325,291"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,305,238,575,233,575,233,305"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="350,5,563,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="387,513,374,560,369,558,382,512"/>
+</map>

@@ -1,0 +1,205 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit}\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a13df601ce6937635ead205b770611d62}{Dense\+Logic\+Circuit}} (byte\mbox{[}$\,$\mbox{]} cell\+Pull, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} cell\+Update\+Notifies\+Gate, byte\mbox{[}$\,$\mbox{]} gate\+Types, int\mbox{[}$\,$\mbox{]} gate\+CellA, int\mbox{[}$\,$\mbox{]} gate\+CellB, int\mbox{[}$\,$\mbox{]} gate\+CellO, int\mbox{[}$\,$\mbox{]} seq, int seq\+Data\+Size, Map$<$ String, Integer $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a670804e6deabec7fe0d0c4560e3c7982}{symbol\+Table}})
+\item 
+final void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_acc1ecef23570a1b0c88c41f8a5d721b0}{simulate}} (byte\mbox{[}$\,$\mbox{]} cells, int\mbox{[}$\,$\mbox{]} aux\+Data)
+\item 
+final byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae22e437d83c803841bf933d16fc58e89}{new\+Cells}} ()
+\item 
+final int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae7b9fe5f7fefc02ab811f3cb01024f65}{new\+Aux\+Data}} ()
+\item 
+final void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_af79eae6f5fb5c4e2b3f9d9cdb769b68d}{set\+Cell}} (int cell, byte value, byte\mbox{[}$\,$\mbox{]} cells, int\mbox{[}$\,$\mbox{]} aux\+Data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a56aca7be742164d3242697cf51adff89}{cell\+Count}}
+\item 
+final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ab9ee78e1a0024278350c484899ea242e}{gate\+Count}}
+\item 
+final Map$<$ String, Integer $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a670804e6deabec7fe0d0c4560e3c7982}{symbol\+Table}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae87e2efe46831d480188eed8778287f1}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae87e2efe46831d480188eed8778287f1} 
+static final int {\bfseries LEV\+\_\+\+NONE} = 0
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ad772060eae4a4ef53f43e2ad7a38d1b9}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ad772060eae4a4ef53f43e2ad7a38d1b9} 
+static final int {\bfseries LEV\+\_\+\+LOW} = 1
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a7151214582aafe3e11eae0935d6aab4d}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a7151214582aafe3e11eae0935d6aab4d} 
+static final int {\bfseries LEV\+\_\+\+HIGH} = 2
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ab5f3970c4dbce5562f8afb7796ffc092}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ab5f3970c4dbce5562f8afb7796ffc092} 
+static final int {\bfseries LEV\+\_\+\+ERR} = 3
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a273faebf633b7c01fbb85320afa36627}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a273faebf633b7c01fbb85320afa36627} 
+static final int {\bfseries LEV\+\_\+\+COUNT} = 4
+\item 
+static final Value\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a5790a5723bca8cf41c81953634821c0f}{LEV\+\_\+\+TO\+\_\+\+LS}} = \{Value.\+UNKNOWN, Value.\+FALSE, Value.\+TRUE, Value.\+ERROR\}
+\item 
+static final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a072aac1f1b3dcd330836d67f2631af76}{GATE\+\_\+\+BUS}} = 0
+\item 
+static final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a8c7b8c82e94107a597eceff675b5a73b}{GATE\+\_\+\+TRIS}} = 1
+\item 
+static final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ada77a4c6688318ba082a988387b4d031}{GATE\+\_\+\+TRISI}} = 2
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a9d1709e4e7e2aa9f4408417821e6021e}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a9d1709e4e7e2aa9f4408417821e6021e} 
+static final int {\bfseries GATE\+\_\+\+AND} = 3
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a99e96eb333dbd5109ed188bed8183eb3}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a99e96eb333dbd5109ed188bed8183eb3} 
+static final int {\bfseries GATE\+\_\+\+OR} = 4
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae82f5c32cf123b7792e4dfce9af2574d}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae82f5c32cf123b7792e4dfce9af2574d} 
+static final int {\bfseries GATE\+\_\+\+XOR} = 5
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a5fcdfe8cd3b9eb848151f720d7af175d}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a5fcdfe8cd3b9eb848151f720d7af175d} 
+static final int {\bfseries GATE\+\_\+\+NAND} = 6
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a2ff9c18503c85fe684dafb3e1545f1ad}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a2ff9c18503c85fe684dafb3e1545f1ad} 
+static final int {\bfseries GATE\+\_\+\+NOR} = 7
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ac997d093167c0e5fbc79da62f803b9a2}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ac997d093167c0e5fbc79da62f803b9a2} 
+static final int {\bfseries GATE\+\_\+\+NXOR} = 8
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ac463a7c9af56d0fed5bf9c62021c8a9f}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ac463a7c9af56d0fed5bf9c62021c8a9f} 
+static final int {\bfseries GATE\+\_\+\+ANDNOT} = 9
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a9abd3c0eb4da33d27c9914b8278f0d77}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a9abd3c0eb4da33d27c9914b8278f0d77} 
+static final int {\bfseries GATE\+\_\+\+ORNOT} = 10
+\item 
+static final String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae30948c0cb0536210abd0d255b8d8b0d}{GATE\+\_\+\+TYPE\+\_\+\+NAMES}}
+\item 
+static final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a7fa333826bd032ac22f0a17aea644886}{SQOP\+\_\+\+DFF}} = 0
+\item 
+static final int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ada55b8dfe5168100e2a2f00505fdb048}{SQOP\+\_\+\+LATCH}} = 1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A stored dense logic circuit. The state of the circuit is made up of byte \textquotesingle{}cells\textquotesingle{}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a13df601ce6937635ead205b770611d62}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a13df601ce6937635ead205b770611d62} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!DenseLogicCircuit@{DenseLogicCircuit}}
+\index{DenseLogicCircuit@{DenseLogicCircuit}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{DenseLogicCircuit()}{DenseLogicCircuit()}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+Dense\+Logic\+Circuit (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{cell\+Pull,  }\item[{int}]{cell\+Update\+Notifies\+Gate\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{byte\mbox{[}$\,$\mbox{]}}]{gate\+Types,  }\item[{int\mbox{[}$\,$\mbox{]}}]{gate\+CellA,  }\item[{int\mbox{[}$\,$\mbox{]}}]{gate\+CellB,  }\item[{int\mbox{[}$\,$\mbox{]}}]{gate\+CellO,  }\item[{int\mbox{[}$\,$\mbox{]}}]{seq,  }\item[{int}]{seq\+Data\+Size,  }\item[{Map$<$ String, Integer $>$}]{symbol\+Table }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates the Dense\+Logic\+Circuit. This is not the simulation instance! It is simply the circuit itself. The simulation instance is made up of the cells and aux\+Data arrays. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae7b9fe5f7fefc02ab811f3cb01024f65}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae7b9fe5f7fefc02ab811f3cb01024f65} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!newAuxData@{newAuxData}}
+\index{newAuxData@{newAuxData}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{newAuxData()}{newAuxData()}}
+{\footnotesize\ttfamily final int\mbox{[}$\,$\mbox{]} com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+new\+Aux\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a newly initialized aux. data array for a new simulation. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae22e437d83c803841bf933d16fc58e89}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae22e437d83c803841bf933d16fc58e89} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!newCells@{newCells}}
+\index{newCells@{newCells}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{newCells()}{newCells()}}
+{\footnotesize\ttfamily final byte\mbox{[}$\,$\mbox{]} com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+new\+Cells (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a newly initialized cell array for a new simulation. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_af79eae6f5fb5c4e2b3f9d9cdb769b68d}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_af79eae6f5fb5c4e2b3f9d9cdb769b68d} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!setCell@{setCell}}
+\index{setCell@{setCell}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{setCell()}{setCell()}}
+{\footnotesize\ttfamily final void com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+set\+Cell (\begin{DoxyParamCaption}\item[{int}]{cell,  }\item[{byte}]{value,  }\item[{byte\mbox{[}$\,$\mbox{]}}]{cells,  }\item[{int\mbox{[}$\,$\mbox{]}}]{aux\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Updates a cell. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_acc1ecef23570a1b0c88c41f8a5d721b0}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_acc1ecef23570a1b0c88c41f8a5d721b0} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!simulate@{simulate}}
+\index{simulate@{simulate}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{simulate()}{simulate()}}
+{\footnotesize\ttfamily final void com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+simulate (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{cells,  }\item[{int\mbox{[}$\,$\mbox{]}}]{aux\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simulates a tick of the dense logic circuit. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a56aca7be742164d3242697cf51adff89}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a56aca7be742164d3242697cf51adff89} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!cellCount@{cellCount}}
+\index{cellCount@{cellCount}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{cellCount}{cellCount}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+cell\+Count}
+
+The amount of cells in the circuit. Each cell has an update list. The first LEV\+\_\+\+COUNT cells are reserved as constants. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a072aac1f1b3dcd330836d67f2631af76}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a072aac1f1b3dcd330836d67f2631af76} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!GATE\_BUS@{GATE\_BUS}}
+\index{GATE\_BUS@{GATE\_BUS}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{GATE\_BUS}{GATE\_BUS}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+GATE\+\_\+\+BUS = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+\textquotesingle{}Bus merge operator\textquotesingle{}\+: Joins A and B onto the bus. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a8c7b8c82e94107a597eceff675b5a73b}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a8c7b8c82e94107a597eceff675b5a73b} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!GATE\_TRIS@{GATE\_TRIS}}
+\index{GATE\_TRIS@{GATE\_TRIS}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{GATE\_TRIS}{GATE\_TRIS}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+GATE\+\_\+\+TRIS = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+Tri-\/state\+: If B is HIGH, then A is forwarded; else NONE. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ada77a4c6688318ba082a988387b4d031}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ada77a4c6688318ba082a988387b4d031} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!GATE\_TRISI@{GATE\_TRISI}}
+\index{GATE\_TRISI@{GATE\_TRISI}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{GATE\_TRISI}{GATE\_TRISI}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+GATE\+\_\+\+TRISI = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+GATE\+\_\+\+TRIS with inverted B input. This was added to simplify 2-\/input muxes. Doing this to D-\/flipflops would break counters. I\textquotesingle{}m not strictly sure latches won\textquotesingle{}t break either, so I don\textquotesingle{}t believe too much engineering effort is justified here. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae30948c0cb0536210abd0d255b8d8b0d}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ae30948c0cb0536210abd0d255b8d8b0d} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!GATE\_TYPE\_NAMES@{GATE\_TYPE\_NAMES}}
+\index{GATE\_TYPE\_NAMES@{GATE\_TYPE\_NAMES}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{GATE\_TYPE\_NAMES}{GATE\_TYPE\_NAMES}}
+{\footnotesize\ttfamily final String \mbox{[}$\,$\mbox{]} com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+GATE\+\_\+\+TYPE\+\_\+\+NAMES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{stringliteral}{"{}BUS"{}},\ \textcolor{stringliteral}{"{}TRIS"{}},\ \textcolor{stringliteral}{"{}TRISI"{}},\ \textcolor{stringliteral}{"{}AND"{}},}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{stringliteral}{"{}OR"{}},\ \textcolor{stringliteral}{"{}XOR"{}},\ \textcolor{stringliteral}{"{}NAND"{}},\ \textcolor{stringliteral}{"{}NOR"{}},}
+\DoxyCodeLine{\ \ \ \ \ \ \textcolor{stringliteral}{"{}NXOR"{}},\ \textcolor{stringliteral}{"{}ANDNOT"{}},\ \textcolor{stringliteral}{"{}ORNOT"{}}\}}
+
+\end{DoxyCode}
+These are used both for debugging and also by Blif\+Parser. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ab9ee78e1a0024278350c484899ea242e}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ab9ee78e1a0024278350c484899ea242e} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!gateCount@{gateCount}}
+\index{gateCount@{gateCount}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{gateCount}{gateCount}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+gate\+Count}
+
+The amount of combinatorial gates in the circuit. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a5790a5723bca8cf41c81953634821c0f}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a5790a5723bca8cf41c81953634821c0f} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!LEV\_TO\_LS@{LEV\_TO\_LS}}
+\index{LEV\_TO\_LS@{LEV\_TO\_LS}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{LEV\_TO\_LS}{LEV\_TO\_LS}}
+{\footnotesize\ttfamily final Value \mbox{[}$\,$\mbox{]} com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+LEV\+\_\+\+TO\+\_\+\+LS = \{Value.\+UNKNOWN, Value.\+FALSE, Value.\+TRUE, Value.\+ERROR\}\hspace{0.3cm}{\ttfamily [static]}}
+
+Translates Dense\+Logic\+Circuit levels to Logisim values. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a7fa333826bd032ac22f0a17aea644886}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a7fa333826bd032ac22f0a17aea644886} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!SQOP\_DFF@{SQOP\_DFF}}
+\index{SQOP\_DFF@{SQOP\_DFF}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{SQOP\_DFF}{SQOP\_DFF}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+SQOP\+\_\+\+DFF = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+D-\/flipflop\mbox{[}D, C, Q, X\mbox{]}\+: When cell\mbox{[}C\mbox{]} goes to high, set cell\mbox{[}Q\mbox{]} to cell\mbox{[}D\mbox{]}. Uses seq\+Data\mbox{[}X\mbox{]} to detect this change. Notably, DFF scripts may reuse resources to build more complex flip-\/flops that all manipulate the same bit of memory. The flip-\/flop is coerced at all times to be either high or low to prevent errors spreading. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ada55b8dfe5168100e2a2f00505fdb048}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_ada55b8dfe5168100e2a2f00505fdb048} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!SQOP\_LATCH@{SQOP\_LATCH}}
+\index{SQOP\_LATCH@{SQOP\_LATCH}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{SQOP\_LATCH}{SQOP\_LATCH}}
+{\footnotesize\ttfamily final int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+SQOP\+\_\+\+LATCH = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+D-\/latch\mbox{[}D, E, Q\mbox{]}\+: Whenever cell\mbox{[}E\mbox{]} is high, set cell\mbox{[}Q\mbox{]} to cell\mbox{[}D\mbox{]}. When reading from cell\mbox{[}D\mbox{]}, it is coerced to be either high or low. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a670804e6deabec7fe0d0c4560e3c7982}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit_a670804e6deabec7fe0d0c4560e3c7982} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}!symbolTable@{symbolTable}}
+\index{symbolTable@{symbolTable}!com.cburch.logisim.std.hdl.DenseLogicCircuit@{com.cburch.logisim.std.hdl.DenseLogicCircuit}}
+\doxysubsubsection{\texorpdfstring{symbolTable}{symbolTable}}
+{\footnotesize\ttfamily final Map$<$String, Integer$>$ com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit.\+symbol\+Table}
+
+"{}\+Symbol table"{} of cells. Doesn\textquotesingle{}t necessarily cover all cells. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/hdl/Dense\+Logic\+Circuit.\+java\end{DoxyCompactItemize}

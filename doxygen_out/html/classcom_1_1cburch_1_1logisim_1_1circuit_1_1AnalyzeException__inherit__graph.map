@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.circuit.AnalyzeException" name="com.cburch.logisim.circuit.AnalyzeException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="256,119,445,233"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,281,232,376"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,243,191,283,188,279,251,239"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="256,289,445,369"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="353,247,353,289,348,289,348,247"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="469,289,659,369"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="443,239,510,286,507,291,440,244"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="311,5,390,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="353,84,353,118,348,118,348,84"/>
+</map>

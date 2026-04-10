@@ -1,0 +1,9 @@
+<map id="com.cburch.draw.model.AbstractCanvasObject" name="com.cburch.draw.model.AbstractCanvasObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="112,421,353,963"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,157,97,222"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,235,113,372,130,420,125,422,107,374,62,236"/>
+<area shape="rect" id="Node000003" href="$interfacecom_1_1cburch_1_1draw_1_1model_1_1CanvasObject.html" title=" " alt="" coords="122,5,343,373"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,387,235,421,230,421,230,387"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="368,157,447,222"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="398,237,358,374,341,422,336,420,353,373,393,235"/>
+</map>

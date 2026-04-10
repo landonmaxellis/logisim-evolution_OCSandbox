@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.wiring.Constant" name="com.cburch.logisim.std.wiring.Constant">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,575,273,1016"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,121,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,304,122,574,116,575,69,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="146,5,359,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,513,202,559,197,558,205,512"/>
+</map>

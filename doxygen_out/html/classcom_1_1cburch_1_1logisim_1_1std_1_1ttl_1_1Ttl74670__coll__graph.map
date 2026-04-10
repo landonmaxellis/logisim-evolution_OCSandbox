@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.ttl.Ttl74670" name="com.cburch.logisim.std.ttl.Ttl74670">
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,1499,265,1877"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1ttl_1_1AbstractTtlGate.html" title=" " alt="" coords="5,119,320,1451"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,1465,165,1498,160,1498,160,1465"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,5,221,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,84,165,119,160,119,160,84"/>
+</map>

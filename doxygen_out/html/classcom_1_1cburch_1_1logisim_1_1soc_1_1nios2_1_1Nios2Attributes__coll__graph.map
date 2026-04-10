@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.soc.nios2.Nios2Attributes" name="com.cburch.logisim.soc.nios2.Nios2Attributes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="166,604,399,936"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,152,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,304,126,400,166,511,206,603,201,605,162,513,121,402,90,306"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="176,5,389,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,512,285,587,280,587,280,512"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="413,5,627,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="419,513,388,581,383,590,379,588,383,579,414,511"/>
+</map>

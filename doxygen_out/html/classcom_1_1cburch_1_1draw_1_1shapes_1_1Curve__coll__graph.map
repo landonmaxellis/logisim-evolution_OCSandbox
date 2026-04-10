@@ -1,0 +1,7 @@
+<map id="com.cburch.draw.shapes.Curve" name="com.cburch.draw.shapes.Curve">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,425,232,749"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,241,377"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,391,126,425,121,425,121,391"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="44,5,203,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,84,126,118,121,118,121,84"/>
+</map>

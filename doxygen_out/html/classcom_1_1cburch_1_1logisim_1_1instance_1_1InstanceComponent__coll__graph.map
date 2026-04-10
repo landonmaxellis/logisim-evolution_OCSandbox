@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.instance.InstanceComponent" name="com.cburch.logisim.instance.InstanceComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="52,119,309,695"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,95,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,83,81,117,76,119,63,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="119,5,242,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,85,183,118,178,118,178,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="267,5,367,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="303,85,290,119,285,117,298,83"/>
+</map>

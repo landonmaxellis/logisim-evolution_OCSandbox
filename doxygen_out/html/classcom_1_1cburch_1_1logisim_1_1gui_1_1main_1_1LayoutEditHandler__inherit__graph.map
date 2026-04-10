@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.gui.main.LayoutEditHandler" name="com.cburch.logisim.gui.main.LayoutEditHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="139,119,346,448"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,96,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,80,141,150,137,153,82,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,5,231,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,83,200,118,195,119,186,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="255,5,366,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="301,85,291,119,286,118,296,83"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="391,5,561,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="438,83,348,176,344,173,434,79"/>
+</map>

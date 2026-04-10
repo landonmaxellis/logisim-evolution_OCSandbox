@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.vhdl.base.VhdlEntity" name="com.cburch.logisim.vhdl.base.VhdlEntity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,252,281,917"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,72,121,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,150,97,251,92,252,70,151"/>
+<area shape="rect" id="Node000003" href="$interfacecom_1_1cburch_1_1logisim_1_1vhdl_1_1base_1_1HdlModelListener.html" title=" " alt="" coords="145,5,389,204"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,218,239,252,233,251,241,217"/>
+</map>

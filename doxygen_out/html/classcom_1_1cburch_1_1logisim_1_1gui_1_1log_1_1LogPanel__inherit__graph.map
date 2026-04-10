@@ -1,0 +1,13 @@
+<map id="com.cburch.logisim.gui.log.LogPanel" name="com.cburch.logisim.gui.log.LogPanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="381,119,607,512"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,766,223,955"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="372,415,300,483,266,521,236,561,206,611,181,664,142,767,137,765,176,662,202,609,232,559,262,518,296,480,368,411"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="247,560,488,1161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="448,526,440,561,435,559,443,525"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1log_1_1SelectionPanel.html" title=" " alt="" coords="512,749,729,973"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="545,525,597,748,592,749,540,526"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="753,731,971,990"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="619,416,685,483,744,559,791,643,826,730,821,732,786,646,740,561,681,487,615,420"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="467,5,521,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="497,84,497,118,491,118,491,84"/>
+</map>

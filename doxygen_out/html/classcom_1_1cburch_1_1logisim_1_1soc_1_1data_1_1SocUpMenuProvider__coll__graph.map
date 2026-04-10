@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.soc.data.SocUpMenuProvider" name="com.cburch.logisim.soc.data.SocUpMenuProvider">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,465,209,748"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,155,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,85,109,465,103,465,100,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1data_1_1SocUpMenuProvider.html" title=" " alt="" coords="124,120,328,403"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="129,82,150,119,145,121,124,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,404,164,451,159,449,175,402"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="330,231,348,242,355,261,352,274,345,283,340,280,347,272,349,262,343,246,327,236"/>
+</map>

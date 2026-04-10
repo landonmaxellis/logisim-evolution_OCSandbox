@@ -1,0 +1,23 @@
+<map id="com.cburch.logisim.fpga.gui.BoardManipulator" name="com.cburch.logisim.fpga.gui.BoardManipulator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="769,119,1007,853"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,59,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,68,72,68,258,180,448,280,625,366,770,432,768,436,623,371,446,285,255,184,69,73,68,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,5,279,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,76,771,408,768,412,242,81"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="303,5,545,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="469,79,771,369,767,373,465,82"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="569,5,684,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="654,81,771,281,767,283,650,84"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="708,5,879,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="806,84,813,118,808,119,800,85"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="903,5,1063,71"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="976,85,968,119,963,118,970,84"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1087,5,1236,71"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1137,84,1009,293,1004,290,1132,81"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1260,5,1465,71"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1321,82,1009,375,1005,371,1317,78"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1490,5,1598,71"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1488,81,1008,406,1005,402,1485,76"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1623,5,1729,71"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1612,79,1008,420,1005,415,1609,74"/>
+</map>

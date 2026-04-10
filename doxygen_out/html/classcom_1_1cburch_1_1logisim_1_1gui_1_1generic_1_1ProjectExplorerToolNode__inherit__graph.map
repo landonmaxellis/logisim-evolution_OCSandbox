@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.gui.generic.ProjectExplorerToolNode" name="com.cburch.logisim.gui.generic.ProjectExplorerToolNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="203,613,424,951"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,235,565"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,577,242,612,237,614,221,579"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="32,5,208,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,84,123,118,117,118,117,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="259,309,367,375"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="316,388,316,613,311,613,311,388"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="392,309,520,375"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="444,389,370,614,365,612,439,387"/>
+</map>

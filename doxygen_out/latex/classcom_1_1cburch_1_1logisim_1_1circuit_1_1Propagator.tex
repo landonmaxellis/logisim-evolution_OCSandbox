@@ -1,0 +1,62 @@
+\doxysection{com.\+cburch.\+logisim.\+circuit.\+Propagator Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator}{}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator}\index{com.cburch.logisim.circuit.Propagator@{com.cburch.logisim.circuit.Propagator}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+circuit.\+Propagator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Simulator\+Event}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a97a871f97530af7de59e9a9a0e6d8d00}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a97a871f97530af7de59e9a9a0e6d8d00} 
+{\bfseries Propagator} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitState}{Circuit\+State}} root)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a5598b4789103869e31cd55121f0eb97a}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a5598b4789103869e31cd55121f0eb97a} 
+void {\bfseries draw\+Oscillating\+Points} (Component\+Draw\+Context context)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a0f2abe0cceeddfaa6960715d97cfa42b}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a0f2abe0cceeddfaa6960715d97cfa42b} 
+int {\bfseries get\+Tick\+Count} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a8a947e55dd6bb14f2e0995fb31f14e54}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a8a947e55dd6bb14f2e0995fb31f14e54} 
+boolean {\bfseries is\+Oscillating} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a24e25f87ce5eb3251846cec83a6e2e46}{propagate}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_acd8b9a9d8577ada5914cd10a30dc0fa8}{propagate}} (Simulator.\+Progress\+Listener prop\+Listener, Simulator.\+Event prop\+Event)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a61777c247689c09396af8e2f64e37061}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a61777c247689c09396af8e2f64e37061} 
+boolean {\bfseries toggle\+Clocks} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_aa7324eae40a1519193eb0d16a7f48255}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_aa7324eae40a1519193eb0d16a7f48255} 
+String {\bfseries to\+String} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a24e25f87ce5eb3251846cec83a6e2e46}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_a24e25f87ce5eb3251846cec83a6e2e46} 
+\index{com.cburch.logisim.circuit.Propagator@{com.cburch.logisim.circuit.Propagator}!propagate@{propagate}}
+\index{propagate@{propagate}!com.cburch.logisim.circuit.Propagator@{com.cburch.logisim.circuit.Propagator}}
+\doxysubsubsection{\texorpdfstring{propagate()}{propagate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+circuit.\+Propagator.\+propagate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Must be called from simulation thread \Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_acd8b9a9d8577ada5914cd10a30dc0fa8}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Propagator_acd8b9a9d8577ada5914cd10a30dc0fa8} 
+\index{com.cburch.logisim.circuit.Propagator@{com.cburch.logisim.circuit.Propagator}!propagate@{propagate}}
+\index{propagate@{propagate}!com.cburch.logisim.circuit.Propagator@{com.cburch.logisim.circuit.Propagator}}
+\doxysubsubsection{\texorpdfstring{propagate()}{propagate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+circuit.\+Propagator.\+propagate (\begin{DoxyParamCaption}\item[{Simulator.\+Progress\+Listener}]{prop\+Listener,  }\item[{Simulator.\+Event}]{prop\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Must be called from simulation thread 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/circuit/Propagator.\+java\end{DoxyCompactItemize}

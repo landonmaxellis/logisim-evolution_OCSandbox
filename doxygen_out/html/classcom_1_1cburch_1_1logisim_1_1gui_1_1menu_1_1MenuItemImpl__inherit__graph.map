@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.gui.menu.MenuItemImpl" name="com.cburch.logisim.gui.menu.MenuItemImpl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,312,238,580"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,102,89,167"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,180,98,311,93,312,57,181"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="114,5,325,264"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,278,173,313,167,311,177,276"/>
+</map>

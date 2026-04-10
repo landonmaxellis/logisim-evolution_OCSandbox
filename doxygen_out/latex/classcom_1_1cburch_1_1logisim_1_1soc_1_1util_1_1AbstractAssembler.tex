@@ -1,0 +1,132 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler}\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_abb11de4d1e96df5d02e7e7621dc4d158}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_abb11de4d1e96df5d02e7e7621dc4d158} 
+void {\bfseries add\+Accepted\+Parameter\+Type} (int type)
+\item 
+Hash\+Set$<$ Integer $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aabde9b0ce558e1cf5086cd2957a77fc8}{get\+Accepted\+Parameter\+Types}} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a7e94e0c568078cbc2d1f1c5d1c2c58c4}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a7e94e0c568078cbc2d1f1c5d1c2c58c4} 
+void {\bfseries add\+Assembler\+Execution\+Unit} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerExecutionInterface}{Assembler\+Execution\+Interface}} exe)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_ae8f8490c3f7bfc5c7721abc998d5db35}{decode}} (int instruction)
+\item 
+\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerExecutionInterface}{Assembler\+Execution\+Interface}} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a45d0e3f0b9ba85034abb376202d890fd}{get\+Exe\+Unit}} ()
+\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aec2a55d24e811597d95e7d2493516bc8}{get\+Opcodes}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a8e426b6dddf86a14179c69072645c80a}{get\+Instruction\+Size}} (String opcode)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aded634431ee7a8c40d691a0ddd749096}{assemble}} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerAsmInstruction}{Assembler\+Asm\+Instruction}} instruction)
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a55e4385980c545cc28e9120138737fa9}{get\+Program}} (Circuit\+State circuit\+State, Soc\+Processor\+Interface processor\+Interface, Elf\+Program\+Header elf\+Header, Elf\+Section\+Header elf\+Sections, Hash\+Map$<$ Integer, Integer $>$ valid\+Debug\+Lines)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}}
+\begin{DoxyCompactItemize}
+\item 
+boolean {\bfseries uses\+Rounded\+Brackets} ()
+\item 
+String {\bfseries get\+Highlight\+String\+Identifier} ()
+\item 
+void {\bfseries perform\+Up\+Specific\+Operations\+On\+Tokens} (Linked\+List$<$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerToken}{Assembler\+Token}} $>$ tokens)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aded634431ee7a8c40d691a0ddd749096}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aded634431ee7a8c40d691a0ddd749096} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!assemble@{assemble}}
+\index{assemble@{assemble}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{assemble()}{assemble()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+assemble (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerAsmInstruction}{Assembler\+Asm\+Instruction}}}]{instruction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_ae8f8490c3f7bfc5c7721abc998d5db35}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_ae8f8490c3f7bfc5c7721abc998d5db35} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!decode@{decode}}
+\index{decode@{decode}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{decode()}{decode()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+decode (\begin{DoxyParamCaption}\item[{int}]{instruction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aabde9b0ce558e1cf5086cd2957a77fc8}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aabde9b0ce558e1cf5086cd2957a77fc8} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!getAcceptedParameterTypes@{getAcceptedParameterTypes}}
+\index{getAcceptedParameterTypes@{getAcceptedParameterTypes}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{getAcceptedParameterTypes()}{getAcceptedParameterTypes()}}
+{\footnotesize\ttfamily Hash\+Set$<$ Integer $>$ com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+get\+Accepted\+Parameter\+Types (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a45d0e3f0b9ba85034abb376202d890fd}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a45d0e3f0b9ba85034abb376202d890fd} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!getExeUnit@{getExeUnit}}
+\index{getExeUnit@{getExeUnit}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{getExeUnit()}{getExeUnit()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerExecutionInterface}{Assembler\+Execution\+Interface}} com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+get\+Exe\+Unit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a8e426b6dddf86a14179c69072645c80a}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a8e426b6dddf86a14179c69072645c80a} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!getInstructionSize@{getInstructionSize}}
+\index{getInstructionSize@{getInstructionSize}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{getInstructionSize()}{getInstructionSize()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+get\+Instruction\+Size (\begin{DoxyParamCaption}\item[{String}]{opcode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aec2a55d24e811597d95e7d2493516bc8}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_aec2a55d24e811597d95e7d2493516bc8} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!getOpcodes@{getOpcodes}}
+\index{getOpcodes@{getOpcodes}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{getOpcodes()}{getOpcodes()}}
+{\footnotesize\ttfamily Array\+List$<$ String $>$ com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+get\+Opcodes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a55e4385980c545cc28e9120138737fa9}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AbstractAssembler_a55e4385980c545cc28e9120138737fa9} 
+\index{com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}!getProgram@{getProgram}}
+\index{getProgram@{getProgram}!com.cburch.logisim.soc.util.AbstractAssembler@{com.cburch.logisim.soc.util.AbstractAssembler}}
+\doxysubsubsection{\texorpdfstring{getProgram()}{getProgram()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+soc.\+util.\+Abstract\+Assembler.\+get\+Program (\begin{DoxyParamCaption}\item[{Circuit\+State}]{circuit\+State,  }\item[{Soc\+Processor\+Interface}]{processor\+Interface,  }\item[{Elf\+Program\+Header}]{elf\+Header,  }\item[{Elf\+Section\+Header}]{elf\+Sections,  }\item[{Hash\+Map$<$ Integer, Integer $>$}]{valid\+Debug\+Lines }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/util/Abstract\+Assembler.\+java\end{DoxyCompactItemize}

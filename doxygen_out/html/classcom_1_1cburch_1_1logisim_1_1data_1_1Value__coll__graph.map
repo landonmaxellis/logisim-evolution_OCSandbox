@@ -1,0 +1,6 @@
+<map id="com.cburch.logisim.data.Value" name="com.cburch.logisim.data.Value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,1224,249,2321"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Value.html" title=" " alt="" coords="5,5,249,1103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,1103,130,1208,125,1208,125,1103"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="252,455,262,471,269,494,276,554,272,603,261,639,256,637,267,602,271,554,264,495,257,474,247,458"/>
+</map>

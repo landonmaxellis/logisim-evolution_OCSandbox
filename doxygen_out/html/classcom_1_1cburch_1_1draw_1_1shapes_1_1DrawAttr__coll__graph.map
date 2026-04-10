@@ -1,0 +1,9 @@
+<map id="com.cburch.draw.shapes.DrawAttr" name="com.cburch.draw.shapes.DrawAttr">
+<area shape="rect" id="Node000001" title=" " alt="" coords="231,604,467,1080"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="5,5,219,512"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,511,249,588,244,590,213,513"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="243,5,456,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="352,512,352,588,347,588,347,512"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="480,5,693,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="511,513,485,581,476,601,472,599,480,579,506,511"/>
+</map>

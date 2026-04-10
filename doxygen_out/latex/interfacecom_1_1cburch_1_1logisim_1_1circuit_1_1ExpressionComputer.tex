@@ -1,0 +1,38 @@
+\doxysection{com.\+cburch.\+logisim.\+circuit.\+Expression\+Computer Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer}{}\label{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer}\index{com.cburch.logisim.circuit.ExpressionComputer@{com.cburch.logisim.circuit.ExpressionComputer}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+circuit.\+Expression\+Computer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer_1_1Map}{Map}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer_a6c386d8e5d88480a7727cc23180527ec}{compute\+Expression}} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer_1_1Map}{Map}} expression\+Map)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer_a6c386d8e5d88480a7727cc23180527ec}\label{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer_a6c386d8e5d88480a7727cc23180527ec} 
+\index{com.cburch.logisim.circuit.ExpressionComputer@{com.cburch.logisim.circuit.ExpressionComputer}!computeExpression@{computeExpression}}
+\index{computeExpression@{computeExpression}!com.cburch.logisim.circuit.ExpressionComputer@{com.cburch.logisim.circuit.ExpressionComputer}}
+\doxysubsubsection{\texorpdfstring{computeExpression()}{computeExpression()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+circuit.\+Expression\+Computer.\+compute\+Expression (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1circuit_1_1ExpressionComputer_1_1Map}{Map}}}]{expression\+Map }\end{DoxyParamCaption})}
+
+Propagates expression computation through a circuit. The parameter is a map from {\ttfamily Point }s to {\ttfamily Expression}s. The method will use this to determine the expressions coming into the component, and it should place any output expressions into the component.
+
+If, in fact, no valid expression exists for the component, it throws {\ttfamily  Unsupported\+Operation\+Exception}. 
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/circuit/Expression\+Computer.\+java\end{DoxyCompactItemize}

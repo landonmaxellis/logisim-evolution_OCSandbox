@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.data.BitWidth" name="com.cburch.logisim.data.BitWidth">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,516,203,835"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,5,188,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,85,105,516,100,516,96,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1BitWidth.html" title=" " alt="" coords="120,120,317,439"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="123,82,142,119,137,121,118,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,440,157,501,152,499,170,438"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="319,246,337,258,344,279,341,293,334,304,330,300,336,291,339,280,333,261,316,251"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.memory.Rom" name="com.cburch.logisim.std.memory.Rom">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,1128,275,1737"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1Mem.html" title=" " alt="" coords="5,119,279,1080"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,1094,145,1128,139,1128,139,1094"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="84,5,200,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,85,145,118,139,118,139,85"/>
+</map>

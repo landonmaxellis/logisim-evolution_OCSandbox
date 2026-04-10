@@ -1,0 +1,21 @@
+<map id="com.cburch.logisim.gui.prefs.OptionsPanel" name="com.cburch.logisim.gui.prefs.OptionsPanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="810,119,1059,357"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1prefs_1_1AutosaveOptions.html" title=" " alt="" coords="5,447,227,602"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="796,253,673,271,530,301,455,321,381,345,309,374,240,408,211,426,184,449,181,445,208,422,237,403,307,369,379,340,454,316,528,295,672,266,796,248"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="251,447,461,602"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="797,274,721,297,638,327,554,364,475,408,423,449,420,445,472,403,551,359,636,322,719,292,796,269"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="486,440,693,609"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="800,334,706,407,669,442,665,438,702,403,797,329"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="717,447,923,602"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="884,371,853,448,848,446,879,369"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="947,447,1154,602"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="991,369,1022,446,1017,448,986,371"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1prefs_1_1SimOptions.html" title=" " alt="" coords="1179,447,1405,602"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1073,330,1168,403,1216,445,1212,449,1165,407,1069,334"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1429,447,1651,602"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1074,267,1155,290,1244,320,1334,358,1419,403,1473,445,1469,449,1416,408,1331,363,1242,325,1153,295,1072,272"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1675,405,1895,644"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1073,246,1204,263,1355,292,1434,313,1513,338,1591,368,1664,403,1676,410,1674,415,1661,408,1588,372,1512,343,1433,318,1354,297,1203,268,1073,251"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="908,5,961,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="937,84,937,118,932,118,932,84"/>
+</map>

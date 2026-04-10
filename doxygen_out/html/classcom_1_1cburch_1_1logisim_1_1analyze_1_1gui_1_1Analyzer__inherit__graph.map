@@ -1,0 +1,5 @@
+<map id="com.cburch.logisim.analyze.gui.Analyzer" name="com.cburch.logisim.analyze.gui.Analyzer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,241,313"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="50,5,197,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,84,126,119,121,119,121,84"/>
+</map>

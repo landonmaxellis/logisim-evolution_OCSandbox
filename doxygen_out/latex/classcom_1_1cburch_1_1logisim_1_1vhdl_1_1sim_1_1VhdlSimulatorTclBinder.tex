@@ -1,0 +1,44 @@
+\doxysection{com.\+cburch.\+logisim.\+vhdl.\+sim.\+Vhdl\+Simulator\+Tcl\+Binder Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder}{}\label{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder}\index{com.cburch.logisim.vhdl.sim.VhdlSimulatorTclBinder@{com.cburch.logisim.vhdl.sim.VhdlSimulatorTclBinder}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+vhdl.\+sim.\+Vhdl\+Simulator\+Tcl\+Binder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_ab42b5abd5a0dccb2cd72ad3e3293868a}\label{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_ab42b5abd5a0dccb2cd72ad3e3293868a} 
+{\bfseries Vhdl\+Simulator\+Tcl\+Binder} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTop}{Vhdl\+Simulator\+Top}} vs)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_a2595e711db6d81923a6fa4fffed9a120}\label{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_a2595e711db6d81923a6fa4fffed9a120} 
+Boolean {\bfseries is\+Running} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_a1d733a99a0ec9ca984806b22d2aaa1b1}\label{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_a1d733a99a0ec9ca984806b22d2aaa1b1} 
+void {\bfseries start} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_a25651ba470862e2c02e2bc7bd281722b}\label{classcom_1_1cburch_1_1logisim_1_1vhdl_1_1sim_1_1VhdlSimulatorTclBinder_a25651ba470862e2c02e2bc7bd281722b} 
+void {\bfseries stop} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The TCL binder is a TCL program creating a socket server. The signals have to be written to the binder who will drive the simulation and send back the output signals.
+
+The binder is started when the VHDL simulation is enabled. Once started, it writes a ready flag to his stdout that is catched by Logisim to know the binder is ready. This way we ensure the socket is started before trying to connect.
+
+To end the binder, we send an "{}end"{} flag through the socket and wait for it to finish. This causes Logisim to hang if the binder doesn\textquotesingle{}t listen to the socker. That can happen when unexpected behavior of the simulation occurs.
+
+\begin{DoxyAuthor}{Author}
+\href{mailto:christian.mueller@heig-vd.ch}{\texttt{ christian.\+mueller@heig-\/vd.\+ch}} 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/vhdl/sim/Vhdl\+Simulator\+Tcl\+Binder.\+java\end{DoxyCompactItemize}

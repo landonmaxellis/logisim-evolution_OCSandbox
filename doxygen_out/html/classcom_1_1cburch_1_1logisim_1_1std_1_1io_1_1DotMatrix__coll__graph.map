@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.std.io.DotMatrix" name="com.cburch.logisim.std.io.DotMatrix">
+<area shape="rect" id="Node000001" title=" " alt="" coords="183,1915,394,2272"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase.html" title=" " alt="" coords="26,575,290,1837"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,1851,265,1914,260,1915,251,1852"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,226,121,291"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="70,304,97,574,92,574,65,305"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="146,5,359,512"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="230,513,225,559,220,558,225,512"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="314,953,527,1459"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="386,1460,320,1899,315,1898,380,1459"/>
+</map>

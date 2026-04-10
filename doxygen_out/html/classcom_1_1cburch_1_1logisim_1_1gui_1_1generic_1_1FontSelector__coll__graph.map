@@ -1,0 +1,21 @@
+<map id="com.cburch.logisim.gui.generic.FontSelector" name="com.cburch.logisim.gui.generic.FontSelector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="62,407,303,631"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,59,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="40,84,58,203,73,273,92,343,109,382,121,405,117,408,104,384,87,345,68,275,53,204,34,85"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1generic_1_1FontSelector.html" title=" " alt="" coords="170,120,411,344"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="71,68,72,69,172,142,168,147,69,73,68,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,5,210,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,84,116,121,103,194,97,252,101,310,116,382,123,406,118,407,111,383,96,310,92,252,97,193,111,119,122,83"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="181,80,209,118,205,121,177,83"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="236,5,343,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,74,184,99,159,122,144,155,134,190,129,227,127,264,133,338,147,406,142,407,128,339,122,264,123,227,129,189,139,153,155,118,181,94,222,69"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="292,84,293,120,287,120,287,84"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="575,5,724,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="656,84,656,139,652,206,639,277,628,312,613,345,587,384,555,416,517,443,476,465,433,482,389,495,304,512,303,506,387,490,431,477,474,460,515,438,552,412,583,380,608,343,623,310,634,276,647,206,651,139,650,84"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="579,80,413,168,410,164,577,75"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="397,5,505,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="519,65,551,88,576,119,603,179,611,207,614,234,612,260,605,287,576,345,550,378,521,406,487,430,452,451,377,482,304,502,303,497,375,477,449,446,485,426,517,402,546,374,571,343,600,285,607,259,609,234,606,208,598,181,571,121,547,92,515,69"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="417,83,386,121,381,118,413,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="251,345,233,392,228,390,246,343"/>
+<area shape="poly" id="edge12_Node000007_Node000007" title=" " alt="" coords="413,208,431,217,438,232,435,242,428,249,424,246,431,239,433,232,427,220,410,212"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,84,172,109"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1draw_1_1shapes_1_1Line.html" title=" " alt="" coords="236,5,449,31"/>
+<area shape="poly" id="edge24_Node000000_Node000001" title=" " alt="" coords="127,76,219,39,264,28,265,33,221,45,129,81"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1draw_1_1shapes_1_1Text.html" title=" " alt="" coords="236,55,449,80"/>
+<area shape="poly" id="edge25_Node000000_Node000002" title=" " alt="" coords="186,83,236,77,236,82,186,88"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1appear_1_1AppearanceElement.html" title=" " alt="" coords="220,105,465,145"/>
+<area shape="poly" id="edge26_Node000000_Node000003" title=" " alt="" coords="186,105,220,108,219,114,185,110"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1appear_1_1DynamicElement.html" title=" " alt="" coords="220,169,465,209"/>
+<area shape="poly" id="edge29_Node000000_Node000006" title=" " alt="" coords="128,113,221,154,258,166,256,171,219,159,125,118"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1appear_1_1AppearanceAnchor.html" title=" " alt="" coords="513,41,759,81"/>
+<area shape="poly" id="edge27_Node000003_Node000004" title=" " alt="" coords="448,99,543,78,544,83,449,104"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1appear_1_1AppearancePort.html" title=" " alt="" coords="513,105,759,145"/>
+<area shape="poly" id="edge28_Node000003_Node000005" title=" " alt="" coords="479,122,513,122,513,127,479,127"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1appear_1_1DynamicElementWithPoker.html" title=" " alt="" coords="513,169,759,209"/>
+<area shape="poly" id="edge30_Node000006_Node000007" title=" " alt="" coords="479,186,513,186,513,191,479,191"/>
+</map>

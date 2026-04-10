@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,17,144,42"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1gui_1_1ExpressionTab_1_1ExpressionEditor.html" title=" " alt="" coords="192,5,424,45"/>
+<area shape="poly" id="edge31_Node000000_Node000001" title=" " alt="" coords="158,25,192,25,192,30,158,31"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1gui_1_1VariableTab_1_1SingleClickVarEditor.html" title=" " alt="" coords="192,69,424,109"/>
+<area shape="poly" id="edge32_Node000000_Node000003" title=" " alt="" coords="139,43,230,67,229,72,137,48"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1gui_1_1VariableTab_1_1DoubleClickVarEditor.html" title=" " alt="" coords="472,69,711,109"/>
+<area shape="poly" id="edge33_Node000003_Node000004" title=" " alt="" coords="438,87,472,87,472,92,438,92"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,70,134,95"/>
+<area shape="poly" id="edge34_Node000002_Node000001" title=" " alt="" coords="140,64,226,43,227,48,141,69"/>
+<area shape="poly" id="edge35_Node000002_Node000003" title=" " alt="" coords="148,82,192,83,192,89,148,87"/>
+</map>

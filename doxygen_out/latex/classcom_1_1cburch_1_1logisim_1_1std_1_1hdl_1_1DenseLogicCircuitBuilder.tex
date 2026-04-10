@@ -1,0 +1,113 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder}\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a8eb39b77bf6d923a75a3f0e9ebbc7358}{Dense\+Logic\+Circuit\+Builder}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_aec05c2b518b2e216a10771fddd1be950}{attach\+Gate}} (int gate\+Type, int a, int b, int o)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_acca3c365f8c62c5256b4ad0306257a6c}{attach\+Buffer}} (int from, int to)
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit}{Dense\+Logic\+Circuit}} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ad3d8ee3af2e2977f8e6fda10cc3be19a}{build}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a9081c433384af276cc34c3aa185b9f91}{add\+Cell}} (boolean ext)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ae21c73b62f811a0bab3e9db1fb2aaedb}{set\+Cell\+Pull}} (int cell, int pull)
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a8bc74bc7bf4d9464c34dd91fcd989f66}{add\+Dff}} (int c, int d)
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a5b3c8fa226469be50a238dfdcd1d9724}{add\+Dffsr}} (int c, int d, int s, int r)
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a71c348c557bf21b58e5a633f8547495e}{add\+Latch}} (int d, int e)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ae0e9f90fae1e2004c6ec5e6bb25088cb}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ae0e9f90fae1e2004c6ec5e6bb25088cb} 
+final Hash\+Map$<$ String, Integer $>$ {\bfseries symbol\+Table} = new Hash\+Map$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_abb60b141786be880a4acc658ee09d9f9}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_abb60b141786be880a4acc658ee09d9f9} 
+static final boolean {\bfseries DEBUG} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Builds a dense logic circuit. This inserts the logic for multiple gates attached to the same line. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a8eb39b77bf6d923a75a3f0e9ebbc7358}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a8eb39b77bf6d923a75a3f0e9ebbc7358} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!DenseLogicCircuitBuilder@{DenseLogicCircuitBuilder}}
+\index{DenseLogicCircuitBuilder@{DenseLogicCircuitBuilder}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{DenseLogicCircuitBuilder()}{DenseLogicCircuitBuilder()}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+Dense\+Logic\+Circuit\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a circuit builder with just the constant cells. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a9081c433384af276cc34c3aa185b9f91}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a9081c433384af276cc34c3aa185b9f91} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!addCell@{addCell}}
+\index{addCell@{addCell}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{addCell()}{addCell()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+add\+Cell (\begin{DoxyParamCaption}\item[{boolean}]{ext }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a cell to the system. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a8bc74bc7bf4d9464c34dd91fcd989f66}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a8bc74bc7bf4d9464c34dd91fcd989f66} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!addDff@{addDff}}
+\index{addDff@{addDff}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{addDff()}{addDff()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+add\+Dff (\begin{DoxyParamCaption}\item[{int}]{c,  }\item[{int}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a D-\/flipflop. Returns the Q line cell. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a5b3c8fa226469be50a238dfdcd1d9724}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a5b3c8fa226469be50a238dfdcd1d9724} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!addDffsr@{addDffsr}}
+\index{addDffsr@{addDffsr}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{addDffsr()}{addDffsr()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+add\+Dffsr (\begin{DoxyParamCaption}\item[{int}]{c,  }\item[{int}]{d,  }\item[{int}]{s,  }\item[{int}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a DFFSR flipflop. Returns the Q line cell. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a71c348c557bf21b58e5a633f8547495e}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_a71c348c557bf21b58e5a633f8547495e} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!addLatch@{addLatch}}
+\index{addLatch@{addLatch}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{addLatch()}{addLatch()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+add\+Latch (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a D-\/latch. Returns the Q line cell. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_acca3c365f8c62c5256b4ad0306257a6c}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_acca3c365f8c62c5256b4ad0306257a6c} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!attachBuffer@{attachBuffer}}
+\index{attachBuffer@{attachBuffer}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{attachBuffer()}{attachBuffer()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+attach\+Buffer (\begin{DoxyParamCaption}\item[{int}]{from,  }\item[{int}]{to }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Shorthand for attaching a BUS gate as a buffer. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_aec05c2b518b2e216a10771fddd1be950}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_aec05c2b518b2e216a10771fddd1be950} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!attachGate@{attachGate}}
+\index{attachGate@{attachGate}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{attachGate()}{attachGate()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+attach\+Gate (\begin{DoxyParamCaption}\item[{int}]{gate\+Type,  }\item[{int}]{a,  }\item[{int}]{b,  }\item[{int}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Attaches a gate to the system. If a gate is already attached to the given pin, a bus gate is automatically inserted. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ad3d8ee3af2e2977f8e6fda10cc3be19a}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ad3d8ee3af2e2977f8e6fda10cc3be19a} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!build@{build}}
+\index{build@{build}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{build()}{build()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuit}{Dense\+Logic\+Circuit}} com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+build (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Builds the dense logic circuit. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ae21c73b62f811a0bab3e9db1fb2aaedb}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1DenseLogicCircuitBuilder_ae21c73b62f811a0bab3e9db1fb2aaedb} 
+\index{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}!setCellPull@{setCellPull}}
+\index{setCellPull@{setCellPull}!com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder@{com.cburch.logisim.std.hdl.DenseLogicCircuitBuilder}}
+\doxysubsubsection{\texorpdfstring{setCellPull()}{setCellPull()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+hdl.\+Dense\+Logic\+Circuit\+Builder.\+set\+Cell\+Pull (\begin{DoxyParamCaption}\item[{int}]{cell,  }\item[{int}]{pull }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets the pullup/pulldown of a cell, used when gates evaluate to LEV\+\_\+\+NONE. This is also the initial value of the cell. Note that there\textquotesingle{}s only one pull per cell. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/hdl/Dense\+Logic\+Circuit\+Builder.\+java\end{DoxyCompactItemize}

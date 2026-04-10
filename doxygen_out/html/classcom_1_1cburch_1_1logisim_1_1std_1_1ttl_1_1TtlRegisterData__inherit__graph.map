@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.ttl.TtlRegisterData" name="com.cburch.logisim.std.ttl.TtlRegisterData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,449,279,708"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,192,401"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,414,151,449,146,450,137,415"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="59,5,138,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,84,101,119,96,119,96,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="217,227,317,293"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,307,219,450,214,448,252,305"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.hdl.HdlContent" name="com.cburch.logisim.std.hdl.HdlContent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,239,357"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,5,109,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,83,94,118,89,119,80,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,5,212,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,85,155,119,150,118,159,83"/>
+</map>

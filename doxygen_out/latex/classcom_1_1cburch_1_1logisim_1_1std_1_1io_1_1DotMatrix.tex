@@ -1,0 +1,246 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix}\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a4e06679577a781d0f20e7aea9ba162a0}{get\+Attribute\+Rows}} ()
+\item 
+Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_ad822a6ad9857a773c7cc0d7eff587af0}{get\+Attribute\+Columns}} ()
+\item 
+Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a22568665f2334a0c048e6be251962234}{get\+Attribute\+Shape}} ()
+\item 
+Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a3eb091ade2a96b46e46d85a609af621e}{get\+Default\+Shape}} ()
+\item 
+Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a2eabe95fd2a6d16fabb44efbf2abd575}{get\+Attribute\+Input\+Type}} ()
+\item 
+Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a48922e49aa7f15ba2c40849867df82de}{get\+Attribute\+Item\+Column}} ()
+\item 
+Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_af505db6cd0cac7a25fdd72b6bbe0be44}{get\+Attribute\+Item\+Row}} ()
+\item 
+Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a2a06a025728355d2ec5050f3319135b0}{get\+Attribute\+Item\+Select}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Draw\+Border} (boolean val)
+\item 
+void {\bfseries set\+ScaleX} (int val)
+\item 
+void {\bfseries set\+ScaleY} (int val)
+\item 
+{\bfseries Dot\+Matrix\+Base} (String name, String\+Getter display\+Name, int cols, int rows, Hdl\+Generator\+Factory generator)
+\item 
+Bounds {\bfseries get\+Offset\+Bounds} (Attribute\+Set attrs)
+\item 
+void {\bfseries paint\+Instance} (Instance\+Painter painter)
+\item 
+void {\bfseries propagate} (Instance\+State state)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_ae9988a25763797bfe8c337d1f0e3ab0c}{\+\_\+\+ID}} = "{}Dot\+Matrix"{}
+\item 
+static final Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_af99ef74012e31e601e43034e61a22e93}{ATTR\+\_\+\+MATRIX\+\_\+\+COLS}}
+\item 
+static final Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a5a9560b245f3cf73a4a761dd02922b89}{ATTR\+\_\+\+MATRIX\+\_\+\+ROWS}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries configure\+New\+Instance} (Instance instance)
+\item 
+State {\bfseries get\+State} (Instance\+State state)
+\item 
+void {\bfseries instance\+Attribute\+Changed} (Instance instance, Attribute$<$?$>$ attr)
+\item 
+void {\bfseries draw\+Circle} (Graphics g, int x, int y)
+\item 
+void {\bfseries draw\+Square} (Graphics g, int x, int y)
+\item 
+void {\bfseries draw\+Padded\+Square} (Graphics g, int x, int y)
+\item 
+void {\bfseries update\+Ports} (Instance instance)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ String $>$ {\bfseries get\+Labels} (int rows, int cols)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+boolean {\bfseries draw\+Border} = true
+\item 
+int {\bfseries scaleX} = 1
+\item 
+int {\bfseries scaleY} = 1
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes inherited from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_a0f15713c4c62f818eeb56f5ecba1fa08}{INPUT\+\_\+\+SELECT}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_afab4fabf92dce8edb5b1a742d4d16439}{INPUT\+\_\+\+COLUMN}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_abc16725e8bfcc63d1b078fb3eb751de5}{INPUT\+\_\+\+ROW}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_adf762057b343cf2ed4e5dfe72d7e7496}{SHAPE\+\_\+\+CIRCLE}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_ac711cacfb0338b8a165988652046017c}{SHAPE\+\_\+\+SQUARE}}
+\item 
+static final Attribute\+Option \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_ab3ce5805f0f744e960a8e5423fdbd30a}{SHAPE\+\_\+\+PADDED\+\_\+\+SQUARE}}
+\item 
+static final Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_aa4fe8eb11b8d25c88dce0943f2c75794}{ATTR\+\_\+\+INPUT\+\_\+\+TYPE}}
+\item 
+static final Attribute$<$ Attribute\+Option $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_ae6eadd9a80421e4fb165533c64897407}{ATTR\+\_\+\+DOT\+\_\+\+SHAPE}}
+\item 
+static final Attribute$<$ Integer $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase_af1158058d5bc46c8f30184448bb639e0}{ATTR\+\_\+\+PERSIST}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+LED dot Matrix 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_ad822a6ad9857a773c7cc0d7eff587af0}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_ad822a6ad9857a773c7cc0d7eff587af0} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeColumns@{getAttributeColumns}}
+\index{getAttributeColumns@{getAttributeColumns}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeColumns()}{getAttributeColumns()}}
+{\footnotesize\ttfamily Attribute$<$ Bit\+Width $>$ com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Columns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a2eabe95fd2a6d16fabb44efbf2abd575}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a2eabe95fd2a6d16fabb44efbf2abd575} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeInputType@{getAttributeInputType}}
+\index{getAttributeInputType@{getAttributeInputType}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeInputType()}{getAttributeInputType()}}
+{\footnotesize\ttfamily Attribute$<$ Attribute\+Option $>$ com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Input\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a48922e49aa7f15ba2c40849867df82de}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a48922e49aa7f15ba2c40849867df82de} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeItemColumn@{getAttributeItemColumn}}
+\index{getAttributeItemColumn@{getAttributeItemColumn}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeItemColumn()}{getAttributeItemColumn()}}
+{\footnotesize\ttfamily Attribute\+Option com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Item\+Column (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_af505db6cd0cac7a25fdd72b6bbe0be44}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_af505db6cd0cac7a25fdd72b6bbe0be44} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeItemRow@{getAttributeItemRow}}
+\index{getAttributeItemRow@{getAttributeItemRow}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeItemRow()}{getAttributeItemRow()}}
+{\footnotesize\ttfamily Attribute\+Option com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Item\+Row (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a2a06a025728355d2ec5050f3319135b0}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a2a06a025728355d2ec5050f3319135b0} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeItemSelect@{getAttributeItemSelect}}
+\index{getAttributeItemSelect@{getAttributeItemSelect}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeItemSelect()}{getAttributeItemSelect()}}
+{\footnotesize\ttfamily Attribute\+Option com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Item\+Select (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a4e06679577a781d0f20e7aea9ba162a0}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a4e06679577a781d0f20e7aea9ba162a0} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeRows@{getAttributeRows}}
+\index{getAttributeRows@{getAttributeRows}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeRows()}{getAttributeRows()}}
+{\footnotesize\ttfamily Attribute$<$ Bit\+Width $>$ com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a22568665f2334a0c048e6be251962234}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a22568665f2334a0c048e6be251962234} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getAttributeShape@{getAttributeShape}}
+\index{getAttributeShape@{getAttributeShape}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getAttributeShape()}{getAttributeShape()}}
+{\footnotesize\ttfamily Attribute$<$ Attribute\+Option $>$ com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Attribute\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a3eb091ade2a96b46e46d85a609af621e}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a3eb091ade2a96b46e46d85a609af621e} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!getDefaultShape@{getDefaultShape}}
+\index{getDefaultShape@{getDefaultShape}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{getDefaultShape()}{getDefaultShape()}}
+{\footnotesize\ttfamily Attribute\+Option com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+get\+Default\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixBase}{com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix\+Base}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_ae9988a25763797bfe8c337d1f0e3ab0c}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_ae9988a25763797bfe8c337d1f0e3ab0c} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!\_ID@{\_ID}}
+\index{\_ID@{\_ID}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{\_ID}{\_ID}}
+{\footnotesize\ttfamily final String com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+\_\+\+ID = "{}Dot\+Matrix"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+Unique identifier of the tool, used as reference in project files. Do NOT change as it will prevent project files from loading.
+
+Identifier value must MUST be unique string among all tools. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_af99ef74012e31e601e43034e61a22e93}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_af99ef74012e31e601e43034e61a22e93} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!ATTR\_MATRIX\_COLS@{ATTR\_MATRIX\_COLS}}
+\index{ATTR\_MATRIX\_COLS@{ATTR\_MATRIX\_COLS}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{ATTR\_MATRIX\_COLS}{ATTR\_MATRIX\_COLS}}
+{\footnotesize\ttfamily final Attribute$<$Bit\+Width$>$ com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+ATTR\+\_\+\+MATRIX\+\_\+\+COLS\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBitWidth(\textcolor{stringliteral}{"{}matrixcols"{}},\ S.getter(\textcolor{stringliteral}{"{}ioMatrixCols"{}}),\ 1,\ Value.MAX\_WIDTH)}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a5a9560b245f3cf73a4a761dd02922b89}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrix_a5a9560b245f3cf73a4a761dd02922b89} 
+\index{com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}!ATTR\_MATRIX\_ROWS@{ATTR\_MATRIX\_ROWS}}
+\index{ATTR\_MATRIX\_ROWS@{ATTR\_MATRIX\_ROWS}!com.cburch.logisim.std.io.DotMatrix@{com.cburch.logisim.std.io.DotMatrix}}
+\doxysubsubsection{\texorpdfstring{ATTR\_MATRIX\_ROWS}{ATTR\_MATRIX\_ROWS}}
+{\footnotesize\ttfamily final Attribute$<$Bit\+Width$>$ com.\+cburch.\+logisim.\+std.\+io.\+Dot\+Matrix.\+ATTR\+\_\+\+MATRIX\+\_\+\+ROWS\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBitWidth(\textcolor{stringliteral}{"{}matrixrows"{}},\ S.getter(\textcolor{stringliteral}{"{}ioMatrixRows"{}}),\ 1,\ Value.MAX\_WIDTH)}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/io/Dot\+Matrix.\+java\end{DoxyCompactItemize}

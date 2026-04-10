@@ -1,0 +1,5 @@
+<map id="com.cburch.logisim.gui.start.SplashScreen" name="com.cburch.logisim.gui.start.SplashScreen">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,239,671"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="87,5,157,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,84,125,119,119,119,119,84"/>
+</map>

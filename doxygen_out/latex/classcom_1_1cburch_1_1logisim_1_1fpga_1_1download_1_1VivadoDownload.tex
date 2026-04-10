@@ -1,0 +1,132 @@
+\doxysection{com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload}{}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload}\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_ac7b175d0754666fffcd02205dea63ea7}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_ac7b175d0754666fffcd02205dea63ea7} 
+{\bfseries Vivado\+Download} (String project\+Path, Netlist root\+Net\+List, Board\+Information board\+Info, List$<$ String $>$ entities, List$<$ String $>$ architectures)
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a536453eee4680a9a932913b4856be48b}{get\+Number\+Of\+Stages}} ()
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a171de6a6f0ec9a126c0c1300f7c400e3}{get\+Stage\+Message}} (int stage)
+\item 
+Process\+Builder \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_aa3780eec7219b478ec1e320301ca11dc}{perform\+Step}} (int stage)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a1deaa818a127f9d07a9aab067625d02f}{ready\+For\+Download}} ()
+\item 
+Process\+Builder \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_af92fcaed251764f92f59ab3d2f6e2b6d}{download\+To\+Board}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a5528a0ac40736822091a4b51ce2123d0}{create\+Download\+Scripts}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_aaa0aa88bcf13d6ed0c278fce98978bac}{set\+Mapable\+Resources}} (Mappable\+Resources\+Container resources)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a3cb0ef8db7d5e0e32b0748ef48d44b82}{is\+Board\+Connected}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a5528a0ac40736822091a4b51ce2123d0}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a5528a0ac40736822091a4b51ce2123d0} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!createDownloadScripts@{createDownloadScripts}}
+\index{createDownloadScripts@{createDownloadScripts}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{createDownloadScripts()}{createDownloadScripts()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+create\+Download\+Scripts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_af92fcaed251764f92f59ab3d2f6e2b6d}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_af92fcaed251764f92f59ab3d2f6e2b6d} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!downloadToBoard@{downloadToBoard}}
+\index{downloadToBoard@{downloadToBoard}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{downloadToBoard()}{downloadToBoard()}}
+{\footnotesize\ttfamily Process\+Builder com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+download\+To\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a536453eee4680a9a932913b4856be48b}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a536453eee4680a9a932913b4856be48b} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!getNumberOfStages@{getNumberOfStages}}
+\index{getNumberOfStages@{getNumberOfStages}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{getNumberOfStages()}{getNumberOfStages()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+get\+Number\+Of\+Stages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a171de6a6f0ec9a126c0c1300f7c400e3}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a171de6a6f0ec9a126c0c1300f7c400e3} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!getStageMessage@{getStageMessage}}
+\index{getStageMessage@{getStageMessage}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{getStageMessage()}{getStageMessage()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+get\+Stage\+Message (\begin{DoxyParamCaption}\item[{int}]{stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a3cb0ef8db7d5e0e32b0748ef48d44b82}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a3cb0ef8db7d5e0e32b0748ef48d44b82} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!isBoardConnected@{isBoardConnected}}
+\index{isBoardConnected@{isBoardConnected}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{isBoardConnected()}{isBoardConnected()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+is\+Board\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_aa3780eec7219b478ec1e320301ca11dc}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_aa3780eec7219b478ec1e320301ca11dc} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!performStep@{performStep}}
+\index{performStep@{performStep}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{performStep()}{performStep()}}
+{\footnotesize\ttfamily Process\+Builder com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+perform\+Step (\begin{DoxyParamCaption}\item[{int}]{stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a1deaa818a127f9d07a9aab067625d02f}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_a1deaa818a127f9d07a9aab067625d02f} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!readyForDownload@{readyForDownload}}
+\index{readyForDownload@{readyForDownload}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{readyForDownload()}{readyForDownload()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+ready\+For\+Download (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_aaa0aa88bcf13d6ed0c278fce98978bac}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VivadoDownload_aaa0aa88bcf13d6ed0c278fce98978bac} 
+\index{com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}!setMapableResources@{setMapableResources}}
+\index{setMapableResources@{setMapableResources}!com.cburch.logisim.fpga.download.VivadoDownload@{com.cburch.logisim.fpga.download.VivadoDownload}}
+\doxysubsubsection{\texorpdfstring{setMapableResources()}{setMapableResources()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+fpga.\+download.\+Vivado\+Download.\+set\+Mapable\+Resources (\begin{DoxyParamCaption}\item[{Mappable\+Resources\+Container}]{resources }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/fpga/download/Vivado\+Download.\+java\end{DoxyCompactItemize}

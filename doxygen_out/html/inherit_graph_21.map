@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,104,101,129"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1draw_1_1tools_1_1AbstractTool.html" title=" " alt="" coords="149,104,401,129"/>
+<area shape="poly" id="edge490_Node000000_Node000001" title=" " alt="" coords="115,114,149,114,149,119,115,119"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1draw_1_1tools_1_1CurveTool.html" title=" " alt="" coords="451,5,687,31"/>
+<area shape="poly" id="edge491_Node000001_Node000002" title=" " alt="" coords="313,95,376,67,449,39,492,28,493,33,450,45,378,72,315,100"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1draw_1_1tools_1_1LineTool.html" title=" " alt="" coords="456,55,681,80"/>
+<area shape="poly" id="edge492_Node000001_Node000003" title=" " alt="" coords="365,99,492,77,493,83,365,104"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1draw_1_1tools_1_1PolyTool.html" title=" " alt="" coords="455,104,682,129"/>
+<area shape="poly" id="edge493_Node000001_Node000004" title=" " alt="" coords="415,114,455,114,455,119,415,119"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1draw_1_1tools_1_1SelectTool.html" title=" " alt="" coords="449,153,688,179"/>
+<area shape="poly" id="edge494_Node000001_Node000005" title=" " alt="" coords="365,129,493,151,492,156,365,134"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1draw_1_1tools_1_1TextTool.html" title=" " alt="" coords="456,203,681,228"/>
+<area shape="poly" id="edge495_Node000001_Node000006" title=" " alt="" coords="316,133,378,161,450,187,498,200,497,205,449,193,376,166,314,138"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.hdl.HdlCircuitComponent&lt; C extends HdlContent &gt;" name="com.cburch.logisim.std.hdl.HdlCircuitComponent&lt; C extends HdlContent &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,603,301,1037"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent.html" title=" " alt="" coords="5,119,301,555"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,568,156,602,151,602,151,568"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="95,5,211,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,84,156,118,151,118,151,84"/>
+</map>

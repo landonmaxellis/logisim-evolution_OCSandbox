@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.io.IoLibrary" name="com.cburch.logisim.std.io.IoLibrary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,619,216,788"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,64,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,304,79,512,100,618,94,619,73,512,39,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="88,5,301,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,513,135,603,130,602,146,512"/>
+</map>

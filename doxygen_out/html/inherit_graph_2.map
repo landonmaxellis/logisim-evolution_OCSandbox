@@ -1,0 +1,43 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="9,557,164,582"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1draw_1_1gui_1_1SelectionAttributes.html" title=" " alt="" coords="224,5,444,45"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="88,542,103,437,129,291,146,217,166,149,189,94,214,56,229,43,232,48,218,59,193,96,171,151,152,218,134,292,108,437,94,543"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitAttributes.html" title=" " alt="" coords="235,69,433,109"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="85,543,87,461,93,407,103,347,119,286,142,226,174,169,214,119,234,105,237,109,218,123,178,172,147,228,125,288,109,349,98,407,93,461,90,543"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1SplitterAttributes.html" title=" " alt="" coords="235,133,433,173"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="86,543,93,471,112,375,128,323,150,272,178,225,214,183,233,170,237,174,218,187,183,228,155,275,133,325,117,376,98,472,91,543"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes.html" title=" " alt="" coords="231,197,437,237"/>
+<area shape="poly" id="edge7_Node000000_Node000004" title=" " alt="" coords="88,542,98,481,120,402,137,360,157,319,183,281,214,247,232,235,235,240,218,251,187,284,162,322,141,362,125,404,104,483,93,543"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1jtaguart_1_1JtagUartAttributes.html" title=" " alt="" coords="217,261,451,301"/>
+<area shape="poly" id="edge8_Node000000_Node000005" title=" " alt="" coords="91,542,105,493,129,431,165,366,188,337,214,311,233,299,236,304,218,315,192,340,169,369,134,433,110,495,96,544"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes.html" title=" " alt="" coords="216,325,452,365"/>
+<area shape="poly" id="edge9_Node000000_Node000006" title=" " alt="" coords="96,543,113,505,139,460,173,414,214,375,235,363,238,368,218,379,177,418,143,463,118,508,100,545"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2Attributes.html" title=" " alt="" coords="225,389,443,429"/>
+<area shape="poly" id="edge10_Node000000_Node000007" title=" " alt="" coords="103,544,149,491,180,463,215,439,240,427,242,432,217,444,184,467,153,495,107,548"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1pio_1_1PioAttributes.html" title=" " alt="" coords="233,453,435,493"/>
+<area shape="poly" id="edge11_Node000000_Node000008" title=" " alt="" coords="121,548,165,525,215,503,250,491,252,496,217,508,167,530,123,552"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imAttributes.html" title=" " alt="" coords="219,517,449,557"/>
+<area shape="poly" id="edge12_Node000000_Node000009" title=" " alt="" coords="177,555,219,550,219,555,178,560"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1vga_1_1VgaAttributes.html" title=" " alt="" coords="231,581,437,621"/>
+<area shape="poly" id="edge13_Node000000_Node000010" title=" " alt="" coords="178,578,231,585,230,591,177,584"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1base_1_1TextAttributes.html" title=" " alt="" coords="228,645,440,685"/>
+<area shape="poly" id="edge14_Node000000_Node000011" title=" " alt="" coords="123,586,167,609,217,631,252,643,250,648,215,636,165,614,121,591"/>
+<area shape="rect" id="Node000012" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1gates_1_1GateAttributes.html" title=" " alt="" coords="225,709,443,749"/>
+<area shape="poly" id="edge15_Node000000_Node000012" title=" " alt="" coords="107,591,153,644,184,671,217,695,242,707,240,712,215,700,180,676,149,648,103,594"/>
+<area shape="rect" id="Node000013" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1BlifCircuitAttributes.html" title=" " alt="" coords="233,773,435,813"/>
+<area shape="poly" id="edge16_Node000000_Node000013" title=" " alt="" coords="100,594,118,631,143,676,177,721,218,759,238,771,235,775,214,763,173,725,139,679,113,633,96,596"/>
+<area shape="rect" id="Node000014" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1VhdlEntityAttributes.html" title=" " alt="" coords="233,837,435,877"/>
+<area shape="poly" id="edge17_Node000000_Node000014" title=" " alt="" coords="96,595,110,644,134,706,169,769,192,798,218,823,236,835,233,839,214,827,188,802,165,772,129,708,105,646,91,596"/>
+<area shape="rect" id="Node000015" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1RamAttributes.html" title=" " alt="" coords="217,901,451,941"/>
+<area shape="poly" id="edge18_Node000000_Node000015" title=" " alt="" coords="93,596,104,656,125,735,141,777,162,817,187,855,218,887,235,899,232,903,214,891,183,858,157,820,137,779,120,737,98,657,88,597"/>
+<area shape="rect" id="Node000016" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclComponentAttributes.html" title=" " alt="" coords="235,965,433,1005"/>
+<area shape="poly" id="edge19_Node000000_Node000016" title=" " alt="" coords="91,596,98,666,117,762,133,814,155,864,183,911,218,951,237,965,233,969,214,955,178,914,150,866,128,816,112,764,93,667,86,596"/>
+<area shape="rect" id="Node000018" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1ProbeAttributes.html" title=" " alt="" coords="223,1093,445,1133"/>
+<area shape="poly" id="edge21_Node000000_Node000018" title=" " alt="" coords="94,596,108,701,134,847,152,921,171,988,193,1043,218,1080,232,1091,229,1095,214,1083,189,1045,166,990,146,922,129,848,103,702,88,596"/>
+<area shape="rect" id="Node000020" href="$classcom_1_1cburch_1_1logisim_1_1vhdl_1_1base_1_1VhdlEntityAttributes.html" title=" " alt="" coords="224,1029,444,1069"/>
+<area shape="poly" id="edge22_Node000000_Node000020" title=" " alt="" coords="90,596,93,677,98,731,109,790,125,851,147,911,178,967,218,1015,233,1027,230,1031,214,1019,174,970,142,913,119,853,103,791,93,732,87,678,85,596"/>
+<area shape="rect" id="Node000017" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1tcl_1_1TclGenericAttributes.html" title=" " alt="" coords="500,965,697,1005"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="446,983,500,983,500,988,446,988"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="5,1101,168,1126"/>
+<area shape="poly" id="edge23_Node000019_Node000018" title=" " alt="" coords="182,1111,223,1111,223,1116,182,1116"/>
+</map>

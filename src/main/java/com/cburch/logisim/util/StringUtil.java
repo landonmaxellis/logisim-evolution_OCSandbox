@@ -114,9 +114,21 @@ public final class StringUtil {
     return (seq != null) ? seq.startsWith(prefix) : false;
   }
 
-  /** Case-insensitive contains check (for search functionality) */
+  /** Case-insensitive contains check (for search functionality). */
   public static boolean containsIgnoreCase(String text, String query) {
     if (text == null || query == null) return false;
     return text.toLowerCase().contains(query.toLowerCase());
+  }
+
+  /**
+   * Matches a component name against a search query.
+   * Returns true for blank queries so the full component list can still display.
+   * Matching is case-insensitive and ignores leading/trailing whitespace.
+   */
+  public static boolean matchesSearchQuery(String componentName, String query) {
+    if (componentName == null) return false;
+    if (query == null || query.trim().isEmpty()) return true;
+
+    return componentName.trim().toLowerCase().contains(query.trim().toLowerCase());
   }
 }

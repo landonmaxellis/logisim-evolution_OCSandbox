@@ -1,0 +1,62 @@
+\doxysection{com.\+cburch.\+logisim.\+util.\+Color\+Util Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil}{}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil}\index{com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+util.\+Color\+Util\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Color \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_af5f0af08846b2424fbe77ba3ea1d4c87}{get\+Complementary\+Color}} (Color color)
+\item 
+static Color \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_a810ab6a8d4b7196725adaa9d8b39f55d}{get\+Complementary\+Black\+White}} (Color color)
+\item 
+static int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_adc373b66dfa242becf79eee075708e42}{get\+Luminance}} (Color color)
+\item 
+static Color \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_a24c4afe9f6c8349bddb1b0fd94b38d0f}{to\+Grayscale}} (Color color)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Some color management helper methods.
+
+For Swing\textquotesingle{}s UIManager color keys see\+: 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_a810ab6a8d4b7196725adaa9d8b39f55d}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_a810ab6a8d4b7196725adaa9d8b39f55d} 
+\index{com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}!getComplementaryBlackWhite@{getComplementaryBlackWhite}}
+\index{getComplementaryBlackWhite@{getComplementaryBlackWhite}!com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}}
+\doxysubsubsection{\texorpdfstring{getComplementaryBlackWhite()}{getComplementaryBlackWhite()}}
+{\footnotesize\ttfamily static Color com.\+cburch.\+logisim.\+util.\+Color\+Util.\+get\+Complementary\+Black\+White (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns either BLACK or WHITE color, depending on which one would be "{}more complementary"{} (better readable) to provided color. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_af5f0af08846b2424fbe77ba3ea1d4c87}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_af5f0af08846b2424fbe77ba3ea1d4c87} 
+\index{com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}!getComplementaryColor@{getComplementaryColor}}
+\index{getComplementaryColor@{getComplementaryColor}!com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}}
+\doxysubsubsection{\texorpdfstring{getComplementaryColor()}{getComplementaryColor()}}
+{\footnotesize\ttfamily static Color com.\+cburch.\+logisim.\+util.\+Color\+Util.\+get\+Complementary\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns complementary color to provided one (i.\+e. white for black etc). \Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_adc373b66dfa242becf79eee075708e42}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_adc373b66dfa242becf79eee075708e42} 
+\index{com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}!getLuminance@{getLuminance}}
+\index{getLuminance@{getLuminance}!com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}}
+\doxysubsubsection{\texorpdfstring{getLuminance()}{getLuminance()}}
+{\footnotesize\ttfamily static int com.\+cburch.\+logisim.\+util.\+Color\+Util.\+get\+Luminance (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Calculates luminance for given color.
+
+\href{https://en.wikipedia.org/wiki/Grayscale}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Grayscale}} \Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_a24c4afe9f6c8349bddb1b0fd94b38d0f}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1ColorUtil_a24c4afe9f6c8349bddb1b0fd94b38d0f} 
+\index{com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}!toGrayscale@{toGrayscale}}
+\index{toGrayscale@{toGrayscale}!com.cburch.logisim.util.ColorUtil@{com.cburch.logisim.util.ColorUtil}}
+\doxysubsubsection{\texorpdfstring{toGrayscale()}{toGrayscale()}}
+{\footnotesize\ttfamily static Color com.\+cburch.\+logisim.\+util.\+Color\+Util.\+to\+Grayscale (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns grayscale "{}equivalent"{} of provided color. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/util/Color\+Util.\+java\end{DoxyCompactItemize}

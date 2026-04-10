@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.pio.PioMenu" name="com.cburch.logisim.soc.pio.PioMenu">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,247,268"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="7,5,114,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,82,97,117,92,119,77,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,5,247,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,84,161,119,156,117,171,82"/>
+</map>

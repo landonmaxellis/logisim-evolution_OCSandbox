@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.circuit.appear.AppearancePort" name="com.cburch.logisim.circuit.appear.AppearancePort">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,599,251,1065"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1appear_1_1AppearanceElement.html" title=" " alt="" coords="9,119,247,551"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,564,131,598,125,598,125,564"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="49,5,207,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,84,131,118,125,118,125,84"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.gui.log.SignalInfo" name="com.cburch.logisim.gui.log.SignalInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,119,313,551"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,128,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,82,107,117,102,119,85,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="153,5,261,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,84,209,118,204,118,204,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="285,5,371,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="312,84,298,119,293,117,307,82"/>
+</map>

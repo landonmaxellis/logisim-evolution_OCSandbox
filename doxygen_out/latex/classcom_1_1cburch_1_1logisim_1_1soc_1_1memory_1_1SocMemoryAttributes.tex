@@ -1,0 +1,82 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+memory.\+Soc\+Memory\+Attributes Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes}\index{com.cburch.logisim.soc.memory.SocMemoryAttributes@{com.cburch.logisim.soc.memory.SocMemoryAttributes}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+soc.\+memory.\+Soc\+Memory\+Attributes\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+memory.\+Soc\+Memory\+Attributes\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_af5c4f9d6f219bb82107de4780177564f}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_af5c4f9d6f219bb82107de4780177564f} 
+List$<$ Attribute$<$?$>$ $>$ {\bfseries get\+Attributes} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a3e153896f098f9813701b9557eac4721}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a3e153896f098f9813701b9557eac4721} 
+boolean {\bfseries is\+Read\+Only} (Attribute$<$?$>$ attr)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a103f664b435b13634d12ab0036cacec8}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a103f664b435b13634d12ab0036cacec8} 
+boolean {\bfseries is\+To\+Save} (Attribute$<$?$>$ attr)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a79d11354cfe9af5cf3993504f5e7158f}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a79d11354cfe9af5cf3993504f5e7158f} 
+static final Attribute$<$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryState}{Soc\+Memory\+State}} $>$ {\bfseries SOCMEM\+\_\+\+STATE} = new Soc\+Memory\+State\+Attribute()
+\item 
+static final Attribute$<$ Integer $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a1cf2ee9a0341a0ebb027d2c392368686}{START\+\_\+\+ADDRESS}}
+\item 
+static final Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_af93f9b0f47e4129ba13d47cccfaafa08}{MEM\+\_\+\+SIZE}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_ae42f8c80f139ef073eb3bc8f3489624f}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_ae42f8c80f139ef073eb3bc8f3489624f} 
+void {\bfseries copy\+Into} (Abstract\+Attribute\+Set dest)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_af93f9b0f47e4129ba13d47cccfaafa08}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_af93f9b0f47e4129ba13d47cccfaafa08} 
+\index{com.cburch.logisim.soc.memory.SocMemoryAttributes@{com.cburch.logisim.soc.memory.SocMemoryAttributes}!MEM\_SIZE@{MEM\_SIZE}}
+\index{MEM\_SIZE@{MEM\_SIZE}!com.cburch.logisim.soc.memory.SocMemoryAttributes@{com.cburch.logisim.soc.memory.SocMemoryAttributes}}
+\doxysubsubsection{\texorpdfstring{MEM\_SIZE}{MEM\_SIZE}}
+{\footnotesize\ttfamily final Attribute$<$Bit\+Width$>$ com.\+cburch.\+logisim.\+soc.\+memory.\+Soc\+Memory\+Attributes.\+MEM\+\_\+\+SIZE\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBitWidth(\textcolor{stringliteral}{"{}MemSize"{}},\ S.getter(\textcolor{stringliteral}{"{}SocMemSize"{}}),\ 10,\ 26)}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a1cf2ee9a0341a0ebb027d2c392368686}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1memory_1_1SocMemoryAttributes_a1cf2ee9a0341a0ebb027d2c392368686} 
+\index{com.cburch.logisim.soc.memory.SocMemoryAttributes@{com.cburch.logisim.soc.memory.SocMemoryAttributes}!START\_ADDRESS@{START\_ADDRESS}}
+\index{START\_ADDRESS@{START\_ADDRESS}!com.cburch.logisim.soc.memory.SocMemoryAttributes@{com.cburch.logisim.soc.memory.SocMemoryAttributes}}
+\doxysubsubsection{\texorpdfstring{START\_ADDRESS}{START\_ADDRESS}}
+{\footnotesize\ttfamily final Attribute$<$Integer$>$ com.\+cburch.\+logisim.\+soc.\+memory.\+Soc\+Memory\+Attributes.\+START\+\_\+\+ADDRESS\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forHexInteger(\textcolor{stringliteral}{"{}StartAddress"{}},\ S.getter(\textcolor{stringliteral}{"{}SocMemStartAddress"{}}))}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/memory/Soc\+Memory\+Attributes.\+java\end{DoxyCompactItemize}

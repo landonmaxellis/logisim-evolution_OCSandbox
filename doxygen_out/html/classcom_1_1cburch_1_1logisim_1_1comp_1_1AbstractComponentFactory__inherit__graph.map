@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.comp.AbstractComponentFactory" name="com.cburch.logisim.comp.AbstractComponentFactory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,663,269,1203"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1logisim_1_1comp_1_1ComponentFactory.html" title=" " alt="" coords="5,119,269,615"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,628,140,662,135,662,135,628"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="51,5,224,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,85,140,119,135,119,135,85"/>
+</map>

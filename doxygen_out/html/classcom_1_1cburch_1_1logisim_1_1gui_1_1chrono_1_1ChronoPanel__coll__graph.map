@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.gui.chrono.ChronoPanel" name="com.cburch.logisim.gui.chrono.ChronoPanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,223,601"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="19,5,91,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,84,72,118,67,119,61,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,5,230,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,85,161,119,156,118,162,84"/>
+</map>

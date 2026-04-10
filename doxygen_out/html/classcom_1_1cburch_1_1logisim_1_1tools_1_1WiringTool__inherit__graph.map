@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.tools.WiringTool" name="com.cburch.logisim.tools.WiringTool">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,564,267,952"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1Tool.html" title=" " alt="" coords="7,119,265,516"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,530,139,564,133,564,133,530"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="49,5,223,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,85,139,118,133,118,133,85"/>
+</map>

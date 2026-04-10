@@ -1,0 +1,117 @@
+\doxysection{com.\+cburch.\+logisim.\+util.\+Smart\+Scroller Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller}{}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller}\index{com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+util.\+Smart\+Scroller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+util.\+Smart\+Scroller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_ae12e79b540c287a1ed768e14f04b6d2a}{Smart\+Scroller}} (JScroll\+Pane scroll\+Pane)
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_ad24a8314e92cbe6981b4f95ee7dfbef6}{Smart\+Scroller}} (JScroll\+Pane scroll\+Pane, int viewport\+Position)
+\item 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a2a0912e79c6b3dd053f117017a3e1aab}{Smart\+Scroller}} (JScroll\+Pane scroll\+Pane, int scroll\+Direction, int viewport\+Position)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a976f031e89f840cde5ab10e949afaa59}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a976f031e89f840cde5ab10e949afaa59} 
+void {\bfseries adjustment\+Value\+Changed} (final Adjustment\+Event e)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a26aad9702513283785275fd88f599757}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a26aad9702513283785275fd88f599757} 
+static final int {\bfseries HORIZONTAL} = 0
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a15635b9098aa9c4c138535707235fc4e}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a15635b9098aa9c4c138535707235fc4e} 
+static final int {\bfseries VERTICAL} = 1
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_afa7dc680870b4db710a289dcfcdd3b36}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_afa7dc680870b4db710a289dcfcdd3b36} 
+static final int {\bfseries START} = 0
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a9bf8ce6799f7a5a29752216296661610}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a9bf8ce6799f7a5a29752216296661610} 
+static final int {\bfseries END} = 1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The Smart\+Scroller will attempt to keep the viewport positioned based on the users interaction with the scrollbar. The normal behaviour is to keep the viewport positioned to see new data as it is dynamically added.
+
+Assuming vertical scrolling and data is added to the bottom\+:
+
+-\/ when the viewport is at the bottom and new data is added, then automatically scroll the viewport to the bottom -\/ when the viewport is not at the bottom and new data is added, then do nothing with the viewport
+
+Assuming vertical scrolling and data is added to the top\+:
+
+-\/ when the viewport is at the top and new data is added, then do nothing with the viewport -\/ when the viewport is not at the top and new data is added, then adjust the viewport to the relative position it was at before the data was added
+
+Similiar logic would apply for horizontal scrolling.
+
+\href{http://www.camick.com/java/source/SmartScroller.java}{\texttt{ http\+://www.\+camick.\+com/java/source/\+Smart\+Scroller.\+java}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_ae12e79b540c287a1ed768e14f04b6d2a}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_ae12e79b540c287a1ed768e14f04b6d2a} 
+\index{com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}!SmartScroller@{SmartScroller}}
+\index{SmartScroller@{SmartScroller}!com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}}
+\doxysubsubsection{\texorpdfstring{SmartScroller()}{SmartScroller()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+util.\+Smart\+Scroller.\+Smart\+Scroller (\begin{DoxyParamCaption}\item[{JScroll\+Pane}]{scroll\+Pane }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Convenience constructor. Scroll direction is VERTICAL and viewport position is at the END.
+
+
+\begin{DoxyParams}{Parameters}
+{\em scroll\+Pane} & the scroll pane to monitor \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_ad24a8314e92cbe6981b4f95ee7dfbef6}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_ad24a8314e92cbe6981b4f95ee7dfbef6} 
+\index{com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}!SmartScroller@{SmartScroller}}
+\index{SmartScroller@{SmartScroller}!com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}}
+\doxysubsubsection{\texorpdfstring{SmartScroller()}{SmartScroller()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+util.\+Smart\+Scroller.\+Smart\+Scroller (\begin{DoxyParamCaption}\item[{JScroll\+Pane}]{scroll\+Pane,  }\item[{int}]{viewport\+Position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Convenience constructor. Scroll direction is VERTICAL.
+
+
+\begin{DoxyParams}{Parameters}
+{\em scroll\+Pane} & the scroll pane to monitor \\
+\hline
+{\em viewport\+Position} & valid values are START and END \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a2a0912e79c6b3dd053f117017a3e1aab}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1SmartScroller_a2a0912e79c6b3dd053f117017a3e1aab} 
+\index{com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}!SmartScroller@{SmartScroller}}
+\index{SmartScroller@{SmartScroller}!com.cburch.logisim.util.SmartScroller@{com.cburch.logisim.util.SmartScroller}}
+\doxysubsubsection{\texorpdfstring{SmartScroller()}{SmartScroller()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily com.\+cburch.\+logisim.\+util.\+Smart\+Scroller.\+Smart\+Scroller (\begin{DoxyParamCaption}\item[{JScroll\+Pane}]{scroll\+Pane,  }\item[{int}]{scroll\+Direction,  }\item[{int}]{viewport\+Position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Specify how the Smart\+Scroller will function.
+
+
+\begin{DoxyParams}{Parameters}
+{\em scroll\+Pane} & the scroll pane to monitor \\
+\hline
+{\em scroll\+Direction} & indicates which JScroll\+Bar to monitor. Valid values are HORIZONTAL and VERTICAL. \\
+\hline
+{\em viewport\+Position} & indicates where the viewport will normally be positioned as data is added. Valid values are START and END \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/util/Smart\+Scroller.\+java\end{DoxyCompactItemize}

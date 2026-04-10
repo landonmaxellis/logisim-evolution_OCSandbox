@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.data.Direction" name="com.cburch.logisim.data.Direction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,660,239,1024"/>
+<area shape="rect" id="Node000002" href="$interfacecom_1_1cburch_1_1logisim_1_1data_1_1AttributeOptionInterface.html" title=" " alt="" coords="26,5,207,125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,139,123,660,118,660,114,139"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Direction.html" title=" " alt="" coords="139,175,372,539"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="153,136,171,173,166,176,148,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,539,179,645,174,644,203,538"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="374,321,392,335,399,357,396,371,388,383,384,380,391,369,393,357,387,338,371,325"/>
+</map>

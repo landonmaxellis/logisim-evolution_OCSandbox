@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.circuit.Circuit" name="com.cburch.logisim.circuit.Circuit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,1172,274,1787"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitWires.html" title=" " alt="" coords="15,648,273,1109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,1109,147,1156,141,1156,141,1109"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,283,585"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="147,586,147,631,141,631,141,586"/>
+</map>

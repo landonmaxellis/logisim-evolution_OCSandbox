@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.gui.icons.ProjectAddIcon" name="com.cburch.logisim.gui.icons.ProjectAddIcon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,411,229,580"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1BaseIcon.html" title=" " alt="" coords="14,119,221,363"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,376,120,411,115,411,115,376"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="52,5,183,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,84,120,119,115,119,115,84"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="com.cburch.logisim.gui.generic.RegTabContent" name="com.cburch.logisim.gui.generic.RegTabContent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="205,119,427,427"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,91,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,78,207,173,203,177,93,82"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,5,223,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,81,222,117,217,120,194,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="247,5,385,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="319,85,319,119,313,119,313,85"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="409,5,519,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="439,84,416,120,411,117,434,81"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="543,5,651,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="550,82,429,182,425,178,547,78"/>
+</map>

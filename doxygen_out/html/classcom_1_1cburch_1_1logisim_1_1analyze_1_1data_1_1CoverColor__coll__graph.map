@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.analyze.data.CoverColor" name="com.cburch.logisim.analyze.data.CoverColor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,427,239,671"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="24,5,209,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,84,123,426,118,426,114,84"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1data_1_1CoverColor.html" title=" " alt="" coords="139,120,372,364"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="148,81,174,118,170,121,144,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,365,184,412,179,410,200,363"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="374,216,391,226,399,242,396,253,389,261,385,257,391,250,393,242,388,229,371,221"/>
+</map>

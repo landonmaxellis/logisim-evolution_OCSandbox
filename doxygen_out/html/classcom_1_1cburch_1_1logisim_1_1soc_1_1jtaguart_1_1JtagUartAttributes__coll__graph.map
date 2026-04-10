@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.jtaguart.JtagUartAttributes" name="com.cburch.logisim.soc.jtaguart.JtagUartAttributes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="63,604,297,1219"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,152,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,304,135,603,130,604,83,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="176,5,389,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,513,234,588,228,587,240,512"/>
+</map>

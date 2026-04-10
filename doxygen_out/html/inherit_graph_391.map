@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,127,119,152"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1gray_1_1CounterPoker.html" title=" " alt="" coords="175,5,393,31"/>
+<area shape="poly" id="edge749_Node000000_Node000001" title=" " alt="" coords="80,114,117,76,140,57,165,41,197,28,199,33,168,46,143,61,120,80,84,118"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1SubcircuitPoker.html" title=" " alt="" coords="185,55,383,95"/>
+<area shape="poly" id="edge750_Node000000_Node000002" title=" " alt="" coords="116,120,166,105,208,93,209,98,167,110,117,125"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1MemPoker.html" title=" " alt="" coords="167,119,401,159"/>
+<area shape="poly" id="edge751_Node000000_Node000003" title=" " alt="" coords="132,137,167,137,167,142,132,142"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1RegisterPoker.html" title=" " alt="" coords="167,183,401,223"/>
+<area shape="poly" id="edge752_Node000000_Node000004" title=" " alt="" coords="117,154,167,169,209,181,208,186,166,174,116,159"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1ShiftRegisterPoker.html" title=" " alt="" coords="167,247,401,287"/>
+<area shape="poly" id="edge754_Node000000_Node000006" title=" " alt="" coords="85,161,121,198,168,233,194,245,192,250,165,238,118,202,81,165"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1CounterPoker.html" title=" " alt="" coords="449,183,684,223"/>
+<area shape="poly" id="edge753_Node000004_Node000005" title=" " alt="" coords="415,201,449,201,449,206,415,206"/>
+</map>

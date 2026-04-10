@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.circuit.CircuitTransaction" name="com.cburch.logisim.circuit.CircuitTransaction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="132,5,371,219"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitMutation.html" title=" " alt="" coords="5,267,255,881"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,232,213,267,208,266,217,231"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="279,492,469,656"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,231,355,491,350,492,280,233"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1Splitter.html" title=" " alt="" coords="245,929,503,1491"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="377,670,377,929,371,929,371,670"/>
+</map>

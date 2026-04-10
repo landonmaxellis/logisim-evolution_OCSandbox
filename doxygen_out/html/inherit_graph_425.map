@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="31,17,198,42"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1nios2_1_1Nios2State.html" title=" " alt="" coords="277,5,496,45"/>
+<area shape="poly" id="edge847_Node000000_Node000001" title=" " alt="" coords="212,25,277,24,277,30,212,31"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1rv32im_1_1RV32imState.html" title=" " alt="" coords="272,69,501,109"/>
+<area shape="poly" id="edge848_Node000000_Node000003" title=" " alt="" coords="187,42,296,67,295,72,186,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,70,224,95"/>
+<area shape="poly" id="edge849_Node000002_Node000001" title=" " alt="" coords="188,65,291,43,292,48,189,70"/>
+<area shape="poly" id="edge850_Node000002_Node000003" title=" " alt="" coords="238,83,272,84,272,89,238,88"/>
+</map>

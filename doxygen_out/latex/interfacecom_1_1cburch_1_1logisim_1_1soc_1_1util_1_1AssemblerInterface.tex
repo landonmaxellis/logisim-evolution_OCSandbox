@@ -1,0 +1,60 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface Interface Reference}
+\hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}\index{com.cburch.logisim.soc.util.AssemblerInterface@{com.cburch.logisim.soc.util.AssemblerInterface}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+Interface\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a10f4d151cf5b2148e03218db56df496e}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a10f4d151cf5b2148e03218db56df496e} 
+void {\bfseries decode} (int instruction)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a355d26cbc6894120d6d90be443ddc048}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a355d26cbc6894120d6d90be443ddc048} 
+boolean {\bfseries assemble} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerAsmInstruction}{Assembler\+Asm\+Instruction}} instruction)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_ae307da47114062d23a522bf8fbef0079}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_ae307da47114062d23a522bf8fbef0079} 
+\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerExecutionInterface}{Assembler\+Execution\+Interface}} {\bfseries get\+Exe\+Unit} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_ae4706910c053b81660ec6c5c926f14fb}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_ae4706910c053b81660ec6c5c926f14fb} 
+Array\+List$<$ String $>$ {\bfseries get\+Opcodes} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a8d9f3d8968a4fbf0e2840410535d7976}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a8d9f3d8968a4fbf0e2840410535d7976} 
+int {\bfseries get\+Instruction\+Size} (String opcode)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_aa7ca9667421310cf575d02b920d1c04d}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_aa7ca9667421310cf575d02b920d1c04d} 
+boolean {\bfseries uses\+Rounded\+Brackets} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_ab44a6b7b9be0b2f0aee9d4fc85288ab4}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_ab44a6b7b9be0b2f0aee9d4fc85288ab4} 
+String {\bfseries get\+Program} (Circuit\+State circuit\+State, Soc\+Processor\+Interface processor\+Interface, Elf\+Program\+Header elf\+Header, Elf\+Section\+Header elf\+Sections, Hash\+Map$<$ Integer, Integer $>$ valid\+Debug\+Lines)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a5e0c1b67a7ad8ed140b840914882c6ad}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a5e0c1b67a7ad8ed140b840914882c6ad} 
+String {\bfseries get\+Highlight\+String\+Identifier} ()
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_adaf76e974b72788bb09676f1d54c74e8}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_adaf76e974b72788bb09676f1d54c74e8} 
+void {\bfseries perform\+Up\+Specific\+Operations\+On\+Tokens} (Linked\+List$<$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerToken}{Assembler\+Token}} $>$ tokens)
+\item 
+\Hypertarget{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a890d7eb74bbb5807c63fc499011a05cd}\label{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface_a890d7eb74bbb5807c63fc499011a05cd} 
+Hash\+Set$<$ Integer $>$ {\bfseries get\+Accepted\+Parameter\+Types} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/util/Assembler\+Interface.\+java\end{DoxyCompactItemize}

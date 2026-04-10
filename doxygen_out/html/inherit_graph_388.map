@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,301,205,326"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1gates_1_1AbstractBufferHdlGenerator.html" title=" " alt="" coords="279,5,496,45"/>
+<area shape="poly" id="edge736_Node000000_Node000001" title=" " alt="" coords="111,286,129,237,157,174,198,110,223,80,252,55,277,41,280,45,255,60,227,84,202,113,162,177,134,239,116,288"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1gates_1_1ControlledBufferHdlGenerator.html" title=" " alt="" coords="279,69,496,109"/>
+<area shape="poly" id="edge737_Node000000_Node000002" title=" " alt="" coords="116,287,137,249,167,204,206,158,252,119,277,106,280,111,255,124,209,162,171,207,142,252,121,290"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1AbstractSimpleIoHdlGeneratorFactory.html" title=" " alt="" coords="254,133,521,173"/>
+<area shape="poly" id="edge738_Node000000_Node000003" title=" " alt="" coords="125,288,178,235,214,207,252,183,280,171,282,176,255,188,217,211,182,239,128,292"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1DotMatrixHdlGeneratorFactory.html" title=" " alt="" coords="277,197,498,237"/>
+<area shape="poly" id="edge739_Node000000_Node000004" title=" " alt="" coords="143,292,194,269,252,247,293,235,294,240,254,252,196,274,145,297"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1HexDigitHdlGeneratorFactory.html" title=" " alt="" coords="281,261,494,301"/>
+<area shape="poly" id="edge740_Node000000_Node000005" title=" " alt="" coords="219,298,280,291,281,296,219,303"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1LedBarHdlGeneratorFactory.html" title=" " alt="" coords="287,325,488,365"/>
+<area shape="poly" id="edge741_Node000000_Node000006" title=" " alt="" coords="220,324,287,331,286,337,219,329"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1io_1_1PortHdlGeneratorFactory.html" title=" " alt="" coords="291,389,484,429"/>
+<area shape="poly" id="edge742_Node000000_Node000007" title=" " alt="" coords="145,329,196,353,254,375,294,387,293,392,252,380,194,357,143,334"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1memory_1_1RomHdlGeneratorFactory.html" title=" " alt="" coords="270,453,505,493"/>
+<area shape="poly" id="edge743_Node000000_Node000008" title=" " alt="" coords="128,335,182,388,217,416,255,439,282,451,280,456,252,444,214,420,178,392,125,338"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1AbstractConstantHdlGeneratorFactory.html" title=" " alt="" coords="253,517,521,557"/>
+<area shape="poly" id="edge744_Node000000_Node000009" title=" " alt="" coords="121,337,142,375,171,420,209,465,255,503,277,515,275,520,252,508,206,469,167,423,137,377,116,340"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1BitExtenderHdlGeneratorFactory.html" title=" " alt="" coords="271,581,503,621"/>
+<area shape="poly" id="edge745_Node000000_Node000010" title=" " alt="" coords="116,338,134,388,162,450,202,514,227,542,255,567,274,579,272,583,252,571,223,546,198,517,157,453,129,390,111,340"/>
+</map>

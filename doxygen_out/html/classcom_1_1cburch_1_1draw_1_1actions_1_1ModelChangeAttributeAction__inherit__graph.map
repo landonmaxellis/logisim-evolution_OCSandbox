@@ -1,0 +1,7 @@
+<map id="com.cburch.draw.actions.ModelChangeAttributeAction" name="com.cburch.draw.actions.ModelChangeAttributeAction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,495,280,757"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1draw_1_1actions_1_1ModelAction.html" title=" " alt="" coords="34,119,251,447"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,460,145,494,140,494,140,460"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,5,187,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,85,145,118,140,118,140,85"/>
+</map>

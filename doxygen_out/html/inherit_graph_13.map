@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,141,68,166"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitAction.html" title=" " alt="" coords="130,5,327,45"/>
+<area shape="poly" id="edge460_Node000000_Node000001" title=" " alt="" coords="50,128,76,90,94,71,115,55,137,43,139,48,117,60,98,75,81,94,54,131"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1appear_1_1ClipboardActions.html" title=" " alt="" coords="116,69,341,109"/>
+<area shape="poly" id="edge461_Node000000_Node000002" title=" " alt="" coords="79,133,115,119,153,107,154,112,117,124,81,138"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1appear_1_1RevertAppearanceAction.html" title=" " alt="" coords="116,133,341,173"/>
+<area shape="poly" id="edge462_Node000000_Node000003" title=" " alt="" coords="82,151,116,151,116,156,82,156"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1main_1_1ToolAttributeAction.html" title=" " alt="" coords="121,197,336,237"/>
+<area shape="poly" id="edge463_Node000000_Node000004" title=" " alt="" coords="81,169,117,183,154,195,153,200,115,188,79,174"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1SetAttributeAction.html" title=" " alt="" coords="134,261,323,301"/>
+<area shape="poly" id="edge464_Node000000_Node000005" title=" " alt="" coords="54,176,81,213,98,231,117,247,139,259,137,264,115,252,94,235,76,216,50,179"/>
+</map>

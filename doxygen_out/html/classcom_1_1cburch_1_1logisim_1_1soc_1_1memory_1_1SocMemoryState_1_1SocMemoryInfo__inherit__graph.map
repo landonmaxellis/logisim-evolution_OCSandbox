@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.memory.SocMemoryState.SocMemoryInfo" name="com.cburch.logisim.soc.memory.SocMemoryState.SocMemoryInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,236,273"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,5,115,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,83,96,117,91,119,78,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,5,217,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,84,151,119,146,117,159,83"/>
+</map>

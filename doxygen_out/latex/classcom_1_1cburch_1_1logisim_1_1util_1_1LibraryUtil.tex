@@ -1,0 +1,51 @@
+\doxysection{com.\+cburch.\+logisim.\+util.\+Library\+Util Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil}{}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil}\index{com.cburch.logisim.util.LibraryUtil@{com.cburch.logisim.util.LibraryUtil}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+util.\+Library\+Util\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil_a93db161c40f10ccb90a2883d50a9d9aa}{get\+Name}} (Class$<$?$>$ cls)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil_a90fa93d19f7bdc03933992f6757d92eb}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil_a90fa93d19f7bdc03933992f6757d92eb} 
+static final String {\bfseries ID\+\_\+\+FIELD\+\_\+\+NAME} = "{}\+\_\+\+ID"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil_a93db161c40f10ccb90a2883d50a9d9aa}\label{classcom_1_1cburch_1_1logisim_1_1util_1_1LibraryUtil_a93db161c40f10ccb90a2883d50a9d9aa} 
+\index{com.cburch.logisim.util.LibraryUtil@{com.cburch.logisim.util.LibraryUtil}!getName@{getName}}
+\index{getName@{getName}!com.cburch.logisim.util.LibraryUtil@{com.cburch.logisim.util.LibraryUtil}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily static String com.\+cburch.\+logisim.\+util.\+Library\+Util.\+get\+Name (\begin{DoxyParamCaption}\item[{Class$<$?$>$}]{cls }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Tries to read unique identifier from object (mainly Library or Tool) stored in object\textquotesingle{}s class static field named as set in id\+Field\+Name.
+
+As we want to have static \+\_\+\+ID per library, generic implementation must look for it in the current instance using Reflection.
+
+Throws No\+Such\+Element\+Exception if no ID field is found. Throws Null\+Pointer\+Exception if ID filed is present but its value is NULL
+
+
+\begin{DoxyParams}{Parameters}
+{\em cls} & Class of the object to obtain ID/\+Name from. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ID of the object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/util/Library\+Util.\+java\end{DoxyCompactItemize}

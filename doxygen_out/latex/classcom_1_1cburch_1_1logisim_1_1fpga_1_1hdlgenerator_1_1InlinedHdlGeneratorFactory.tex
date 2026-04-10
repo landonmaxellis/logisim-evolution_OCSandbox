@@ -1,0 +1,163 @@
+\doxysection{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory}{}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory}\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a48861055efad0bd8e736b6abf43531ec}{generate\+All\+HDLDescriptions}} (Set$<$ String $>$ handled\+Components, String working\+Directory, List$<$ String $>$ hierarchy)
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_abbae5d2249420f11173e07c14b4e81e2}{get\+Architecture}} (Netlist the\+Netlist, Attribute\+Set attrs, String component\+Name)
+\item 
+Line\+Buffer \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_ac921ac1d31cbb5b0ac3e3111e287bb72}{get\+Component\+Instantiation}} (Netlist the\+Netlist, Attribute\+Set attrs, String component\+Name)
+\item 
+Line\+Buffer \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a67928c031c6c1bcd91de7ec9da73ca05}{get\+Component\+Map}} (Netlist nets, Long component\+Id, Object component\+Info, String name)
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a8207362b1a9183464fcce74ce6e0cc28}{get\+Entity}} (Netlist the\+Netlist, Attribute\+Set attrs, String component\+Name)
+\item 
+Line\+Buffer \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a79c5364c45b0e244cc41e25e9ad54863}{get\+Inlined\+Code}} (Netlist nets, Long component\+Id, netlist\+Component component\+Info, String circuit\+Name)
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_aea07207dbdb1aad4620e338054e3e8ac}{get\+Relative\+Directory}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a1a56267656af34a7ee920b15a6c0d8df}{is\+Hdl\+Supported\+Target}} (Attribute\+Set attrs)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a91705e4fe4d1bdcbc732ba0d93e14bac}{is\+Only\+Inlined}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}}
+\begin{DoxyCompactItemize}
+\item 
+String {\bfseries NET\+\_\+\+NAME} = Hdl.\+NET\+\_\+\+NAME
+\item 
+String {\bfseries BUS\+\_\+\+NAME} = Hdl.\+BUS\+\_\+\+NAME
+\item 
+String {\bfseries CLOCK\+\_\+\+TREE\+\_\+\+NAME} = "{}logisim\+Clock\+Tree"{}
+\item 
+String {\bfseries VHDL} = "{}VHDL"{}
+\item 
+String {\bfseries VERILOG} = "{}Verilog"{}
+\item 
+String {\bfseries LOCAL\+\_\+\+INPUT\+\_\+\+BUBBLE\+\_\+\+BUS\+\_\+\+NAME} = "{}logisim\+Input\+Bubbles"{}
+\item 
+String {\bfseries LOCAL\+\_\+\+OUTPUT\+\_\+\+BUBBLE\+\_\+\+BUS\+\_\+\+NAME} = "{}logisim\+Output\+Bubbles"{}
+\item 
+String {\bfseries LOCAL\+\_\+\+INOUT\+\_\+\+BUBBLE\+\_\+\+BUS\+\_\+\+NAME} = "{}logisim\+In\+Out\+Bubbles"{}
+\item 
+String {\bfseries FPGA\+\_\+\+TOP\+\_\+\+LEVEL\+\_\+\+NAME} = "{}logisim\+Top\+Level\+Shell"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a48861055efad0bd8e736b6abf43531ec}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a48861055efad0bd8e736b6abf43531ec} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!generateAllHDLDescriptions@{generateAllHDLDescriptions}}
+\index{generateAllHDLDescriptions@{generateAllHDLDescriptions}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{generateAllHDLDescriptions()}{generateAllHDLDescriptions()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+generate\+All\+HDLDescriptions (\begin{DoxyParamCaption}\item[{Set$<$ String $>$}]{handled\+Components,  }\item[{String}]{working\+Directory,  }\item[{List$<$ String $>$}]{hierarchy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_abbae5d2249420f11173e07c14b4e81e2}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_abbae5d2249420f11173e07c14b4e81e2} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!getArchitecture@{getArchitecture}}
+\index{getArchitecture@{getArchitecture}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{getArchitecture()}{getArchitecture()}}
+{\footnotesize\ttfamily List$<$ String $>$ com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+get\+Architecture (\begin{DoxyParamCaption}\item[{Netlist}]{the\+Netlist,  }\item[{Attribute\+Set}]{attrs,  }\item[{String}]{component\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_ac921ac1d31cbb5b0ac3e3111e287bb72}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_ac921ac1d31cbb5b0ac3e3111e287bb72} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!getComponentInstantiation@{getComponentInstantiation}}
+\index{getComponentInstantiation@{getComponentInstantiation}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{getComponentInstantiation()}{getComponentInstantiation()}}
+{\footnotesize\ttfamily Line\+Buffer com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+get\+Component\+Instantiation (\begin{DoxyParamCaption}\item[{Netlist}]{the\+Netlist,  }\item[{Attribute\+Set}]{attrs,  }\item[{String}]{component\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a67928c031c6c1bcd91de7ec9da73ca05}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a67928c031c6c1bcd91de7ec9da73ca05} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!getComponentMap@{getComponentMap}}
+\index{getComponentMap@{getComponentMap}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{getComponentMap()}{getComponentMap()}}
+{\footnotesize\ttfamily Line\+Buffer com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+get\+Component\+Map (\begin{DoxyParamCaption}\item[{Netlist}]{nets,  }\item[{Long}]{component\+Id,  }\item[{Object}]{component\+Info,  }\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a8207362b1a9183464fcce74ce6e0cc28}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a8207362b1a9183464fcce74ce6e0cc28} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!getEntity@{getEntity}}
+\index{getEntity@{getEntity}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{getEntity()}{getEntity()}}
+{\footnotesize\ttfamily List$<$ String $>$ com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+get\+Entity (\begin{DoxyParamCaption}\item[{Netlist}]{the\+Netlist,  }\item[{Attribute\+Set}]{attrs,  }\item[{String}]{component\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a79c5364c45b0e244cc41e25e9ad54863}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a79c5364c45b0e244cc41e25e9ad54863} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!getInlinedCode@{getInlinedCode}}
+\index{getInlinedCode@{getInlinedCode}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{getInlinedCode()}{getInlinedCode()}}
+{\footnotesize\ttfamily Line\+Buffer com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+get\+Inlined\+Code (\begin{DoxyParamCaption}\item[{Netlist}]{nets,  }\item[{Long}]{component\+Id,  }\item[{netlist\+Component}]{component\+Info,  }\item[{String}]{circuit\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_aea07207dbdb1aad4620e338054e3e8ac}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_aea07207dbdb1aad4620e338054e3e8ac} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!getRelativeDirectory@{getRelativeDirectory}}
+\index{getRelativeDirectory@{getRelativeDirectory}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{getRelativeDirectory()}{getRelativeDirectory()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+get\+Relative\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a1a56267656af34a7ee920b15a6c0d8df}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a1a56267656af34a7ee920b15a6c0d8df} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!isHdlSupportedTarget@{isHdlSupportedTarget}}
+\index{isHdlSupportedTarget@{isHdlSupportedTarget}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{isHdlSupportedTarget()}{isHdlSupportedTarget()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+is\+Hdl\+Supported\+Target (\begin{DoxyParamCaption}\item[{Attribute\+Set}]{attrs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a91705e4fe4d1bdcbc732ba0d93e14bac}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory_a91705e4fe4d1bdcbc732ba0d93e14bac} 
+\index{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}!isOnlyInlined@{isOnlyInlined}}
+\index{isOnlyInlined@{isOnlyInlined}!com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory@{com.cburch.logisim.fpga.hdlgenerator.InlinedHdlGeneratorFactory}}
+\doxysubsubsection{\texorpdfstring{isOnlyInlined()}{isOnlyInlined()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Inlined\+Hdl\+Generator\+Factory.\+is\+Only\+Inlined (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory}{com.\+cburch.\+logisim.\+fpga.\+hdlgenerator.\+Hdl\+Generator\+Factory}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/fpga/hdlgenerator/Inlined\+Hdl\+Generator\+Factory.\+java\end{DoxyCompactItemize}

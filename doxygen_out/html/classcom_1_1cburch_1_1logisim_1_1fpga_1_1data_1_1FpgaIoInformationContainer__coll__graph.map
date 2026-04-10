@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.fpga.data.FpgaIoInformationContainer" name="com.cburch.logisim.fpga.data.FpgaIoInformationContainer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="79,521,346,1107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,264,84,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,342,98,458,118,520,113,522,93,459,56,343"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1BoardRectangle.html" title=" " alt="" coords="107,135,318,459"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,459,215,505,210,505,210,459"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1data_1_1MapListModel.html" title=" " alt="" coords="343,167,560,426"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="394,428,355,511,351,509,389,425"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="356,5,547,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="454,99,454,167,449,167,449,99"/>
+</map>

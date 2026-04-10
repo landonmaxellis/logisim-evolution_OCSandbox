@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.fpga.gui.FpgaReportTabbedPane" name="com.cburch.logisim.fpga.gui.FpgaReportTabbedPane">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,119,351,556"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,100,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,81,100,117,95,120,75,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="124,5,320,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,85,225,118,219,118,219,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="345,5,550,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="417,83,353,168,349,165,413,80"/>
+</map>

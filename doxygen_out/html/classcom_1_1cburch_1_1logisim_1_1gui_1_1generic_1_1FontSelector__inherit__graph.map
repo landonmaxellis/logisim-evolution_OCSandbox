@@ -1,0 +1,13 @@
+<map id="com.cburch.logisim.gui.generic.FontSelector" name="com.cburch.logisim.gui.generic.FontSelector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="167,119,409,357"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,59,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,68,72,69,168,143,165,147,69,73,68,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,5,210,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,80,205,117,201,120,175,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="235,5,341,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,84,291,118,285,118,285,84"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="365,5,515,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="410,83,381,120,377,117,405,80"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="539,5,647,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="534,81,410,161,408,156,532,76"/>
+</map>

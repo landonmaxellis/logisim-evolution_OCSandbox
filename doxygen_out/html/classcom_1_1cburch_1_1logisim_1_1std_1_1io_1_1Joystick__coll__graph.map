@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.std.io.Joystick" name="com.cburch.logisim.std.io.Joystick">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,575,273,843"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,121,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,304,133,574,127,575,70,305"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1Attribute.html" title=" " alt="" coords="146,5,359,512"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,513,192,559,187,558,197,512"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.fpga.download.Download" name="com.cburch.logisim.fpga.download.Download">
+<area shape="rect" id="Node000001" title=" " alt="" coords="216,955,557,1617"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1DownloadBase.html" title=" " alt="" coords="5,5,325,907"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="292,919,301,954,296,955,286,920"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="349,423,424,489"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="389,503,389,954,384,954,384,503"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="448,423,653,489"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="544,503,455,955,450,954,539,501"/>
+</map>

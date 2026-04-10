@@ -1,0 +1,92 @@
+\doxysection{com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent}{}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent}\index{com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a5044e2fecef80f05ebb47dedfc5cc751}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a5044e2fecef80f05ebb47dedfc5cc751} 
+{\bfseries Generic\+Interface\+Component} (String name, String\+Getter display\+Name, Hdl\+Generator\+Factory generator, boolean requires\+Global\+Clock)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_aa4a9bcb12279ad89d763fdb2ad83127a}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_aa4a9bcb12279ad89d763fdb2ad83127a} 
+Bounds {\bfseries get\+Offset\+Bounds} (Attribute\+Set attrs)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_aad61ddee9a6fb251edb59f5740b12524}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_aad61ddee9a6fb251edb59f5740b12524} 
+void {\bfseries paint\+Instance} (Instance\+Painter painter)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_ae7bd8d66d7458cdeb17562e21330970a}{get\+Gi\+Attributes\+Name}} (Attribute\+Set attrs)
+\item 
+abstract Port\+Description\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a3d1cc3425ee1a1f547b2e29d57c78c7a}{get\+Gi\+Attributes\+Inputs}} (Attribute\+Set attrs)
+\item 
+abstract Port\+Description\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a5c6c3e6e13c925344ab2b1c5fa6e8d77}{get\+Gi\+Attributes\+Outputs}} (Attribute\+Set attrs)
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a0efc75386bdabe28dabdcd8eda750805}{update\+Ports}} (Instance instance)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class. This base class provides a standard port layout and drawing code for generic logic interfaces (like for VHDL). It does not assume much about the target; the goal is simply to keep the port layout code in one place. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a3d1cc3425ee1a1f547b2e29d57c78c7a}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a3d1cc3425ee1a1f547b2e29d57c78c7a} 
+\index{com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}!getGiAttributesInputs@{getGiAttributesInputs}}
+\index{getGiAttributesInputs@{getGiAttributesInputs}!com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}}
+\doxysubsubsection{\texorpdfstring{getGiAttributesInputs()}{getGiAttributesInputs()}}
+{\footnotesize\ttfamily abstract Port\+Description\mbox{[}$\,$\mbox{]} com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component.\+get\+Gi\+Attributes\+Inputs (\begin{DoxyParamCaption}\item[{Attribute\+Set}]{attrs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Get the input ports for the given attributes. The returned value is not to be modified. 
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1HdlCircuitComponent_a9a889af2e8a72179c2c30d8632682fb9}{com.\+cburch.\+logisim.\+std.\+hdl.\+Hdl\+Circuit\+Component$<$ C extends Hdl\+Content $>$}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_ae7bd8d66d7458cdeb17562e21330970a}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_ae7bd8d66d7458cdeb17562e21330970a} 
+\index{com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}!getGiAttributesName@{getGiAttributesName}}
+\index{getGiAttributesName@{getGiAttributesName}!com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}}
+\doxysubsubsection{\texorpdfstring{getGiAttributesName()}{getGiAttributesName()}}
+{\footnotesize\ttfamily abstract String com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component.\+get\+Gi\+Attributes\+Name (\begin{DoxyParamCaption}\item[{Attribute\+Set}]{attrs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Get the chip name for the given attributes. 
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1HdlCircuitComponent_a7da85d8af480ab9f4080fb8d13502b76}{com.\+cburch.\+logisim.\+std.\+hdl.\+Hdl\+Circuit\+Component$<$ C extends Hdl\+Content $>$}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a5c6c3e6e13c925344ab2b1c5fa6e8d77}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a5c6c3e6e13c925344ab2b1c5fa6e8d77} 
+\index{com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}!getGiAttributesOutputs@{getGiAttributesOutputs}}
+\index{getGiAttributesOutputs@{getGiAttributesOutputs}!com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}}
+\doxysubsubsection{\texorpdfstring{getGiAttributesOutputs()}{getGiAttributesOutputs()}}
+{\footnotesize\ttfamily abstract Port\+Description\mbox{[}$\,$\mbox{]} com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component.\+get\+Gi\+Attributes\+Outputs (\begin{DoxyParamCaption}\item[{Attribute\+Set}]{attrs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Get the output ports for the given attributes. The returned value is not to be modified. 
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1HdlCircuitComponent_aa27b30432ecad19aa8a8a0c8dc3102b6}{com.\+cburch.\+logisim.\+std.\+hdl.\+Hdl\+Circuit\+Component$<$ C extends Hdl\+Content $>$}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a0efc75386bdabe28dabdcd8eda750805}\label{classcom_1_1cburch_1_1logisim_1_1std_1_1hdl_1_1GenericInterfaceComponent_a0efc75386bdabe28dabdcd8eda750805} 
+\index{com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}!updatePorts@{updatePorts}}
+\index{updatePorts@{updatePorts}!com.cburch.logisim.std.hdl.GenericInterfaceComponent@{com.cburch.logisim.std.hdl.GenericInterfaceComponent}}
+\doxysubsubsection{\texorpdfstring{updatePorts()}{updatePorts()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+std.\+hdl.\+Generic\+Interface\+Component.\+update\+Ports (\begin{DoxyParamCaption}\item[{Instance}]{instance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Called by subclasses when something happens which changes anything affecting get\+Gi\+Attributes\texorpdfstring{$\ast$}{*} functions. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/std/hdl/Generic\+Interface\+Component.\+java\end{DoxyCompactItemize}

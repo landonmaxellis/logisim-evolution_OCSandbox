@@ -1,0 +1,132 @@
+\doxysection{com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload}{}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload}\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_ad1bcb80e0173c0c444a81882e5039dd6}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_ad1bcb80e0173c0c444a81882e5039dd6} 
+{\bfseries Xilinx\+Download} (String project\+Path, Netlist root\+Net\+List, Board\+Information board\+Info, List$<$ String $>$ entities, List$<$ String $>$ architectures, String hdl\+Type, boolean write\+To\+Flash)
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a302835853ae5d6303bb108d206e31fa6}{get\+Number\+Of\+Stages}} ()
+\item 
+String \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a3abb244c6e482d38155b380307d11303}{get\+Stage\+Message}} (int stage)
+\item 
+Process\+Builder \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a2ce77dc1f72d85904f7f1d00d6777b06}{perform\+Step}} (int stage)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_ae49a5281d3e7d9aa180b2ed898f6c589}{ready\+For\+Download}} ()
+\item 
+Process\+Builder \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a1f7b011bbede3b5709647734a7161a6a}{download\+To\+Board}} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a910c1b29b9d725b9676bf851caf647ef}{create\+Download\+Scripts}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a18f5ac650da8490129a204f68eee1d8a}{set\+Mapable\+Resources}} (Mappable\+Resources\+Container resources)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a1f89f5c6b8ff5b4b1c8511a24e38218e}{is\+Board\+Connected}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a910c1b29b9d725b9676bf851caf647ef}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a910c1b29b9d725b9676bf851caf647ef} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!createDownloadScripts@{createDownloadScripts}}
+\index{createDownloadScripts@{createDownloadScripts}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{createDownloadScripts()}{createDownloadScripts()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+create\+Download\+Scripts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a1f7b011bbede3b5709647734a7161a6a}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a1f7b011bbede3b5709647734a7161a6a} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!downloadToBoard@{downloadToBoard}}
+\index{downloadToBoard@{downloadToBoard}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{downloadToBoard()}{downloadToBoard()}}
+{\footnotesize\ttfamily Process\+Builder com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+download\+To\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a302835853ae5d6303bb108d206e31fa6}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a302835853ae5d6303bb108d206e31fa6} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!getNumberOfStages@{getNumberOfStages}}
+\index{getNumberOfStages@{getNumberOfStages}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{getNumberOfStages()}{getNumberOfStages()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+get\+Number\+Of\+Stages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a3abb244c6e482d38155b380307d11303}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a3abb244c6e482d38155b380307d11303} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!getStageMessage@{getStageMessage}}
+\index{getStageMessage@{getStageMessage}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{getStageMessage()}{getStageMessage()}}
+{\footnotesize\ttfamily String com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+get\+Stage\+Message (\begin{DoxyParamCaption}\item[{int}]{stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a1f89f5c6b8ff5b4b1c8511a24e38218e}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a1f89f5c6b8ff5b4b1c8511a24e38218e} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!isBoardConnected@{isBoardConnected}}
+\index{isBoardConnected@{isBoardConnected}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{isBoardConnected()}{isBoardConnected()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+is\+Board\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a2ce77dc1f72d85904f7f1d00d6777b06}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a2ce77dc1f72d85904f7f1d00d6777b06} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!performStep@{performStep}}
+\index{performStep@{performStep}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{performStep()}{performStep()}}
+{\footnotesize\ttfamily Process\+Builder com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+perform\+Step (\begin{DoxyParamCaption}\item[{int}]{stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_ae49a5281d3e7d9aa180b2ed898f6c589}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_ae49a5281d3e7d9aa180b2ed898f6c589} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!readyForDownload@{readyForDownload}}
+\index{readyForDownload@{readyForDownload}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{readyForDownload()}{readyForDownload()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+ready\+For\+Download (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a18f5ac650da8490129a204f68eee1d8a}\label{classcom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1XilinxDownload_a18f5ac650da8490129a204f68eee1d8a} 
+\index{com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}!setMapableResources@{setMapableResources}}
+\index{setMapableResources@{setMapableResources}!com.cburch.logisim.fpga.download.XilinxDownload@{com.cburch.logisim.fpga.download.XilinxDownload}}
+\doxysubsubsection{\texorpdfstring{setMapableResources()}{setMapableResources()}}
+{\footnotesize\ttfamily void com.\+cburch.\+logisim.\+fpga.\+download.\+Xilinx\+Download.\+set\+Mapable\+Resources (\begin{DoxyParamCaption}\item[{Mappable\+Resources\+Container}]{resources }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1download_1_1VendorDownload}{com.\+cburch.\+logisim.\+fpga.\+download.\+Vendor\+Download}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/fpga/download/Xilinx\+Download.\+java\end{DoxyCompactItemize}

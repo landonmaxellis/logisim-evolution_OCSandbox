@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory.html" title=" " alt="" coords="5,109,277,149"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1AbstractHdlGeneratorFactory.html" title=" " alt="" coords="325,77,597,117"/>
+<area shape="poly" id="edge511_Node000000_Node000001" title=" " alt="" coords="291,111,325,108,325,113,291,116"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1InlinedHdlGeneratorFactory.html" title=" " alt="" coords="325,141,597,181"/>
+<area shape="poly" id="edge516_Node000000_Node000006" title=" " alt="" coords="291,141,325,144,325,150,291,146"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1SynthesizedClockHdlGeneratorFactory.html" title=" " alt="" coords="645,13,917,53"/>
+<area shape="poly" id="edge512_Node000001_Node000002" title=" " alt="" coords="575,71,680,50,681,55,576,76"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1TickComponentHdlGeneratorFactory.html" title=" " alt="" coords="645,77,917,117"/>
+<area shape="poly" id="edge514_Node000001_Node000004" title=" " alt="" coords="611,94,645,94,645,99,611,99"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1ToplevelHdlGeneratorFactory.html" title=" " alt="" coords="645,141,917,181"/>
+<area shape="poly" id="edge515_Node000001_Node000005" title=" " alt="" coords="576,117,681,138,680,143,575,122"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1XilinxSeries7SynthesizedClockHdlGeneratorFactory.html" title=" " alt="" coords="965,5,1275,60"/>
+<area shape="poly" id="edge513_Node000002_Node000003" title=" " alt="" coords="931,30,965,30,965,35,931,35"/>
+</map>

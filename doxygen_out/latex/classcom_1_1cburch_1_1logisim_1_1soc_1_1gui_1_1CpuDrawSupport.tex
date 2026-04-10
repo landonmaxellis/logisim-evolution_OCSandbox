@@ -1,0 +1,61 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+gui.\+Cpu\+Draw\+Support Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport}\index{com.cburch.logisim.soc.gui.CpuDrawSupport@{com.cburch.logisim.soc.gui.CpuDrawSupport}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+gui.\+Cpu\+Draw\+Support\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Sim\+State\+Poker}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a0ec99053fe06b21104421d45231f9fdb}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a0ec99053fe06b21104421d45231f9fdb} 
+static Bounds {\bfseries get\+Bounds} (int x, int y, int width, int height, boolean scale)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_ab22a1d2aa64a886cad9fe7a1248f568b}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_ab22a1d2aa64a886cad9fe7a1248f568b} 
+static int {\bfseries get\+Block\+Width} (Graphics2D g2, boolean scale)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a50332d30d89e88925bb8320467101a9f}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a50332d30d89e88925bb8320467101a9f} 
+static void {\bfseries draw\+Registers} (Graphics2D g, int x, int y, boolean scale, Soc\+Up\+State\+Interface cpu)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a39b8b5e636ad552198dcf1035c901f30}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a39b8b5e636ad552198dcf1035c901f30} 
+static void {\bfseries draw\+Hex\+Reg} (Graphics2D g, int x, int y, boolean scale, int value, String Name, boolean valid)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_aeeb3f1e58d56232018690db1227d1383}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_aeeb3f1e58d56232018690db1227d1383} 
+static void {\bfseries draw\+IRQs} (Graphics2D g, int x, int y, boolean scale, int nr\+Of\+Irqs, int irqs, int irq\+Mask)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a8259498dcfe3694de2fad1b7bf425814}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a8259498dcfe3694de2fad1b7bf425814} 
+static void {\bfseries draw\+Trace} (Graphics2D g, int x, int y, boolean scale, Soc\+Up\+State\+Interface cpu)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_aca2d225880704de38a67fe454b75757d}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_aca2d225880704de38a67fe454b75757d} 
+static final int {\bfseries NR\+\_\+\+OF\+\_\+\+TRACES} = 21
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a5f502babb693f507edbf7b0f6061697d}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a5f502babb693f507edbf7b0f6061697d} 
+static final int {\bfseries TRACE\+\_\+\+HEIGHT} = 20
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a787788a536c9afea0cf2639ffe5a6bb8}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a787788a536c9afea0cf2639ffe5a6bb8} 
+static final Bounds {\bfseries bus\+Con\+Bounds} = Bounds.\+create(50, 600, 280, 20)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a7799f8e050ea7c41a515eec140b5f776}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a7799f8e050ea7c41a515eec140b5f776} 
+static final Bounds {\bfseries sim\+State\+Bounds} = Bounds.\+create(340, 600, 270, 20)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a4d1a7c7ac5cf0aee41b1af25c5eb6c5c}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1gui_1_1CpuDrawSupport_a4d1a7c7ac5cf0aee41b1af25c5eb6c5c} 
+static final Bounds {\bfseries up\+State\+Bounds} = Bounds.\+create(50, 10, 590, 590)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/gui/Cpu\+Draw\+Support.\+java\end{DoxyCompactItemize}

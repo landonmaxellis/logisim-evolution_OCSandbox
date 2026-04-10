@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.vhdl.gui.VhdlSimState" name="com.cburch.logisim.vhdl.gui.VhdlSimState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,227,323"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="24,5,77,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,83,82,117,77,119,64,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,5,261,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,84,155,119,150,117,163,83"/>
+</map>

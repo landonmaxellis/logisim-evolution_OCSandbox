@@ -1,0 +1,19 @@
+<map id="com.cburch.logisim.tools.Tool" name="com.cburch.logisim.tools.Tool">
+<area shape="rect" id="Node000001" title=" " alt="" coords="792,119,1049,516"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1AddTool.html" title=" " alt="" coords="5,564,263,1075"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="779,345,661,375,529,420,461,449,396,483,333,522,276,566,265,576,261,572,272,562,330,517,393,478,459,444,527,415,660,370,778,340"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1EditTool.html" title=" " alt="" coords="287,621,512,1018"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="781,383,716,419,649,461,583,510,525,566,484,622,480,618,521,562,580,506,646,457,713,414,778,379"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1MenuTool.html" title=" " alt="" coords="535,690,797,949"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="816,529,734,691,729,689,811,527"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1PokeTool.html" title=" " alt="" coords="821,635,1021,1003"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="923,529,923,635,918,635,918,529"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1SelectTool.html" title=" " alt="" coords="1044,635,1269,1003"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1022,527,1073,634,1068,636,1017,530"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1TextTool.html" title=" " alt="" coords="1293,628,1495,1011"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1063,387,1120,422,1178,463,1234,510,1284,562,1307,593,1327,626,1322,629,1302,596,1280,566,1231,514,1175,467,1117,426,1060,391"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1cburch_1_1logisim_1_1tools_1_1WiringTool.html" title=" " alt="" coords="1519,625,1781,1013"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1063,347,1169,379,1286,425,1345,453,1403,485,1458,521,1509,562,1537,591,1563,624,1558,627,1533,595,1506,566,1455,526,1401,490,1343,458,1284,430,1167,384,1062,352"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="834,5,1007,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="923,85,923,118,918,118,918,85"/>
+</map>

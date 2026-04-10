@@ -1,0 +1,9 @@
+<map id="com.cburch.draw.shapes.RoundRectangle" name="com.cburch.draw.shapes.RoundRectangle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,1064,251,1505"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,425,261,1016"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,1030,136,1064,131,1064,131,1030"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,119,251,377"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="136,391,136,425,131,425,131,391"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="54,5,213,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="136,84,136,118,131,118,131,84"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.fpga.gui.ListModelCellRenderer" name="com.cburch.logisim.fpga.gui.ListModelCellRenderer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,241,292"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="23,5,77,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,82,88,118,83,120,67,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="101,5,295,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,84,164,120,160,118,176,82"/>
+</map>

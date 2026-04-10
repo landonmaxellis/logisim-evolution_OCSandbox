@@ -1,0 +1,8 @@
+<map id="com.cburch.logisim.data.TestVector" name="com.cburch.logisim.data.TestVector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,501,193,691"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1data_1_1BitWidth.html" title=" " alt="" coords="5,120,203,439"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,439,107,485,101,485,101,439"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="205,246,222,258,229,279,227,293,219,304,215,300,222,291,224,280,218,261,202,251"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,193,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,85,107,120,101,120,101,85"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.analyze.gui.VariableTab" name="com.cburch.logisim.analyze.gui.VariableTab">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,307,230,893"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,119,231,259"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,273,121,306,115,306,115,273"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="91,5,145,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,84,121,118,115,118,115,84"/>
+</map>

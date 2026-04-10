@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.wiring.BitExtender" name="com.cburch.logisim.std.wiring.BitExtender">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,451,240,719"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="59,5,175,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,85,124,451,119,451,115,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1BitExtender.html" title=" " alt="" coords="139,120,373,388"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="147,81,172,118,167,121,143,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,389,185,436,180,434,199,387"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="375,226,393,237,400,254,397,266,390,274,386,271,392,263,395,254,389,240,372,231"/>
+</map>

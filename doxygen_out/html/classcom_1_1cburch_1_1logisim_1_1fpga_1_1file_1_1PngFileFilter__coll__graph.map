@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.fpga.file.PngFileFilter" name="com.cburch.logisim.fpga.file.PngFileFilter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,297,208,412"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="66,5,137,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,84,108,297,103,297,99,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1file_1_1PngFileFilter.html" title=" " alt="" coords="123,120,325,235"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="140,79,175,118,171,121,136,82"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,236,156,285,151,282,184,233"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="327,161,344,167,352,177,344,188,340,185,347,177,341,171,325,167"/>
+</map>

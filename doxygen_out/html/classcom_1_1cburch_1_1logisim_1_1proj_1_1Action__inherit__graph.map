@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.proj.Action" name="com.cburch.logisim.proj.Action">
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,5,330,244"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1appear_1_1CanvasActionAdapter.html" title=" " alt="" coords="5,342,223,511"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,258,149,343,144,341,178,256"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1proj_1_1JoinedAction.html" title=" " alt="" coords="247,292,453,561"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,256,299,291,294,293,281,258"/>
+</map>

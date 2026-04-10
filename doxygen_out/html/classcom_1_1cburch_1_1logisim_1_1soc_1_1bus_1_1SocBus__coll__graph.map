@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.soc.bus.SocBus" name="com.cburch.logisim.soc.bus.SocBus">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,431,235,951"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,211,168,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,290,110,430,105,430,98,290"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusMenuProvider.html" title=" " alt="" coords="193,120,418,368"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,369,237,416,232,414,251,367"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="252,5,359,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,85,308,120,303,120,303,85"/>
+</map>

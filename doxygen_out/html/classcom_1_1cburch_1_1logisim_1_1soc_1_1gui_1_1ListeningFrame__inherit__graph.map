@@ -1,0 +1,13 @@
+<map id="com.cburch.logisim.soc.gui.ListeningFrame" name="com.cburch.logisim.soc.gui.ListeningFrame">
+<area shape="rect" id="Node000001" title=" " alt="" coords="257,119,487,407"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,64,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,68,78,68,258,188,255,192,74,73,74,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="88,5,293,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,80,259,118,254,122,223,83"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="318,5,426,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="375,84,375,119,369,119,369,84"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="450,5,558,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="481,84,459,120,455,117,476,81"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="583,5,724,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="605,81,489,172,486,168,601,77"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.fpga.gui.HdlColorRenderer" name="com.cburch.logisim.fpga.gui.HdlColorRenderer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,119,252,540"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="43,5,97,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,83,89,118,84,119,76,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,5,253,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,85,174,119,169,118,176,83"/>
+</map>

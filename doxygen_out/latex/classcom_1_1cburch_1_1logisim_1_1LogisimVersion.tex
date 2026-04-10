@@ -1,0 +1,99 @@
+\doxysection{com.\+cburch.\+logisim.\+Logisim\+Version Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}\index{com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+Logisim\+Version\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{classcom_1_1cburch_1_1logisim_1_1LogisimVersion__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a683adaee1b41718312fb46c43c22da80}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a683adaee1b41718312fb46c43c22da80} 
+{\bfseries Logisim\+Version} (int major, int minor, int patch)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a5977c2dff3ab30df1342e22855b00566}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a5977c2dff3ab30df1342e22855b00566} 
+{\bfseries Logisim\+Version} (int major, int minor, int patch, String suffix)
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a5a70bd87ee59005c3ce202be5d62a15d}{compare\+To}} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{Logisim\+Version}} other)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a85ae3fa9968af6d7341ea72f5ecc245e}{is\+Stable}} ()
+\item 
+int \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_adc1f287398f6ea754bd9878ce75174c8}{hash\+Code}} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_ab0db552893c9845e2da5c124ae2592ea}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_ab0db552893c9845e2da5c124ae2592ea} 
+String {\bfseries to\+String} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{Logisim\+Version}} \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a29b8db559230c7583638315891c1d88f}{from\+String}} (String version\+String)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a970d6498251ef510480cda91eab39e59}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a970d6498251ef510480cda91eab39e59} 
+static String {\bfseries format} (int major, int minor, int patch)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_afc19125f751b78ba3c567333253424af}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_afc19125f751b78ba3c567333253424af} 
+static String {\bfseries format} (int major, int minor, int patch, String suffix)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Version string handling class. Supported version formats\+:
+
+-\/ X.\+Y.\+Z -\/ X.\+Y.\+Zsuffix -\/ X.\+Y.\+Z-\/suffix
+
+where X, Y, Z must be positive integer, while suffix is optional string starting with a letter. Suffix can be separated from X.\+Y.\+Z part with (optional) dash ("{}-\/"{}) character.
+
+NOTE\+: to\+String() form uses no dash separator form by default, however if object is obtained via {\ttfamily from\+String()} call, and version string contains the "{}-\/"{} separator, output returned by {\ttfamily to\+String()} will also include separator character. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a5a70bd87ee59005c3ce202be5d62a15d}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a5a70bd87ee59005c3ce202be5d62a15d} 
+\index{com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}!compareTo@{compareTo}}
+\index{compareTo@{compareTo}!com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}}
+\doxysubsubsection{\texorpdfstring{compareTo()}{compareTo()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+Logisim\+Version.\+compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{Logisim\+Version}}}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compare two Logisim versions, returning positive non-\/zero value whether the one passed as parameter is newer than the current one, equal (0) or older (negative non-\/zero value).
+
+\begin{DoxyReturn}{Returns}
+Negative value if the current version is older than the one passed as parameter, zero if equal, positive if newer. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a29b8db559230c7583638315891c1d88f}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a29b8db559230c7583638315891c1d88f} 
+\index{com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}!fromString@{fromString}}
+\index{fromString@{fromString}!com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}}
+\doxysubsubsection{\texorpdfstring{fromString()}{fromString()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1LogisimVersion}{Logisim\+Version}} com.\+cburch.\+logisim.\+Logisim\+Version.\+from\+String (\begin{DoxyParamCaption}\item[{String}]{version\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Parse a string containing a version number and returns the corresponding Logisim\+Version object. No exception is thrown if the version string contains non-\/integers, because literal values are allowed.
+
+Supported version string formats are {\ttfamily X.\+Y.\+Z}, {\ttfamily X.\+Y.\+Z-\/suffix} or {\ttfamily X.\+Y.\+Zsuffix}.
+
+\begin{DoxyReturn}{Returns}
+Logisim\+Version built from the string passed as parameter 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_adc1f287398f6ea754bd9878ce75174c8}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_adc1f287398f6ea754bd9878ce75174c8} 
+\index{com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int com.\+cburch.\+logisim.\+Logisim\+Version.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Build the hash code starting from the version number. \Hypertarget{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a85ae3fa9968af6d7341ea72f5ecc245e}\label{classcom_1_1cburch_1_1logisim_1_1LogisimVersion_a85ae3fa9968af6d7341ea72f5ecc245e} 
+\index{com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}!isStable@{isStable}}
+\index{isStable@{isStable}!com.cburch.logisim.LogisimVersion@{com.cburch.logisim.LogisimVersion}}
+\doxysubsubsection{\texorpdfstring{isStable()}{isStable()}}
+{\footnotesize\ttfamily boolean com.\+cburch.\+logisim.\+Logisim\+Version.\+is\+Stable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns TRUE if version is considered stable, false otherwise. Note the implementation is plaind dumb and relies on presence of version suffix (which, if not empty means non-\/stable release).
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/Logisim\+Version.\+java\end{DoxyCompactItemize}

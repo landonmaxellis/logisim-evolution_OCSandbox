@@ -1,0 +1,77 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,1133,136,1158"/>
+<area shape="rect" id="Node000001" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1BaseIcon.html" title=" " alt="" coords="184,1125,399,1165"/>
+<area shape="poly" id="edge755_Node000000_Node000001" title=" " alt="" coords="150,1143,184,1143,184,1148,150,1148"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1AppearEditIcon.html" title=" " alt="" coords="447,5,661,45"/>
+<area shape="poly" id="edge756_Node000001_Node000002" title=" " alt="" coords="290,1112,295,900,302,748,315,584,334,419,361,267,378,201,397,142,419,93,445,56,458,44,462,48,449,59,424,96,402,144,383,202,366,269,339,420,320,584,307,749,300,900,295,1112"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1ArithmeticIcon.html" title=" " alt="" coords="447,69,661,109"/>
+<area shape="poly" id="edge757_Node000001_Node000003" title=" " alt="" coords="290,1112,297,911,305,768,318,614,338,460,364,318,381,255,400,200,421,155,445,120,458,108,462,112,449,123,425,157,405,202,386,257,370,319,343,460,324,614,310,769,302,911,296,1112"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1ButtonIcon.html" title=" " alt="" coords="447,133,661,173"/>
+<area shape="poly" id="edge758_Node000001_Node000004" title=" " alt="" coords="291,1111,299,922,308,788,322,644,342,500,368,368,384,310,402,259,422,216,445,184,458,172,462,176,449,187,427,219,407,261,389,311,373,369,347,501,328,644,314,789,304,922,296,1111"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1CircuitIcon.html" title=" " alt="" coords="447,197,661,237"/>
+<area shape="poly" id="edge759_Node000001_Node000005" title=" " alt="" coords="291,1112,301,933,311,809,326,675,346,541,372,418,404,317,423,278,445,248,459,235,462,239,449,251,428,281,409,319,377,420,351,542,331,675,317,809,306,934,297,1112"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1CompileIcon.html" title=" " alt="" coords="447,261,661,301"/>
+<area shape="poly" id="edge760_Node000001_Node000006" title=" " alt="" coords="292,1112,303,945,330,705,350,582,375,469,407,376,425,339,445,312,459,299,462,303,449,315,429,342,412,378,381,470,355,583,335,706,309,945,297,1112"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1CounterIcon.html" title=" " alt="" coords="447,325,661,365"/>
+<area shape="poly" id="edge761_Node000001_Node000007" title=" " alt="" coords="292,1111,306,956,334,735,354,623,379,519,409,434,426,401,445,376,459,363,462,368,449,379,431,404,414,436,384,521,359,624,339,736,311,956,298,1112"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1DipSwitchIcon.html" title=" " alt="" coords="447,389,661,429"/>
+<area shape="poly" id="edge762_Node000001_Node000008" title=" " alt="" coords="293,1112,308,968,338,767,358,664,383,570,411,493,428,463,445,439,459,428,463,432,449,443,432,465,416,495,388,572,364,665,343,768,314,968,298,1112"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1DrcIcon.html" title=" " alt="" coords="447,453,661,493"/>
+<area shape="poly" id="edge763_Node000001_Node000009" title=" " alt="" coords="294,1111,311,979,342,797,363,705,387,620,414,551,429,524,445,503,460,491,463,495,449,507,433,527,419,554,392,622,368,706,347,798,316,980,299,1112"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1FatArrowIcon.html" title=" " alt="" coords="447,517,661,557"/>
+<area shape="poly" id="edge764_Node000001_Node000010" title=" " alt="" coords="295,1111,314,991,346,828,367,746,390,671,416,610,445,568,460,555,463,560,449,571,421,612,395,673,372,748,352,829,319,992,300,1112"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1FlipFlopIcon.html" title=" " alt="" coords="447,581,661,621"/>
+<area shape="poly" id="edge765_Node000001_Node000011" title=" " alt="" coords="290,1111,295,1017,304,955,317,888,336,819,363,751,399,688,445,631,461,619,464,623,449,635,403,691,368,754,341,821,322,890,309,956,301,1017,295,1111"/>
+<area shape="rect" id="Node000012" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1GroundIcon.html" title=" " alt="" coords="447,645,661,685"/>
+<area shape="poly" id="edge766_Node000001_Node000012" title=" " alt="" coords="292,1111,301,1028,310,974,325,916,344,857,370,798,404,744,445,695,461,683,464,688,448,699,408,747,375,801,349,859,330,918,316,975,306,1029,297,1112"/>
+<area shape="rect" id="Node000013" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1HdlIcon.html" title=" " alt="" coords="447,709,661,749"/>
+<area shape="poly" id="edge767_Node000001_Node000013" title=" " alt="" coords="294,1111,307,1039,333,944,353,894,378,845,408,800,445,759,462,747,465,752,448,763,412,803,382,848,358,896,338,946,312,1040,299,1112"/>
+<area shape="rect" id="Node000014" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1JoystickIcon.html" title=" " alt="" coords="447,773,661,813"/>
+<area shape="poly" id="edge768_Node000001_Node000014" title=" " alt="" coords="297,1111,313,1050,342,972,362,932,385,892,413,856,445,823,463,811,466,816,448,827,417,859,390,895,366,934,347,974,318,1051,302,1112"/>
+<area shape="rect" id="Node000015" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1KeyboardIcon.html" title=" " alt="" coords="447,837,661,877"/>
+<area shape="poly" id="edge769_Node000001_Node000015" title=" " alt="" coords="301,1112,321,1062,351,1002,393,940,417,912,445,887,465,875,467,880,448,891,421,916,397,943,356,1004,326,1064,306,1114"/>
+<area shape="rect" id="Node000016" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1LedBarIcon.html" title=" " alt="" coords="447,901,661,941"/>
+<area shape="poly" id="edge770_Node000001_Node000016" title=" " alt="" coords="308,1112,331,1075,362,1032,401,988,445,951,467,939,470,944,448,956,404,992,366,1035,335,1078,312,1115"/>
+<area shape="rect" id="Node000017" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1LedIcon.html" title=" " alt="" coords="447,965,661,1005"/>
+<area shape="poly" id="edge771_Node000001_Node000017" title=" " alt="" coords="319,1114,375,1063,409,1037,445,1015,472,1003,474,1008,448,1020,412,1042,378,1067,323,1118"/>
+<area shape="rect" id="Node000018" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1LedMatrixIcon.html" title=" " alt="" coords="447,1029,661,1069"/>
+<area shape="poly" id="edge772_Node000001_Node000018" title=" " alt="" coords="349,1117,446,1079,482,1067,484,1072,448,1084,351,1122"/>
+<area shape="rect" id="Node000019" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1OpenSaveIcon.html" title=" " alt="" coords="447,1093,661,1133"/>
+<area shape="poly" id="edge773_Node000001_Node000019" title=" " alt="" coords="412,1128,446,1124,447,1129,412,1133"/>
+<area shape="rect" id="Node000020" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1PlexerIcon.html" title=" " alt="" coords="447,1157,661,1197"/>
+<area shape="poly" id="edge774_Node000001_Node000020" title=" " alt="" coords="412,1157,447,1162,446,1167,412,1163"/>
+<area shape="rect" id="Node000021" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1PowerIcon.html" title=" " alt="" coords="447,1221,661,1261"/>
+<area shape="poly" id="edge775_Node000001_Node000021" title=" " alt="" coords="351,1168,448,1207,484,1219,482,1224,446,1212,349,1173"/>
+<area shape="rect" id="Node000022" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1ProjectAddIcon.html" title=" " alt="" coords="447,1285,661,1325"/>
+<area shape="poly" id="edge776_Node000001_Node000022" title=" " alt="" coords="323,1173,378,1223,412,1249,448,1271,474,1283,472,1288,445,1276,409,1253,375,1227,319,1177"/>
+<area shape="rect" id="Node000023" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1PullResistorIcon.html" title=" " alt="" coords="447,1349,661,1389"/>
+<area shape="poly" id="edge777_Node000001_Node000023" title=" " alt="" coords="312,1176,335,1213,366,1256,404,1299,448,1335,470,1347,467,1351,445,1340,401,1302,362,1259,331,1216,308,1179"/>
+<area shape="rect" id="Node000024" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1RandomIcon.html" title=" " alt="" coords="447,1413,661,1453"/>
+<area shape="poly" id="edge778_Node000001_Node000024" title=" " alt="" coords="306,1177,326,1226,356,1286,397,1347,421,1375,448,1399,467,1411,465,1416,445,1403,417,1379,393,1351,351,1289,321,1229,301,1179"/>
+<area shape="rect" id="Node000025" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1RunIcon.html" title=" " alt="" coords="447,1477,661,1517"/>
+<area shape="poly" id="edge779_Node000001_Node000025" title=" " alt="" coords="302,1178,318,1239,347,1316,366,1357,390,1395,417,1432,448,1463,466,1475,463,1480,445,1467,413,1435,385,1398,362,1359,342,1319,313,1241,297,1180"/>
+<area shape="rect" id="Node000026" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1SelectIcon.html" title=" " alt="" coords="447,1541,661,1581"/>
+<area shape="poly" id="edge780_Node000001_Node000026" title=" " alt="" coords="299,1178,312,1251,338,1345,358,1394,382,1443,412,1488,448,1527,465,1539,462,1543,445,1531,408,1491,378,1445,353,1397,333,1346,307,1252,294,1179"/>
+<area shape="rect" id="Node000027" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1SevenSegmentIcon.html" title=" " alt="" coords="447,1605,661,1645"/>
+<area shape="poly" id="edge781_Node000001_Node000027" title=" " alt="" coords="297,1179,306,1262,316,1315,330,1373,349,1432,375,1490,408,1544,448,1591,464,1603,461,1607,445,1595,404,1547,370,1492,344,1434,325,1374,310,1317,301,1263,292,1179"/>
+<area shape="rect" id="Node000028" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1ShifterIcon.html" title=" " alt="" coords="447,1669,661,1709"/>
+<area shape="poly" id="edge782_Node000001_Node000028" title=" " alt="" coords="295,1179,301,1273,309,1334,322,1401,341,1470,368,1537,403,1600,449,1655,464,1667,461,1671,445,1659,399,1603,363,1539,336,1471,317,1402,304,1335,295,1274,290,1180"/>
+<area shape="rect" id="Node000029" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1ShowStateIcon.html" title=" " alt="" coords="447,1733,661,1773"/>
+<area shape="poly" id="edge783_Node000001_Node000029" title=" " alt="" coords="300,1179,319,1299,352,1461,372,1543,395,1618,421,1678,449,1720,463,1731,460,1735,445,1723,416,1681,390,1619,367,1545,346,1462,314,1300,295,1179"/>
+<area shape="rect" id="Node000030" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1SimulationIcon.html" title=" " alt="" coords="447,1797,661,1837"/>
+<area shape="poly" id="edge784_Node000001_Node000030" title=" " alt="" coords="299,1179,316,1311,347,1493,368,1585,392,1668,419,1737,433,1764,449,1783,463,1795,460,1799,445,1787,429,1766,414,1739,387,1670,363,1586,342,1494,311,1312,294,1180"/>
+<area shape="rect" id="Node000031" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1SplitterIcon.html" title=" " alt="" coords="447,1861,661,1901"/>
+<area shape="poly" id="edge785_Node000001_Node000031" title=" " alt="" coords="298,1178,314,1322,343,1523,364,1626,388,1719,416,1796,432,1825,449,1847,463,1859,459,1863,445,1851,428,1828,411,1798,383,1721,358,1627,338,1524,308,1323,293,1179"/>
+<area shape="rect" id="Node000032" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1TextIcon.html" title=" " alt="" coords="447,1925,661,1965"/>
+<area shape="poly" id="edge786_Node000001_Node000032" title=" " alt="" coords="298,1179,311,1334,339,1554,359,1667,384,1770,414,1854,431,1887,449,1912,462,1923,459,1927,445,1915,426,1890,409,1856,379,1771,354,1668,334,1555,306,1335,292,1179"/>
+<area shape="rect" id="Node000033" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1TransistorIcon.html" title=" " alt="" coords="447,1989,661,2029"/>
+<area shape="poly" id="edge787_Node000001_Node000033" title=" " alt="" coords="297,1179,309,1345,335,1585,355,1708,381,1820,412,1913,429,1949,449,1976,462,1987,459,1991,445,1979,425,1951,407,1915,375,1822,350,1709,330,1585,303,1346,292,1179"/>
+<area shape="rect" id="Node000034" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1TransmissionGateIcon.html" title=" " alt="" coords="447,2053,661,2093"/>
+<area shape="poly" id="edge788_Node000001_Node000034" title=" " alt="" coords="297,1179,306,1357,317,1481,331,1615,351,1749,377,1871,409,1971,428,2010,449,2040,462,2051,459,2055,445,2043,423,2013,404,1973,372,1872,346,1750,326,1616,311,1482,301,1357,291,1179"/>
+<area shape="rect" id="Node000035" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1TreeIcon.html" title=" " alt="" coords="447,2117,661,2157"/>
+<area shape="poly" id="edge789_Node000001_Node000035" title=" " alt="" coords="296,1179,304,1369,314,1502,328,1646,347,1790,373,1922,389,1979,407,2030,427,2072,449,2104,462,2115,458,2119,445,2107,422,2074,402,2032,384,1981,368,1923,342,1791,322,1647,308,1503,299,1369,291,1179"/>
+<area shape="rect" id="Node000036" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1TtyIcon.html" title=" " alt="" coords="447,2181,661,2221"/>
+<area shape="poly" id="edge790_Node000001_Node000036" title=" " alt="" coords="296,1179,302,1379,310,1522,324,1676,343,1830,370,1972,386,2034,405,2088,425,2133,449,2168,462,2179,458,2183,445,2171,421,2136,400,2090,381,2035,364,1973,338,1831,318,1677,305,1522,297,1380,290,1179"/>
+<area shape="rect" id="Node000037" href="$classcom_1_1cburch_1_1logisim_1_1gui_1_1icons_1_1ZoomIcon.html" title=" " alt="" coords="447,2245,661,2285"/>
+<area shape="poly" id="edge791_Node000001_Node000037" title=" " alt="" coords="295,1179,300,1390,307,1542,320,1706,339,1871,366,2022,383,2089,402,2147,424,2195,449,2232,462,2243,458,2247,445,2235,419,2198,397,2149,378,2090,361,2023,334,1872,315,1707,302,1542,295,1391,290,1179"/>
+</map>

@@ -1,0 +1,84 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+bus.\+Soc\+Bus\+Attributes Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes}\index{com.cburch.logisim.soc.bus.SocBusAttributes@{com.cburch.logisim.soc.bus.SocBusAttributes}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+soc.\+bus.\+Soc\+Bus\+Attributes\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+bus.\+Soc\+Bus\+Attributes\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Soc\+Bus\+Id\+Attribute}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a9b6292464b0d59235199054c881851d1}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a9b6292464b0d59235199054c881851d1} 
+List$<$ Attribute$<$?$>$ $>$ {\bfseries get\+Attributes} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a13ea6edcdb1720961c7df9427b56a990}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a13ea6edcdb1720961c7df9427b56a990} 
+boolean {\bfseries is\+Read\+Only} (Attribute$<$?$>$ attr)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Attribute$<$ Bit\+Width $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_ad815ad1837483aac1ea144a6f6917346}{Nr\+Of\+Traces\+Attr}}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a3480b7137b205f8d17f35ecf3ca01447}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a3480b7137b205f8d17f35ecf3ca01447} 
+static final Attribute$<$ Soc\+Bus\+Info $>$ {\bfseries SOC\+\_\+\+BUS\+\_\+\+ID} = new Soc\+Bus\+Id\+Attribute()
+\item 
+static final Attribute$<$ Boolean $>$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a33dfbd191abf6970bc0ff42652c7eaeb}{SOC\+\_\+\+TRACE\+\_\+\+VISIBLE}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_aeba21a1a65284bcffdb38bb26c765cea}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_aeba21a1a65284bcffdb38bb26c765cea} 
+void {\bfseries copy\+Into} (Abstract\+Attribute\+Set dest)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_ad815ad1837483aac1ea144a6f6917346}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_ad815ad1837483aac1ea144a6f6917346} 
+\index{com.cburch.logisim.soc.bus.SocBusAttributes@{com.cburch.logisim.soc.bus.SocBusAttributes}!NrOfTracesAttr@{NrOfTracesAttr}}
+\index{NrOfTracesAttr@{NrOfTracesAttr}!com.cburch.logisim.soc.bus.SocBusAttributes@{com.cburch.logisim.soc.bus.SocBusAttributes}}
+\doxysubsubsection{\texorpdfstring{NrOfTracesAttr}{NrOfTracesAttr}}
+{\footnotesize\ttfamily final Attribute$<$Bit\+Width$>$ com.\+cburch.\+logisim.\+soc.\+bus.\+Soc\+Bus\+Attributes.\+Nr\+Of\+Traces\+Attr\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBitWidth(\textcolor{stringliteral}{"{}TraceSize"{}},\ S.getter(\textcolor{stringliteral}{"{}SocBusTraceSize"{}}))}
+
+\end{DoxyCode}
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a33dfbd191abf6970bc0ff42652c7eaeb}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1bus_1_1SocBusAttributes_a33dfbd191abf6970bc0ff42652c7eaeb} 
+\index{com.cburch.logisim.soc.bus.SocBusAttributes@{com.cburch.logisim.soc.bus.SocBusAttributes}!SOC\_TRACE\_VISIBLE@{SOC\_TRACE\_VISIBLE}}
+\index{SOC\_TRACE\_VISIBLE@{SOC\_TRACE\_VISIBLE}!com.cburch.logisim.soc.bus.SocBusAttributes@{com.cburch.logisim.soc.bus.SocBusAttributes}}
+\doxysubsubsection{\texorpdfstring{SOC\_TRACE\_VISIBLE}{SOC\_TRACE\_VISIBLE}}
+{\footnotesize\ttfamily final Attribute$<$Boolean$>$ com.\+cburch.\+logisim.\+soc.\+bus.\+Soc\+Bus\+Attributes.\+SOC\+\_\+\+TRACE\+\_\+\+VISIBLE\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ \ \ Attributes.forBoolean(\textcolor{stringliteral}{"{}TraceVisible"{}},\ S.getter(\textcolor{stringliteral}{"{}SocBusTraceVisible"{}}))}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/bus/Soc\+Bus\+Attributes.\+java\end{DoxyCompactItemize}

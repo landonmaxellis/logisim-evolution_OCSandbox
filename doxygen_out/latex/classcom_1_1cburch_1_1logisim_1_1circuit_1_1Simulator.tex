@@ -1,0 +1,100 @@
+\doxysection{com.\+cburch.\+logisim.\+circuit.\+Simulator Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator}{}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator}\index{com.cburch.logisim.circuit.Simulator@{com.cburch.logisim.circuit.Simulator}}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+circuit.\+Simulator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Event}
+\item 
+interface {\bfseries Listener}
+\item 
+interface {\bfseries Progress\+Listener}
+\item 
+interface {\bfseries Status\+Listener}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ae9c76ee0e7f7185a5ff5222a6e59b719}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ae9c76ee0e7f7185a5ff5222a6e59b719} 
+void {\bfseries add\+Simulator\+Listener} (Status\+Listener listener)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ae73a8c73cb1fdbbef904bf4e208a3880}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ae73a8c73cb1fdbbef904bf4e208a3880} 
+void {\bfseries remove\+Simulator\+Listener} (Status\+Listener listener)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ac5413a86ea9dc953d8b9bef155167928}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ac5413a86ea9dc953d8b9bef155167928} 
+void {\bfseries draw\+Step\+Points} (Component\+Draw\+Context context)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a634d5c7c46338d3a2483229eb089653c}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a634d5c7c46338d3a2483229eb089653c} 
+void {\bfseries draw\+Pending\+Inputs} (Component\+Draw\+Context context)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a6910b3fc7407b97a632c50708a8145a3}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a6910b3fc7407b97a632c50708a8145a3} 
+String {\bfseries get\+Single\+Step\+Message} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a249655227555c4ef5f7ce725a51e1fb5}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a249655227555c4ef5f7ce725a51e1fb5} 
+void {\bfseries add\+Pending\+Input} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitState}{Circuit\+State}} state, Component comp)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a877eae6446a5c492b1681bd96e6dd4ee}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a877eae6446a5c492b1681bd96e6dd4ee} 
+double {\bfseries get\+Tick\+Frequency} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a2e6a0321936f28bc375a2facbfe9a20f}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a2e6a0321936f28bc375a2facbfe9a20f} 
+boolean {\bfseries is\+Exception\+Encountered} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a8c0be81661c56ad26f686948220a3fc7}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a8c0be81661c56ad26f686948220a3fc7} 
+boolean {\bfseries is\+Oscillating} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a30a1d2477f4d5c1715f355bbedc760d5}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a30a1d2477f4d5c1715f355bbedc760d5} 
+\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitState}{Circuit\+State}} {\bfseries get\+Circuit\+State} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a75d0a6fd14e5923162a55460d50f0e1e}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a75d0a6fd14e5923162a55460d50f0e1e} 
+boolean {\bfseries is\+Auto\+Propagating} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a8974eda68ca643e441c5cf5a263df112}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a8974eda68ca643e441c5cf5a263df112} 
+boolean {\bfseries is\+Auto\+Ticking} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a1105534841d85d4e7fce81c94f647ec2}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a1105534841d85d4e7fce81c94f647ec2} 
+void {\bfseries set\+Circuit\+State} (\mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1circuit_1_1CircuitState}{Circuit\+State}} state)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a24e067d6724106a51b308bf602785513}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a24e067d6724106a51b308bf602785513} 
+void {\bfseries set\+Auto\+Propagation} (boolean value)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a7a1c6f1aeb7c265c9f32ccb2fb74352e}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a7a1c6f1aeb7c265c9f32ccb2fb74352e} 
+void {\bfseries set\+Auto\+Ticking} (boolean value)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_af5539afab6d4b4c369b472c6f8a08d73}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_af5539afab6d4b4c369b472c6f8a08d73} 
+void {\bfseries set\+Tick\+Frequency} (double freq)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a9bd0d9807490a7122a0ed790104ee70e}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a9bd0d9807490a7122a0ed790104ee70e} 
+void {\bfseries step} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_aa41803d98e733314359f97c655ba2bde}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_aa41803d98e733314359f97c655ba2bde} 
+void {\bfseries tick} (int count)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ac87424ab36a9694527667459dc42e516}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ac87424ab36a9694527667459dc42e516} 
+void {\bfseries reset} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a0d75fa70351494da9b02ae5770160b5f}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_a0d75fa70351494da9b02ae5770160b5f} 
+boolean {\bfseries nudge} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_aec35574ee7782dd16119e20cb9f83116}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_aec35574ee7782dd16119e20cb9f83116} 
+void {\bfseries shut\+Down} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ad168dd7c0a73d57384410106ffc7e7a7}\label{classcom_1_1cburch_1_1logisim_1_1circuit_1_1Simulator_ad168dd7c0a73d57384410106ffc7e7a7} 
+final Sim\+Thread {\bfseries sim\+Thread}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/circuit/Simulator.\+java\end{DoxyCompactItemize}

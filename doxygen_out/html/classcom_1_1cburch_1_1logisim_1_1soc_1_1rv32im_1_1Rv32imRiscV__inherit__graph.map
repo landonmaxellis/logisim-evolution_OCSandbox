@@ -1,0 +1,7 @@
+<map id="com.cburch.logisim.soc.rv32im.Rv32imRiscV" name="com.cburch.logisim.soc.rv32im.Rv32imRiscV">
+<area shape="rect" id="Node000001" title=" " alt="" coords="45,119,289,639"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,144,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,84,99,118,94,119,84,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="169,5,349,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,85,240,119,235,118,244,84"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="com.cburch.logisim.vhdl.gui.HdlToolbarModel" name="com.cburch.logisim.vhdl.gui.HdlToolbarModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="139,485,357,1031"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,224,160,289"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,302,160,484,155,486,95,303"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="184,224,312,289"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,303,251,485,245,485,245,303"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="336,120,563,393"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="397,395,365,473,360,471,392,393"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="404,5,495,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="452,84,452,120,447,120,447,84"/>
+</map>

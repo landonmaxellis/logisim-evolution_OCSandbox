@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.std.wiring.PowerOnReset" name="com.cburch.logisim.std.wiring.PowerOnReset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,451,235,719"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,173,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,85,121,451,116,451,112,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1std_1_1wiring_1_1PowerOnReset.html" title=" " alt="" coords="136,120,365,388"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="144,81,168,118,164,121,140,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,389,181,436,177,434,195,387"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="367,226,385,236,392,254,389,266,382,274,378,271,384,263,387,254,381,240,364,231"/>
+</map>

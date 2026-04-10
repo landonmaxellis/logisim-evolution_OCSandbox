@@ -1,0 +1,63 @@
+\doxysection{com.\+cburch.\+logisim.\+soc.\+util.\+Assembler Class Reference}
+\hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler}{}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler}\index{com.cburch.logisim.soc.util.Assembler@{com.cburch.logisim.soc.util.Assembler}}
+
+
+Inheritance diagram for com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+cburch.\+logisim.\+soc.\+util.\+Assembler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a3a040ac10aaba9151a55f9e6ecc7466f}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a3a040ac10aaba9151a55f9e6ecc7466f} 
+{\bfseries Assembler} (\mbox{\hyperlink{interfacecom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerInterface}{Assembler\+Interface}} assembler, RText\+Scroll\+Pane pane)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a9ccd5b9d9c37235bdd7f58ca0f80d706}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a9ccd5b9d9c37235bdd7f58ca0f80d706} 
+void {\bfseries reset} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_af75f5f55d1c7973587ee41e813e82055}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_af75f5f55d1c7973587ee41e813e82055} 
+List$<$ Integer $>$ {\bfseries get\+Error\+Positions} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_ae2e41af9d57cae018ef790267a382099}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_ae2e41af9d57cae018ef790267a382099} 
+boolean {\bfseries assemble} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_aeaae66f56ff65292a1bfcd0eec8f178e}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_aeaae66f56ff65292a1bfcd0eec8f178e} 
+void {\bfseries add\+Error} (int location, String\+Getter sg, Set$<$ Gutter\+Icon\+Info $>$ known)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a859e70d0359cbbdc710ac8bf8c08dee1}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a859e70d0359cbbdc710ac8bf8c08dee1} 
+Linked\+List$<$ \mbox{\hyperlink{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1AssemblerToken}{Assembler\+Token}} $>$ {\bfseries check\+And\+Build\+Tokens} (int line\+Number)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a36838c9fa37887189f34a47543813db6}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a36838c9fa37887189f34a47543813db6} 
+long {\bfseries get\+Entry\+Point} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_adb5c4fc38cbdca07263ded98b8b6c2f8}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_adb5c4fc38cbdca07263ded98b8b6c2f8} 
+boolean {\bfseries download} (Soc\+Processor\+Interface cpu, Circuit\+State state)
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_ad6f266b57d429c8cb26e6ecb43eeb636}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_ad6f266b57d429c8cb26e6ecb43eeb636} 
+Elf\+Section\+Header {\bfseries get\+Section\+Header} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a385bb842d85cfdf634181b2cb829a870}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_a385bb842d85cfdf634181b2cb829a870} 
+void {\bfseries locale\+Changed} ()
+\item 
+\Hypertarget{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_af44c1acca0e2e48d328e556e9688feec}\label{classcom_1_1cburch_1_1logisim_1_1soc_1_1util_1_1Assembler_af44c1acca0e2e48d328e556e9688feec} 
+Parse\+Result {\bfseries parse} (RSyntax\+Document doc, String style)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/cburch/logisim/soc/util/Assembler.\+java\end{DoxyCompactItemize}

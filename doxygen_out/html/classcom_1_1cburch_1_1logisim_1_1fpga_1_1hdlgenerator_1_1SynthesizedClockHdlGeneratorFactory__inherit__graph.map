@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.fpga.hdlgenerator.SynthesizedClockHdlGeneratorFactory" name="com.cburch.logisim.fpga.hdlgenerator.SynthesizedClockHdlGeneratorFactory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="19,1636,293,1948"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1XilinxSeries7SynthesizedClockHdlGeneratorFactory.html" title=" " alt="" coords="5,1996,307,2268"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,1962,159,1996,153,1996,153,1962"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1AbstractHdlGeneratorFactory.html" title=" " alt="" coords="17,717,295,1588"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,1602,159,1635,153,1635,153,1602"/>
+<area shape="rect" id="Node000003" href="$interfacecom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlGeneratorFactory.html" title=" " alt="" coords="17,5,295,669"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,683,159,717,153,717,153,683"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="com.cburch.logisim.analyze.model.Implicant" name="com.cburch.logisim.analyze.model.Implicant">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,783,279,1383"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="45,5,229,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,85,143,782,138,782,134,85"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1analyze_1_1model_1_1Implicant.html" title=" " alt="" coords="159,120,432,720"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="158,83,173,119,168,121,153,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,721,218,767,213,766,223,720"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="434,368,452,389,459,420,455,443,447,460,442,458,450,441,453,420,447,391,430,372"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="com.cburch.logisim.TestBase" name="com.cburch.logisim.TestBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="543,5,792,308"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1cburch_1_1logisim_1_1CollectionUtilTest.html" title=" " alt="" coords="5,453,255,593"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,211,399,274,332,314,269,358,220,404,179,454,175,451,216,401,266,354,329,309,397,270,529,207"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1cburch_1_1logisim_1_1LineBufferTest.html" title=" " alt="" coords="279,368,525,677"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="552,321,516,369,512,366,547,318"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1cburch_1_1logisim_1_1LogisimVersionTest.html" title=" " alt="" coords="549,356,785,689"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="670,322,670,356,665,356,665,322"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1cburch_1_1logisim_1_1StringUtilTest.html" title=" " alt="" coords="809,433,1059,613"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="788,318,871,431,867,434,784,321"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1cburch_1_1logisim_1_1fpga_1_1hdlgenerator_1_1HdlTest.html" title=" " alt="" coords="1083,448,1347,597"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="806,207,940,270,1008,309,1073,354,1122,398,1164,446,1160,450,1118,402,1070,358,1006,314,937,274,803,212"/>
+</map>
