@@ -34,7 +34,7 @@ public final class StringUtil {
     if (width < maxWidth) return value;
     if (value.length() < 4) return value;
     return resizeString(
-        new StringBuilder(value.substring(0, value.length() - 3) + ".."), metrics, maxWidth);
+            new StringBuilder(value.substring(0, value.length() - 3) + ".."), metrics, maxWidth);
   }
 
   private static String resizeString(StringBuilder value, FontMetrics metrics, int maxWidth) {
@@ -112,5 +112,23 @@ public final class StringUtil {
   /** Null safe version of `String.startsWith()` */
   public static boolean startsWith(String seq, String prefix) {
     return (seq != null) ? seq.startsWith(prefix) : false;
+  }
+
+  /** Case-insensitive contains check (for search functionality). */
+  public static boolean containsIgnoreCase(String text, String query) {
+    if (text == null || query == null) return false;
+    return text.toLowerCase().contains(query.toLowerCase());
+  }
+
+  /**
+   * Matches a component name against a search query.
+   * Returns true for blank queries so the full component list can still display.
+   * Matching is case-insensitive and ignores leading/trailing whitespace.
+   */
+  public static boolean matchesSearchQuery(String componentName, String query) {
+    if (componentName == null) return false;
+    if (query == null || query.trim().isEmpty()) return true;
+
+    return componentName.trim().toLowerCase().contains(query.trim().toLowerCase());
   }
 }

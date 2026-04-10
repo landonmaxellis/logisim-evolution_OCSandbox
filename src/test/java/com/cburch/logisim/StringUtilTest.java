@@ -59,4 +59,40 @@ public class StringUtilTest extends TestBase {
     assertTrue(StringUtil.startsWith(haystick, needle));
     assertFalse(StringUtil.startsWith(haystick, needle.substring(1)));
   }
+
+  @Test
+  void testContainsIgnoreCase() {
+    assertTrue(StringUtil.containsIgnoreCase("AND Gate", "and"));
+  }
+
+  @Test
+  void testContainsIgnoreCaseNoMatch() {
+    assertFalse(StringUtil.containsIgnoreCase("AND Gate", "or"));
+  }
+
+  @Test
+  void testMatchesSearchQueryCaseInsensitive() {
+    assertTrue(StringUtil.matchesSearchQuery("AND Gate", "and"));
+  }
+
+  @Test
+  void testMatchesSearchQueryPartialMatch() {
+    assertTrue(StringUtil.matchesSearchQuery("Multiplexer", "multi"));
+  }
+
+  @Test
+  void testMatchesSearchQueryNoMatch() {
+    assertFalse(StringUtil.matchesSearchQuery("Register", "clock"));
+  }
+
+  @Test
+  void testMatchesSearchQueryEmptyQueryReturnsTrue() {
+    assertTrue(StringUtil.matchesSearchQuery("Decoder", ""));
+  }
+
+  @Test
+  void testMatchesSearchQueryHandlesWhitespace() {
+    assertTrue(StringUtil.matchesSearchQuery("XOR Gate", "  xor  "));
+  }
+
 }
