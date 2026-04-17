@@ -127,8 +127,16 @@ public final class StringUtil {
    */
   public static boolean matchesSearchQuery(String componentName, String query) {
     if (componentName == null) return false;
-    if (query == null || query.trim().isEmpty()) return true;
+    if (query == null) return false;
 
-    return componentName.trim().toLowerCase().contains(query.trim().toLowerCase());
+    final var trimmedQuery = query.trim();
+    if (trimmedQuery.isEmpty()) return true;
+
+    return containsIgnoreCase(componentName, trimmedQuery);
+  }
+
+  public static boolean startsWithIgnoreCase(String text, String prefix) {
+    if (text == null || prefix == null) return false;
+    return text.toLowerCase().startsWith(prefix.toLowerCase());
   }
 }

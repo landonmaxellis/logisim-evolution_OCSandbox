@@ -95,4 +95,14 @@ public class StringUtilTest extends TestBase {
     assertTrue(StringUtil.matchesSearchQuery("XOR Gate", "  xor  "));
   }
 
+  @Test
+  void testStartsWithIgnoreCase() {
+    assertTrue(StringUtil.startsWithIgnoreCase("AND Gate", "and"));
+  }
+
+  @Test
+  void testStartsWithIgnoreCaseNoMatch() {
+    assertFalse(StringUtil.startsWithIgnoreCase("AND Gate", "gate"));
+  }
+
 }
