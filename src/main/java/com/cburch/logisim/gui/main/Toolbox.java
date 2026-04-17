@@ -87,7 +87,7 @@ class Toolbox extends JPanel {
     searchResultsList.setCellRenderer(new ToolListRenderer());
 
     noResultsLabel = new JLabel("No matching components", JLabel.CENTER);
-
+    git push origin sprint-search-clean
     final var searchResultsPanel = new JPanel(new BorderLayout());
     searchResultsPanel.add(new JScrollPane(searchResultsList), BorderLayout.CENTER);
     searchResultsPanel.add(noResultsLabel, BorderLayout.SOUTH);
